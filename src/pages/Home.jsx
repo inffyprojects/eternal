@@ -1,9 +1,8 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../assets/stylesheets/home.css';
 import jsonData from '../assets/data/desc.json'
-import Footer from '../components/Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -43,6 +42,8 @@ const Home = () => {
     return () => {
       document.removeEventListener('mousemove', handleMouseMoveGlobal);
     };
+
+
   }, [imageVisible]);
 
 
@@ -531,50 +532,50 @@ const Home = () => {
 
         </div>
       </div> */}
-     <div className="page-2">
-      <div className="expand">
-        {children.map(child => (
-          <div 
-            key={child.id} 
-            className={`ex-child border ${child.expanded ? 'expanded' : ''}`} 
-            onMouseEnter={handleMouseEnter} 
-            onMouseLeave={handleMouseLeave}
-          >
-            <div className="child-content" onClick={() => handleExpandClick(child.id)}>
-              <h1 className="child-heading">{child.title}</h1>
-              <span className="plus-btn">+</span>
-            </div>
-            {child.expanded && (
-              <div className={`child-page child${child.id}`}>
-                <h3>{child.content.description}</h3>
-                <ul className="unorderlist">
-                  {child.content.list.map((item, index) => (
-                    <li key={index}>
-                      <strong>{item.title}:</strong> {item.description}
-                    </li>
-                  ))}
-                </ul>
-                <div className="btn"><span data-text="Explore">Explore</span></div>
+      <div className="page-2">
+        <div className="expand">
+          {children.map(child => (
+            <div
+              key={child.id}
+              className={`ex-child border ${child.expanded ? 'expanded' : ''}`}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <div className="child-content" onClick={() => handleExpandClick(child.id)}>
+                <h1 className="child-heading">{child.title}</h1>
+                {/* <span className="plus-btn">+</span>    ternary karvanuchhe  */}
               </div>
-            )}
-          </div>
-        ))}
+              {child.expanded && (
+                <div className={`child-page child${child.id}`}>
+                  <h3>{child.content.description}</h3>
+                  <ul className="unorderlist">
+                    {child.content.list.map((item, index) => (
+                      <li key={index}>
+                        <strong>{item.title}:</strong> {item.description}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="btn"><span data-text="Explore">Explore</span></div>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+        {imageVisible && (
+          <img
+            src="https://images.unsplash.com/photo-1668889716746-fd2ca90373f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60"
+            alt="Funny element"
+            className="fixed-image"
+            style={{
+              position: 'fixed',
+              left: `${imagePosition.x}px`,
+              top: `${imagePosition.y}px`,
+              opacity: 0.8,
+              transition: 'left 0.1s, top 0.1s'
+            }}
+          />
+        )}
       </div>
-      {imageVisible && (
-        <img 
-          src="https://images.unsplash.com/photo-1668889716746-fd2ca90373f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60" 
-          alt="Funny element" 
-          className="fixed-image" 
-          style={{
-            position: 'fixed',
-            left: `${imagePosition.x}px`,
-            top: `${imagePosition.y}px`,
-            opacity: 0.8,
-            transition: 'left 0.1s, top 0.1s'
-          }} 
-        />
-      )}
-    </div>
 
       <div className="page-3">
 
@@ -638,9 +639,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
     </div>
-   
+
   );
 };
 

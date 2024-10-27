@@ -10,7 +10,7 @@ const About = () => {
     function splitText(selector) {
       document.querySelectorAll(selector).forEach(element => {
         const words = element.innerText.split(" ");
-        element.innerHTML = words.map(word => `<span class="word">${word}</span>`).join(" ");
+        element.innerHTML = words.map(word => `<span class="words">${word}</span>`).join(" ");
       });
     }
     
@@ -18,7 +18,7 @@ const About = () => {
       splitText(".text-reveal");
 
       document.querySelectorAll('.text-reveal').forEach((textReveal) => {
-        gsap.from(textReveal.querySelectorAll('.word'), {
+        gsap.from(textReveal.querySelectorAll('.words'), {
           y: 100,
           opacity: 0,
           duration: 1,
@@ -35,7 +35,8 @@ const About = () => {
         });
       });
     }
-    
+    textReveal();
+
     function blurText() {
       const textElements = document.querySelectorAll('.text-blureffect');
 
@@ -79,7 +80,7 @@ const About = () => {
     }
 
     // Call the functions
-    textReveal();
+    
     blurText();
     
     // Cleanup on unmount
