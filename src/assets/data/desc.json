@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "title": "Floor ware",
+      "content": {
+        "description": "Experience durability and style with our Product Gallery. Perfect for both residential and commercial spaces, these tiles combine innovation and elegance.",
+        "list": [
+          {
+            "title": "Porcelain Tiles",
+            "description": "Similar to ceramic tiles but made from denser clay, porcelain tiles are fired at higher temperatures. They are highly durable and resistant to water and stains."
+          },
+          {
+            "title": "Vitrified Tiles",
+            "description": "Vitrified tiles are a type of ceramic tile with low porosity. They are made by a process called vitrification, where the clay and silica materials are heated together at high temperatures to form a glass-like substance."
+          },
+          {
+            "title": "Nano Tiles",
+            "description": "Nano tiles are ceramic or porcelain tiles that undergo a treatment using nanotechnology to enhance their properties."
+          },
+          {
+            "title": "Glazed Vitrified Tiles (GVT)",
+            "description": "Glazed Vitrified Tiles are a type of ceramic tile that undergoes vitrification, a process where the tile is fired at high temperatures to make it dense and less porous."
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Sanitary ware",
+      "content": {
+        "description": "Sanitary ware refers to the various fixtures and fittings in a bathroom or washroom that are designed for hygiene and sanitation purposes.",
+        "list": [
+          {
+            "title": "Toilets",
+            "description": "Fixtures designed for the disposal of human waste, typically including a bowl, flushing mechanism, and seat."
+          },
+          {
+            "title": "Basins or Sinks",
+            "description": "Used for washing hands, face, and other personal hygiene activities."
+          },
+          {
+            "title": "Bidets",
+            "description": "Fixtures used for washing the genital and perianal areas after using the toilet."
+          },
+          {
+            "title": "Urinals",
+            "description": "Fixtures designed for males to urinate into, commonly found in public restrooms."
+          },
+          {
+            "title": "Baths",
+            "description": "Fixtures for bathing, available in various styles."
+          },
+          {
+            "title": "Accessories",
+            "description": "Includes various accessories such as soap dispensers, towel rails, and toilet paper holders."
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Decorative Ceramic Products",
+      "content": {
+        "description": "Roofing tiles are building materials designed for covering the roof of a structure.",
+        "list": [
+          {
+            "title": "Clay Roof Tiles",
+            "description": "Made from natural clay, these tiles are durable and fire-resistant."
+          },
+          {
+            "title": "Jali Tiles",
+            "description": "Tiles with a lattice or perforated design, used in various architectural features."
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Wall ware",
+      "content": {
+        "description": "Immerse yourself in the timeless beauty of our Product Gallery.",
+        "list": [
+          {
+            "title": "Kitchen Wall Tiles",
+            "description": "Tiles that blend functionality with style for culinary spaces."
+          },
+          {
+            "title": "Bathroom Wall Tiles",
+            "description": "Tiles that transform your bathroom into a spa-like oasis."
+          },
+          {
+            "title": "Living Room Accent Tiles",
+            "description": "Accent wall tiles that add depth and character to your living room."
+          }
+        ]
+      }
+    }
+  ]
+  
