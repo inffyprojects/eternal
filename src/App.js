@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Lenis from '@studio-freight/lenis';
+import TileCalculator from './pages/Tilecalculator';
 
 const App = () => {
   function smoothscroll() {
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/calculator" element={<TileCalculator />} />
       </Routes>
       <Footer />
     </Router>
