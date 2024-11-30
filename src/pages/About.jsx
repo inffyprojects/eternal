@@ -114,20 +114,12 @@ const About = () => {
                 <p>This is the first card.</p>
               </div>
               <div className="ab-card">
-                <h3>Card 2</h3>
-                <p>This is the second card.</p>
+                <h3>Turnover</h3>
+                <p>50+ Million</p>
               </div>
               <div className="ab-card">
-                <h3>Card 3</h3>
-                <p>This is the third card.</p>
-              </div>
-              <div className="ab-card">
-                <h3>Card 4</h3>
+                <h3>Countries</h3>
                 <p>This is the fourth card.</p>
-              </div>
-              <div className="ab-card">
-                <h3>Card 5</h3>
-                <p>This is the fifth card.</p>
               </div>
             </div>
           </div>
