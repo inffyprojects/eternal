@@ -47,14 +47,25 @@ body {
 }
 
 .nav {
+  position: fixed;
+  z-index: 100;
   height: 12%;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
-  margin-top: 5vh;
-  margin-bottom: 3vh;
+  background-color: #9a9a9a66;
+  border-radius: 1.25rem;
+  top: 3%;
+  backdrop-filter: blur(6px);
+  border-radius: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hamburger-menu {
+  display: none;
 }
 
 .nav-logo {
@@ -380,6 +391,11 @@ body {
 @media (max-width: 1200px) {
   .nav {
     padding: 0 3%;
+    background-color: transparent;
+    border-radius: 0;
+    backdrop-filter: blur(0px);
+    width: 100%;
+    align-items: baseline;
   }
 
   .btn {
@@ -399,6 +415,11 @@ body {
   .nav {
     flex-direction: column;
     padding: 1rem 2%;
+    background-color: transparent;
+    border-radius: 0;
+    backdrop-filter: blur(0px);
+    width: 100%;
+    align-items: baseline;
   }
 
   .inside-nav {
@@ -711,13 +732,20 @@ footer {
 
 /* resposive css  */
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
   .inside-nav {
     display: none;
   }
+
   .nav {
     padding: 0 10%;
+    background-color: transparent;
+    border-radius: 0;
+    backdrop-filter: blur(0px);
+    width: 100%;
+    align-items: baseline;
   }
+
   .hamburger-menu {
     display: block;
     position: fixed;
@@ -788,27 +816,34 @@ footer {
     line-height: 1.5rem;
     letter-spacing: 0.5px;
   }
-  .intro > .btn {
+
+  .intro>.btn {
     width: 35%;
-}
+  }
+
   .word {
- 
+
     padding: 0rem 0.5rem 0rem 0.5rem;
   }
+
   .word.show {
     font-size: 1rem;
     padding: 0 5%;
   }
+
   .child-page {
     font-size: 0.8rem;
   }
+
   .child-content {
     font-size: 0.8rem;
     padding: 1rem 3rem 0rem 3rem;
   }
+
   .child-page h3 {
     padding: 1rem;
   }
+
   .unorderlist {
     font-size: 0.7rem;
   }
@@ -816,59 +851,74 @@ footer {
   .footer-animation {
     font-size: 2rem;
   }
+
   .footer-socials {
     margin-top: 1rem;
   }
+
   .work-info {
     width: 28%;
     height: 20%;
     font-size: 0.6rem;
     top: 40%;
   }
-  .work-text{
+
+  .work-text {
     padding: 0.8rem;
   }
-  .work-center h1{
+
+  .work-center h1 {
     font-size: 1rem;
   }
-  .footer-social-item{
+
+  .footer-social-item {
     font-size: 0.6rem;
     text-align: center;
   }
-  .ex-child{
+
+  .ex-child {
     height: 15vh;
   }
-  .ex-child:hover {
 
-}
+  .ex-child:hover {}
+
   .btn span {
     font-size: 0.7rem;
   }
+
   .plus-btn {
     height: 45px;
     width: 45px;
   }
+
   .child-page {
     top: 15vh;
   }
 
-  .svg-line{
+  .svg-line {
     width: 75%;
     height: 75%;
   }
 
   .first-line {
     display: inline;
-}
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .inside-nav {
     display: none;
   }
+
   .nav {
+    background-color: transparent;
+    border-radius: 0;
+    backdrop-filter: blur(0px);
+    width: 100%;
+    align-items: baseline;
     padding: 0 10%;
   }
+
   .hamburger-menu {
     display: block;
     position: fixed;
@@ -888,13 +938,15 @@ footer {
     background-color: var(--bg-color);
     z-index: 1;
     align-items: center;
-   
+
     justify-content: center;
     transition: all 0.5s ease;
   }
+
   .ex-child:hover {
     height: 0vh;
   }
+
   .svg-ham {
     z-index: 102;
     position: fixed;
@@ -941,22 +993,28 @@ footer {
     font-size: 0.5rem;
     line-height: 2rem;
   }
+
   .word {
     padding: 0rem 1rem 0rem 1rem;
   }
+
   .word.show {
     font-size: 1rem;
   }
+
   .child-page {
     font-size: 0.8rem;
   }
+
   .child-content {
     font-size: 0.8rem;
     padding: 1rem 3rem 0rem 3rem;
   }
+
   .child-page h3 {
     padding: 1rem;
   }
+
   .unorderlist {
     font-size: 0.7rem;
   }
@@ -964,50 +1022,64 @@ footer {
   .footer-animation {
     font-size: 2.5rem;
   }
+
   .footer-socials {
     margin-top: 1rem;
   }
+
   .work-info {
     width: 25%;
     height: 30%;
     font-size: 0.8rem;
   }
-  .work-text{
+
+  .work-text {
     padding: 0.8rem;
   }
-  .work-center h1{
+
+  .work-center h1 {
     font-size: 1rem;
   }
-  .footer-social-item{
+
+  .footer-social-item {
     font-size: 0.5rem;
   }
+
   .btn span {
     font-size: 0.7rem;
   }
+
   .plus-btn {
     height: 45px;
     width: 45px;
   }
+
   .child-page {
     top: 15vh;
   }
 
-  .svg-line{
+  .svg-line {
     width: 75%;
     height: 75%;
   }
 }
 
-@media (min-width: 1025px) {
-}
+@media (min-width: 1025px) {}
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .inside-nav {
     display: none;
   }
+
   .nav {
     padding: 0 10%;
+    background-color: transparent;
+    border-radius: 0;
+    backdrop-filter: blur(0px);
+    width: 100%;
+    align-items: baseline;
   }
+
   .hamburger-menu {
     display: block;
     position: fixed;
@@ -1015,23 +1087,26 @@ footer {
     right: -1rem;
     z-index: 3;
     cursor: pointer;
-  
+
   }
 
   .blur-background {
-    filter: blur(5px); /* Apply a blur effect to the background */
+    filter: blur(5px);
+    /* Apply a blur effect to the background */
   }
-  
+
   .hamburger-menu.fullscreen {
-   
+
 
     /* Start hidden with scale 0 */
   }
+
   .blur {
     filter: blur(5px);
     transition: filter 0.3s ease;
   }
-/* 
+
+  /* 
   .hamburger-menu.fullscreen-active {
     transform: scale(1); 
     transition: all 0.5s ease;
@@ -1057,9 +1132,9 @@ footer {
     flex-direction: column;
     font-family: Saans, sans-serif;
     align-items: center;
-  
-  height:100%;
-      background-color: var(--black);
+
+    height: 100%;
+    background-color: var(--black);
   }
 
   .mobile-nav.active {
@@ -1067,7 +1142,7 @@ footer {
     align-items: center;
     justify-content: center;
     height: 100%;
-padding: 1rem  0;
+    padding: 1rem 0;
     width: 50vw;
     border-radius: 25px;
   }
@@ -1088,22 +1163,28 @@ padding: 1rem  0;
     font-size: 0.8rem;
     line-height: 3rem;
   }
+
   .word {
     padding: 0rem 1rem 0rem 1rem;
   }
+
   .word.show {
     font-size: 1rem;
   }
+
   .child-page {
     font-size: 0.8rem;
   }
+
   .child-content {
     font-size: 0.8rem;
     padding: 1rem 3rem 0rem 3rem;
   }
+
   .child-page h3 {
     padding: 1rem;
   }
+
   .unorderlist {
     font-size: 0.7rem;
   }
@@ -1111,24 +1192,29 @@ padding: 1rem  0;
   .footer-animation {
     font-size: 4rem;
   }
+
   .footer-socials {
     margin-top: 1rem;
   }
+
   .work-info {
     width: 25%;
   }
-  .work-text{
+
+  .work-text {
     padding: 0.8rem;
   }
-  .work-center h1{
+
+  .work-center h1 {
     font-size: 1.2rem;
   }
-  .footer-social-item{
+
+  .footer-social-item {
     font-size: 0.8rem;
   }
 }
 
-.btnformob{
+.btnformob {
   color: var(--black);
   background-color: var(--bg-color);
   border-radius: 25px;

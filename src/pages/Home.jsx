@@ -8,8 +8,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
   const [children, setChildren] = useState(jsonData);
-  const [imageVisible, setImageVisible] = useState(false);
-  const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 });
+  // const [imageVisible, setImageVisible] = useState(false);
+  // const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 });
 
   const handleExpandClick = (id) => {
     setChildren(prevChildren =>
@@ -19,32 +19,32 @@ const Home = () => {
     );
   };
 
-  const handleMouseMove = (event) => {
-    setImagePosition({ x: event.clientX, y: event.clientY });
-  };
+  // const handleMouseMove = (event) => {
+  //   setImagePosition({ x: event.clientX, y: event.clientY });
+  // };
 
-  const handleMouseEnter = () => {
-    setImageVisible(true);
-  };
+  // const handleMouseEnter = () => {
+  //   setImageVisible(true);
+  // };
 
-  const handleMouseLeave = () => {
-    setImageVisible(false);
-  };
+  // const handleMouseLeave = () => {
+  //   setImageVisible(false);
+  // };
 
-  useEffect(() => {
-    const handleMouseMoveGlobal = (event) => {
-      if (imageVisible) {
-        handleMouseMove(event);
-      }
-    };
+  // useEffect(() => {
+  //   const handleMouseMoveGlobal = (event) => {
+  //     if (imageVisible) {
+  //       handleMouseMove(event);
+  //     }
+  //   };
 
-    document.addEventListener('mousemove', handleMouseMoveGlobal);
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMoveGlobal);
-    };
+  //   document.addEventListener('mousemove', handleMouseMoveGlobal);
+  //   return () => {
+  //     document.removeEventListener('mousemove', handleMouseMoveGlobal);
+  //   };
 
 
-  }, [imageVisible]);
+  // }, [imageVisible]);
 
 
   // differnet functions 
@@ -538,8 +538,6 @@ const Home = () => {
             <div
               key={child.id}
               className={`ex-child border ${child.expanded ? 'expanded' : ''}`}
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
             >
               <div className="child-content" onClick={() => handleExpandClick(child.id)}>
                 <h1 className="child-heading">{child.title}</h1>
@@ -561,7 +559,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-        {imageVisible && (
+        {/* {imageVisible && (
           <img
             src="https://images.unsplash.com/photo-1668889716746-fd2ca90373f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60"
             alt="Funny element"
@@ -574,7 +572,7 @@ const Home = () => {
               transition: 'left 0.1s, top 0.1s'
             }}
           />
-        )}
+        )} */}
       </div>
 
       <div className="page-3">

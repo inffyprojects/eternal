@@ -10,7 +10,6 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    // GSAP animations for desktop and mobile views
     function textreveal() {
       gsap.from(".nav-item", {
         y: 50,
@@ -26,7 +25,7 @@ const Header = () => {
       });
 
       function splitText(element) {
-        if (!element) return; // Check if the element exists
+        if (!element) return; 
         const words = element.textContent.split("");
         element.innerHTML = "";
         words.forEach(char => {
@@ -77,7 +76,6 @@ const Header = () => {
 
   return (
     <header className="nav">
-      {/* Desktop Navigation */}
       <div className="nav-logo">
         <img src="logo.png" alt="Logo" /> Eternal Overseas
       </div>
@@ -90,7 +88,6 @@ const Header = () => {
         <div className="btn"><span data-text="let's Talk">let's Talk</span></div>
       </div>
 
-      {/* Mobile Hamburger Menu */}
       <div
         className="hamburger-menu"
         aria-label="Toggle navigation"
