@@ -32,6 +32,12 @@ body {
   background-color: var(--bg-color);
 }
 
+/* CSS */
+.hidden {
+  display: none;
+}
+
+
 .page-1 {
   height: 100vh;
 }

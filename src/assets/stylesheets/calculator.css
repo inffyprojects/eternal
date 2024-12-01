@@ -28,11 +28,12 @@
    }
 
    @font-face {
-    font-family: "alm";
-    src: url(../text/AlmiregoDisplayLight.woff2);
-}
+       font-family: "alm";
+       src: url(../text/AlmiregoDisplayLight.woff2);
+   }
 
    .calc-main {
+       margin-top: 14vh;
        background-color: var(--bg-color);
        display: flex;
        justify-content: center;

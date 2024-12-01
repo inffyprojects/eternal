@@ -51,45 +51,45 @@ const Home = () => {
 
   useEffect(() => {
 
-    function wordanimation() {
+    function wordanimation(){
       const words = document.querySelectorAll(".word");
       let currentWord = 0;
       const firstWord = words[currentWord];
-      firstWord.style.display = "inline";
-      firstWord.classList.add("show");
-      gsap.to(firstWord, {
-        opacity: 1,
-        scale: 1,
+      firstWord.style.display = "inline"; 
+      firstWord.classList.add("show"); 
+      gsap.to(firstWord, { 
+        opacity: 1, 
+        scale: 1, 
         duration: 0.5,
         ease: "power2.inOut"
       });
-
-
+      
+      
       setInterval(switchWords, 3000);
-
+      
       clearInterval(window.wordSwitchInterval);
       function switchWords() {
         const currentWordElement = words[currentWord];
         const nextWordIndex = (currentWord + 1) % words.length;
         const nextWordElement = words[nextWordIndex];
-
+      
         gsap.to(currentWordElement, {
           opacity: 0,
           scale: 0.5,
-          y: -30,
+          y: -30, 
           duration: 0.5,
           ease: "power2.inOut",
           onComplete: () => {
             currentWordElement.classList.remove("show");
             currentWordElement.style.display = "none";
-
+            
             currentWord = nextWordIndex;
-
+      
             nextWordElement.style.display = "inline";
             nextWordElement.classList.add("show");
-            nextWordElement.style.opacity = 0;
-            nextWordElement.style.transform = "translateY(-50px) scale(0.5)";
-
+            nextWordElement.style.opacity = 0; 
+            nextWordElement.style.transform = "translateY(-50px) scale(0.5)"; 
+      
             gsap.to(nextWordElement, {
               opacity: 1,
               scale: 1,
@@ -101,8 +101,8 @@ const Home = () => {
         });
       }
       window.wordSwitchInterval = setInterval(switchWords, 3000);
-    }
-    wordanimation()
+      }
+      wordanimation()
 
 
     // const expandDiv = () => {
@@ -534,14 +534,15 @@ const Home = () => {
       </div> */}
       <div className="page-2">
         <div className="expand">
-          {children.map(child => (
+          {children.map((child, index) => (
             <div
               key={child.id}
-              className={`ex-child border ${child.expanded ? 'expanded' : ''}`}
+              className={`ex-child border ${child.expanded ? 'expanded' : ''} ${index === children.length - 1 ? 'hidden' : ''}`}
+              onClick={() => handleExpandClick(child.id)}
             >
-              <div className="child-content" onClick={() => handleExpandClick(child.id)}>
+              <div className="child-content">
                 <h1 className="child-heading">{child.title}</h1>
-                {/* <span className="plus-btn">+</span>    ternary karvanuchhe  */}
+                <span className="plus-btn">+</span>
               </div>
               {child.expanded && (
                 <div className={`child-page child${child.id}`}>
@@ -558,6 +559,7 @@ const Home = () => {
               )}
             </div>
           ))}
+
         </div>
         {/* {imageVisible && (
           <img

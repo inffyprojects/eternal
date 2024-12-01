@@ -77,7 +77,6 @@ const TileCalculator = () => {
               </select>
             </div>
 
-            {/* Room Width */}
             <label>Room Width</label>
             <div className="input-row">
               <input
