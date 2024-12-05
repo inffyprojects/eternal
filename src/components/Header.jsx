@@ -84,7 +84,7 @@ const Header = () => {
         <span className="reveal"><Link className="nav-item" to='/products'>Products</Link></span>
         <span className="reveal"><Link className="nav-item" to='/about'>About us</Link></span>
         <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
-        <span className="reveal"><Link className="nav-item" to='/careers'>Careers</Link></span>
+        <span className="reveal"><Link className="nav-item" to='/export'>Careers</Link></span>
         <div className="btn"><span data-text="let's Talk">let's Talk</span></div>
       </div>
 
