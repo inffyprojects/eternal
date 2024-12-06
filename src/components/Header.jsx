@@ -9,82 +9,48 @@ gsap.registerPlugin(ScrollTrigger);
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
-    function textreveal() {
-      gsap.from(".nav-item", {
-        y: 50,
-        opacity: 0,
-        duration: 1,
-        stagger: 0.2,
-        ease: "power3.out",
-        onComplete: () => {
-          document.querySelectorAll('.nav-item').forEach(item => {
-            item.classList.add('animation-complete');
-          });
-        }
+  // Toggle menu function
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+    animateMobileNav(!menuOpen);
+  };
+
+  // Function to animate mobile nav using GSAP
+  const animateMobileNav = (open) => {
+    if (open) {
+      gsap.to(".mobile-nav", {
+        scale: 1,
+        opacity: 1,
+        duration: 0.5,
+        ease: "elastic.out(1, 0.3)",
       });
-
-      function splitText(element) {
-        if (!element) return; 
-        const words = element.textContent.split("");
-        element.innerHTML = "";
-        words.forEach(char => {
-          const span = document.createElement("span");
-          span.textContent = `${char}`;
-          span.style.display = "inline-block";
-          element.appendChild(span);
-        });
-      }
-
-      const footer = document.querySelector(".footer-animation");
-      splitText(footer);
-
-      gsap.from(".footer-animation span", {
-        y: -110,
+    } else {
+      gsap.to(".mobile-nav", {
+        scale: 0,
         opacity: 0,
-        ease: "power3.out",
-        duration: 0.7,
-        stagger: 0.04,
-        onComplete: () => {
-          ScrollTrigger.create({
-            trigger: ".page-4",
-            start: "top bottom",
-            onEnter: () => {
-              gsap.set(".footer-animation span", { y: -110, opacity: 0 });
-              gsap.to(".footer-animation span", {
-                y: 0,
-                opacity: 1,
-                ease: "power3.out",
-                duration: 1,
-                delay: 0.5,
-                stagger: 0.06
-              });
-            }
-          });
-        },
+        duration: 0.3,
+        ease: "power1.in",
       });
     }
-
-    const timer = setTimeout(() => textreveal(), 0);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
   };
+
+  useEffect(() => {
+    // Initial GSAP setup for the mobile nav (hidden)
+    gsap.set(".mobile-nav", { scale: 0, opacity: 0 });
+  }, []);
 
   return (
     <header className="nav">
       <div className="nav-logo">
         <img src="logo.png" alt="Logo" /> Eternal Overseas
       </div>
+
       <div className={`inside-nav ${menuOpen ? 'mobile-active' : ''}`}>
         <span className="reveal"><Link className="nav-item" to='/'>Home</Link></span>
         <span className="reveal"><Link className="nav-item" to='/products'>Products</Link></span>
         <span className="reveal"><Link className="nav-item" to='/about'>About us</Link></span>
         <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
-        <span className="reveal"><Link className="nav-item" to='/export'>Careers</Link></span>
+        <span className="reveal"><Link className="nav-item" to='/export'>Export</Link></span>
         <div className="btn"><span data-text="let's Talk">let's Talk</span></div>
       </div>
 
@@ -94,7 +60,7 @@ const Header = () => {
         aria-expanded={menuOpen}
         onClick={toggleMenu}
       >
-        <div className="svg-ham">
+        <div className="svg-ham" style={{ transform: menuOpen ? "rotate(135deg)" : "rotate(0deg)" }}>
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Icon / Plus">
               <path
@@ -112,17 +78,16 @@ const Header = () => {
             </g>
           </svg>
         </div>
-        {menuOpen && (
-          <nav className="mobile-nav">
-            <Link className="nav-item" to="/">Home</Link>
-            <Link className="nav-item" to="/products">Products</Link>
-            <Link className="nav-item" to="/about">About us</Link>
-            <Link className="nav-item" to="/calculator">Calculator</Link>
-            <Link className="nav-item" to="/careers">Careers</Link>
-            <div className="btnformob"><span data-text="let's Talk">let's Talk</span></div>
-          </nav>
-        )}
       </div>
+
+      <nav className={`mobile-nav ${menuOpen ? 'active' : ''}`}>
+        <Link className="nav-item" to="/">Home</Link>
+        <Link className="nav-item" to="/products">Products</Link>
+        <Link className="nav-item" to="/about">About us</Link>
+        <Link className="nav-item" to="/calculator">Calculator</Link>
+        <Link className="nav-item" to="/export">Export</Link>
+        <div className="btnformob"><span data-text="let's Talk">let's Talk</span></div>
+      </nav>
     </header>
   );
 };
