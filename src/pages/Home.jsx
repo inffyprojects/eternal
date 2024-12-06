@@ -51,45 +51,45 @@ const Home = () => {
 
   useEffect(() => {
 
-    function wordanimation(){
+    function wordanimation() {
       const words = document.querySelectorAll(".word");
       let currentWord = 0;
       const firstWord = words[currentWord];
-      firstWord.style.display = "inline"; 
-      firstWord.classList.add("show"); 
-      gsap.to(firstWord, { 
-        opacity: 1, 
-        scale: 1, 
+      firstWord.style.display = "inline";
+      firstWord.classList.add("show");
+      gsap.to(firstWord, {
+        opacity: 1,
+        scale: 1,
         duration: 0.5,
         ease: "power2.inOut"
       });
-      
-      
+
+
       setInterval(switchWords, 3000);
-      
+
       clearInterval(window.wordSwitchInterval);
       function switchWords() {
         const currentWordElement = words[currentWord];
         const nextWordIndex = (currentWord + 1) % words.length;
         const nextWordElement = words[nextWordIndex];
-      
+
         gsap.to(currentWordElement, {
           opacity: 0,
           scale: 0.5,
-          y: -30, 
+          y: -30,
           duration: 0.5,
           ease: "power2.inOut",
           onComplete: () => {
             currentWordElement.classList.remove("show");
             currentWordElement.style.display = "none";
-            
+
             currentWord = nextWordIndex;
-      
+
             nextWordElement.style.display = "inline";
             nextWordElement.classList.add("show");
-            nextWordElement.style.opacity = 0; 
-            nextWordElement.style.transform = "translateY(-50px) scale(0.5)"; 
-      
+            nextWordElement.style.opacity = 0;
+            nextWordElement.style.transform = "translateY(-50px) scale(0.5)";
+
             gsap.to(nextWordElement, {
               opacity: 1,
               scale: 1,
@@ -101,8 +101,8 @@ const Home = () => {
         });
       }
       window.wordSwitchInterval = setInterval(switchWords, 3000);
-      }
-      wordanimation()
+    }
+    wordanimation()
 
 
     // const expandDiv = () => {
@@ -321,21 +321,82 @@ const Home = () => {
   return (
     <div className="main">
       <div className="page-1">
-        <div className="intro">
-          <h1>
-            <div className="first-line">
-              <div className="para-first">Welcome to Eternal Overseas &nbsp;</div>
-              <div className="para-item">
-                <span className="word word-1"> Unveil Style</span>
-                <span className="word word-2"> Embrace Strength</span>
-                <span className="word word-3">Transform Your Spaces</span>
+        <div className="prnt-intro">
+          <div className="intro">
+            <h1>
+              <div className="first-line">
+                <div className="para-first">Welcome to Eternal Overseas &nbsp;</div>
+                <div className="para-item">
+                  <span className="word word-1">Unveil Style</span>
+                  <span className="word word-2">Embrace Strength</span>
+                  <span className="word word-3">Redefine Spaces</span>
+                </div>
               </div>
-              <br />
+              <span>with Timeless Design and Lasting Durability.</span>
+            </h1>
+            <br />
+            <div className="btn">
+              <span data-text="Explore">Explore</span>
             </div>
-            <span>with Timeless Design and Lasting Durability.</span>
-          </h1>
-          <br />
-          <div className="btn"><span data-text="Explore">Explore</span></div>
+          </div>
+          <div className="tile-cr">
+            <div className="slider" style={{ "--height": "300px", "--quantity": 4 }}>
+              <div className="list">
+                <div className="item" style={{ "--position": 1 }}>
+                  <img
+                    src="https://images.unsplash.com/photo-1569400177960-d13fc8bc16aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    alt=""
+                  />
+                </div>
+                <div className="item" style={{ "--position": 2 }}>
+                  <img
+                    src="https://images.unsplash.com/photo-1522582324369-2dfc36bd9275?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDgyfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    alt=""
+                  />
+                </div>
+                <div className="item" style={{ "--position": 3 }}>
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1721681765444-10e3e82600a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDgwfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    alt=""
+                  />
+                </div>
+                <div className="item" style={{ "--position": 4 }}>
+                  <img
+                    src="https://images.unsplash.com/photo-1539424675410-513ddd709ebd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="slider" reverse="true" style={{ "--height": "300px", "--quantity": 4 }}>
+              <div className="list">
+                <div className="item" style={{ "--position": 1 }}>
+                  <img
+                    src="https://varmora.com/wp-content/uploads/2024/07/GLACETONE-300x300.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="item" style={{ "--position": 2 }}>
+                  <img
+                    src="https://varmora.com/wp-content/uploads/2024/07/WEGANERO1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="item" style={{ "--position": 3 }}>
+                  <img
+                    src="https://varmora.com/wp-content/uploads/2024/07/RAINFORESTAQUA1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="item" style={{ "--position": 4 }}>
+                  <img
+                    src="https://varmora.com/wp-content/uploads/2024/07/CIANANERO1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* <div className="page-2">
