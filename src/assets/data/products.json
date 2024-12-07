@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "category": "Floor Tiles",
+      "description": "Durable and elegant tiles for your flooring needs.",
+      "image": "floor-tiles.jpg",
+      "products": [
+        {
+          "id": 1,
+          "name": "Marble Finish",
+          "description": "Premium marble finish tiles.",
+          "image": "marble-tiles.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Wood Finish",
+          "description": "Elegant wood finish tiles.",
+          "image": "wood-tiles.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Wall Tiles",
+      "description": "Beautiful wall tiles for interior decor.",
+      "image": "wall-tiles.jpg",
+      "products": [
+        {
+          "id": 1,
+          "name": "Ceramic Gloss",
+          "description": "Glossy ceramic tiles for walls.",
+          "image": "ceramic-gloss.jpg"
+        }
+      ]
+    }
+  ]
+  

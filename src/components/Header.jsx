@@ -9,13 +9,13 @@ gsap.registerPlugin(ScrollTrigger);
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Toggle menu function
+ 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
     animateMobileNav(!menuOpen);
   };
 
-  // Function to animate mobile nav using GSAP
+  
   const animateMobileNav = (open) => {
     if (open) {
       gsap.to(".mobile-nav", {
@@ -34,8 +34,10 @@ const Header = () => {
     }
   };
 
+  
+
   useEffect(() => {
-    // Initial GSAP setup for the mobile nav (hidden)
+    
     gsap.set(".mobile-nav", { scale: 0, opacity: 0 });
   }, []);
 

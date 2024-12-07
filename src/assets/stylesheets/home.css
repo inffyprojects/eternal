@@ -218,6 +218,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+  font-weight: 600;
 }
 
 .word {
@@ -225,7 +226,7 @@ body {
   opacity: 0;
   border-radius: 999px;
   transform: scale(0.8);
-  padding: 0rem 2rem 0rem 2rem;
+  padding: 0rem .5rem 0rem .5rem;
 }
 
 .word-1 {
@@ -241,7 +242,7 @@ body {
 }
 
 .word.show {
-  font-size: 2rem;
+  font-size: 1.1rem;
   display: inline;
   opacity: 1;
   transform: scale(1);
@@ -389,103 +390,6 @@ body {
   transition: height 0.3s ease;
 }
 
-
-
-@media (max-width: 1200px) {
-  .nav {
-    padding: 0 3%;
-    background-color: transparent;
-    border-radius: 0;
-    backdrop-filter: blur(0px);
-    width: 100%;
-    align-items: baseline;
-  }
-
-  .btn {
-    padding: 12px 15px;
-  }
-
-  .intro>.btn {
-    width: 50%;
-  }
-
-  .first-line {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav {
-    flex-direction: column;
-    padding: 1rem 2%;
-    background-color: transparent;
-    border-radius: 0;
-    backdrop-filter: blur(0px);
-    width: 100%;
-    align-items: baseline;
-  }
-
-  .inside-nav {
-    gap: 2rem;
-  }
-
-  .ex-child {
-    height: 15vh;
-  }
-
-  .ex-child.expanded {
-    height: 120vh;
-  }
-
-  .child-page {
-    padding: 1rem;
-  }
-
-  .btn {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .nav-logo {
-    height: 2rem;
-    width: 3rem;
-  }
-
-  .nav-logo img {
-    height: 100%;
-    width: 100%;
-  }
-
-  .plus-btn {
-    height: 40px;
-    width: 40px;
-  }
-
-  .btn {
-    padding: 10px 10px;
-  }
-
-  .child-page h3 {
-    font-size: 0.8rem;
-  }
-
-  .unorderlist {
-    font-size: 0.6rem;
-  }
-
-  .child-content {
-    font-size: 0.5rem;
-  }
-
-  .para-item {
-    flex-direction: column;
-  }
-
-  .intro {
-    padding: 0 5%;
-  }
-}
 
 footer {
   height: 95vh;
@@ -1506,7 +1410,6 @@ position: relative;
 
   .blur-background {
     filter: blur(5px);
-    /* Apply a blur effect to the background */
   }
 
 
