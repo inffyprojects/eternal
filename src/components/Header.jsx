@@ -9,13 +9,13 @@ gsap.registerPlugin(ScrollTrigger);
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
- 
+
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
     animateMobileNav(!menuOpen);
   };
 
-  
+
   const animateMobileNav = (open) => {
     if (open) {
       gsap.to(".mobile-nav", {
@@ -34,10 +34,10 @@ const Header = () => {
     }
   };
 
-  
+
 
   useEffect(() => {
-    
+
     gsap.set(".mobile-nav", { scale: 0, opacity: 0 });
   }, []);
 
@@ -80,16 +80,17 @@ const Header = () => {
             </g>
           </svg>
         </div>
-      </div>
 
-      <nav className={`mobile-nav ${menuOpen ? 'active' : ''}`}>
-        <Link className="nav-item" to="/">Home</Link>
-        <Link className="nav-item" to="/products">Products</Link>
-        <Link className="nav-item" to="/about">About us</Link>
-        <Link className="nav-item" to="/calculator">Calculator</Link>
-        <Link className="nav-item" to="/export">Export</Link>
-        <div className="btnformob"><span data-text="let's Talk">let's Talk</span></div>
-      </nav>
+
+        <nav className={`mobile-nav ${menuOpen ? 'active' : ''}`}>
+          <Link className="nav-item" to="/">Home</Link>
+          <Link className="nav-item" to="/products">Products</Link>
+          <Link className="nav-item" to="/about">About us</Link>
+          <Link className="nav-item" to="/calculator">Calculator</Link>
+          <Link className="nav-item" to="/export">Export</Link>
+          <div className="btnformob"><span data-text="let's Talk">let's Talk</span></div>
+        </nav>
+      </div>
     </header>
   );
 };

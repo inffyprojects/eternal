@@ -1197,7 +1197,6 @@ footer {
 
 
 .intro {
-  /*change */
 font-size: 0.8rem;
 line-height: 4rem;
 font-weight: 100;
@@ -1401,11 +1400,10 @@ position: relative;
   .hamburger-menu {
     display: block;
     position: fixed;
-    top: -5%;
-    right: -5%;
+    top: 1%;
+    right: 2%;
     z-index: 3;
     cursor: pointer;
-
   }
 
   .blur-background {
@@ -1902,7 +1900,7 @@ position: relative;
   }
 
   .nav {
-    padding: 0 10%;
+    padding: 3% 10%;
     background-color: transparent;
     border-radius: 0;
     backdrop-filter: blur(0px);
@@ -1913,8 +1911,8 @@ position: relative;
   .hamburger-menu {
     display: block;
     position: fixed;
-    top: -2rem;
-    right: -1rem;
+    top: 1rem;
+    right: 1rem;
     z-index: 3;
     cursor: pointer;
 
@@ -1941,7 +1939,7 @@ position: relative;
   .svg-ham {
     z-index: 102;
     position: fixed;
-    top: 3%;
+    top: 25%;
     right: 5%;
     transition: transform 0.4s ease;
     z-index: 4;
