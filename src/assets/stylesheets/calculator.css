@@ -33,7 +33,6 @@
    }
 
    .calc-main {
-       margin-top: 14vh;
        background-color: var(--bg-color);
        display: flex;
        justify-content: center;

@@ -54,7 +54,8 @@ body {
       hsl(268deg 74% 79%) 101%,
       hsl(324deg 86% 76%) 101%,
       hsl(351deg 100% 75%) 101%,
-      hsl(18deg 100% 67%) 100%)
+      hsl(18deg 100% 67%) 100%);
+  border-radius: 0px 0px 60px 60px;
 }
 
 .page-3 {
