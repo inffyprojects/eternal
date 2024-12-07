@@ -40,22 +40,21 @@ body {
 
 .page-1 {
   height: 100vh;
-  background-image: linear-gradient(
-    125deg,
-    hsl(43deg 41% 97%) 28%,
-    hsl(24deg 100% 90%) 64%,
-    hsl(5deg 100% 87%) 77%,
-    hsl(334deg 100% 83%) 85%,
-    hsl(288deg 77% 77%) 91%,
-    hsl(255deg 100% 81%) 94%,
-    hsl(235deg 100% 82%) 97%,
-    hsl(222deg 100% 79%) 99%,
-    hsl(215deg 98% 76%) 100%,
-    hsl(218deg 94% 78%) 101%,
-    hsl(268deg 74% 79%) 101%,
-    hsl(324deg 86% 76%) 101%,
-    hsl(351deg 100% 75%) 101%,
-    hsl(18deg 100% 67%) 100%)
+  background-image: linear-gradient(125deg,
+      hsl(43deg 41% 97%) 28%,
+      hsl(24deg 100% 90%) 64%,
+      hsl(5deg 100% 87%) 77%,
+      hsl(334deg 100% 83%) 85%,
+      hsl(288deg 77% 77%) 91%,
+      hsl(255deg 100% 81%) 94%,
+      hsl(235deg 100% 82%) 97%,
+      hsl(222deg 100% 79%) 99%,
+      hsl(215deg 98% 76%) 100%,
+      hsl(218deg 94% 78%) 101%,
+      hsl(268deg 74% 79%) 101%,
+      hsl(324deg 86% 76%) 101%,
+      hsl(351deg 100% 75%) 101%,
+      hsl(18deg 100% 67%) 100%)
 }
 
 .page-3 {
@@ -1197,60 +1196,61 @@ footer {
 
 
 .intro {
-font-size: 0.8rem;
-line-height: 4rem;
-font-weight: 100;
-overflow: hidden;
-padding-left: 1%;
+  font-size: 0.8rem;
+  line-height: 4rem;
+  font-weight: 100;
+  overflow: hidden;
+  padding-left: 1%;
 
-height: 100%;
-width: 55%;
-letter-spacing: 1px;
-display: flex;
-justify-content: center;
-flex-direction: column;
+  height: 100%;
+  width: 55%;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.prnt-intro{
-display: flex;
-height: 100%;
-width: 100%;
-justify-content: end;
-align-items: center;
-overflow: hidden;
+.prnt-intro {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
 }
-.tile-cr{
-width: 40%;
-height: 100%;
-display: flex;
-justify-content: space-evenly;
+
+.tile-cr {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
 
 }
-.tile-img{
-width: 100%;
-height: 200px;
-border-radius: 20px;
-position: relative;
+
+.tile-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  position: relative;
 }
+
 .slider {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  mask-image: linear-gradient(
-      to bottom, 
+  mask-image: linear-gradient(to bottom,
       transparent,
-      #000 10% 80%, 
-      transparent
-  );
-  
+      #000 10% 80%,
+      transparent);
+
 }
 
 .slider .list {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   height: 100%;
-  min-height: calc(var(--height) * var(--quantity)); 
+  min-height: calc(var(--height) * var(--quantity));
   position: relative;
 }
 
@@ -1262,27 +1262,28 @@ position: relative;
   animation: autoRun 50s linear infinite;
   transition: filter 0.5s;
   transition: ease-in-out .3s;
-  animation-delay: calc((50s / var(--quantity)) * (var(--position) - 1) - 50s)!important;
+  animation-delay: calc((50s / var(--quantity)) * (var(--position) - 1) - 50s) !important;
 }
 
 .slider .list .item img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
- 
+
 }
 
 @keyframes autoRun {
   from {
-      top: 100%; 
+    top: 100%;
   }
+
   to {
-      top: calc(var(--height) * -1);
+    top: calc(var(--height) * -1);
   }
 }
 
 .slider:hover .item {
-  animation-play-state: paused!important;
+  animation-play-state: paused !important;
   filter: grayscale(1);
 }
 
@@ -1297,10 +1298,11 @@ position: relative;
 
 @keyframes reversePlay {
   from {
-      top: calc(var(--height) * -1);
+    top: calc(var(--height) * -1);
   }
+
   to {
-      top: 100%; 
+    top: 100%;
   }
 }
 
@@ -1657,8 +1659,8 @@ position: relative;
   .hamburger-menu {
     display: block;
     position: fixed;
-    top: -1.5rem;
-    right: -1rem;
+    top: 1rem;
+    right: 1rem;
     z-index: 3;
     cursor: pointer;
 
@@ -2053,28 +2055,3 @@ position: relative;
   padding: 1rem;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

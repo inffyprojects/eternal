@@ -9,12 +9,11 @@ gsap.registerPlugin(ScrollTrigger);
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
     animateMobileNav(!menuOpen);
+    toggleBlur(!menuOpen);
   };
-
 
   const animateMobileNav = (open) => {
     if (open) {
@@ -34,10 +33,20 @@ const Header = () => {
     }
   };
 
+  const toggleBlur = (open) => {
+    const blurElem = document.querySelector(".prnt-intro"); // Add blur to this element
+    const body = document.body;
 
+    if (open) {
+      blurElem?.classList.add("blur");
+      body.classList.add("no-scroll");
+    } else {
+      blurElem?.classList.remove("blur");
+      body.classList.remove("no-scroll");
+    }
+  };
 
   useEffect(() => {
-
     gsap.set(".mobile-nav", { scale: 0, opacity: 0 });
   }, []);
 
@@ -80,7 +89,6 @@ const Header = () => {
             </g>
           </svg>
         </div>
-
 
         <nav className={`mobile-nav ${menuOpen ? 'active' : ''}`}>
           <Link className="nav-item" to="/">Home</Link>
