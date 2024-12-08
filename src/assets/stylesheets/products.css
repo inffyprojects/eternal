@@ -1,73 +1,82 @@
 .products-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+.card {
+  margin: auto;
+  width: min(300px, 100%);
+  background-color: #fefefe;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: #141417;
+}
+.card__hero {
+  background-color: #fef4e2;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 1.5rem;
+  font-size: 0.875rem;
+}
+.card__hero .card__job-title {
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-right: 2rem;
+}
+.card__hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  font-weight: 700;
+}
+.card__footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0.75rem;
+  row-gap: 1rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+@media (min-width: 340px) {
+  .card__footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
   }
-  
-  .product-card {
-    background: #e0e0e0;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card__job-summary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0.75rem;
+}
+.card__btn {
+  width: 100%;
+  font-weight: 400;
+  border: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.5rem 1.25rem;
+  border-radius: 1rem;
+  background-color: #141417;
+  color: #fff;
+  font-size: 1rem;
+}
+@media (min-width: 340px) {
+  .card__btn {
+    width: max-content;
   }
-  
-  .product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
-  }
-  
-  .product-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(145deg, #d8d8d8, #f0f0f0);
-    box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;
-    cursor: pointer;
-    transition: background 0.2s ease;
-  }
-  
-  button:hover {
-    background: linear-gradient(145deg, #f0f0f0, #d8d8d8);
-  }
-  
-  @media (max-width: 1280px) {
-    .products-container {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    .products-container {
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .products-container {
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .products-container {
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    }
-  }
-  
-  @media (max-width: 360px) {
-    .products-container {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    }
-  }
-  
+}
