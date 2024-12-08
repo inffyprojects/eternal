@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../assets/stylesheets/about.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe, faChartLine } from '@fortawesome/free-solid-svg-icons';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -114,11 +116,11 @@ const About = () => {
                 <p>This is the first card.</p>
               </div>
               <div className="ab-card">
-                <h3>Turnover</h3>
+              <h3><FontAwesomeIcon icon={faChartLine} className='globeabt' /></h3>
                 <p>50+ Million</p>
               </div>
               <div className="ab-card">
-                <h3>Countries</h3>
+                <h3><FontAwesomeIcon icon={faGlobe} className='globeabt' /></h3>
                 <p>This is the fourth card.</p>
               </div>
             </div>

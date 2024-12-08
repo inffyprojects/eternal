@@ -1,21 +1,13 @@
-import React, { useEffect, useState } from "react";
-import '../assets/stylesheets/products.css';
-
+import React from "react";
+import '../assets/stylesheets/products.css'
+import productsData from "../assets/data/products.json"; 
 const Products = () => {
-  const [categories, setCategories] = useState([]);
-
-  useEffect(() => {
-    fetch("../assets/data/products.json")
-      .then((response) => response.json())
-      .then((data) => setCategories(data));
-  }, []);
-
   return (
     <div className="products-container">
-      {categories.map((category) => (
+      {productsData.map((category) => (
         <div key={category.id} className="product-card">
           <img
-            src={`/path-to/images/${category.image}`}
+            src={`/path-to/images/${category.image}`} 
             alt={category.category}
             className="product-image"
           />
