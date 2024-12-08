@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../assets/stylesheets/about.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe, faChartLine } from '@fortawesome/free-solid-svg-icons';
+import { faEarthAmericas, faChartLine, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -112,7 +112,7 @@ const About = () => {
           <div className="about-cards">
             <div className="card-grid">
               <div className="ab-card">
-                <h3>Card 1</h3>
+                <h3><FontAwesomeIcon icon={faUsers} className='globeabt' /></h3>
                 <p>This is the first card.</p>
               </div>
               <div className="ab-card">
@@ -120,7 +120,7 @@ const About = () => {
                 <p>50+ Million</p>
               </div>
               <div className="ab-card">
-                <h3><FontAwesomeIcon icon={faGlobe} className='globeabt' /></h3>
+                <h3><FontAwesomeIcon icon={faEarthAmericas} className='globeabt' /></h3>
                 <p>This is the fourth card.</p>
               </div>
             </div>
