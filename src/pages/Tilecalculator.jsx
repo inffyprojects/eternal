@@ -148,7 +148,6 @@ const TileCalculator = () => {
               </select>
             </div>
 
-            {/* Box Size */}
             <label>Tiles per Box (optional)</label>
             <input
               type="number"
@@ -157,7 +156,6 @@ const TileCalculator = () => {
               placeholder="Tiles per box"
             />
 
-            {/* Price per Tile */}
             <label>Tile Price (optional)</label>
             <div className="input-row">
               <input
@@ -172,7 +170,6 @@ const TileCalculator = () => {
               </select>
             </div>
 
-            {/* Calculate Button */}
             <button id="calculateBtn" onClick={handleCalculate}>
               Calculate
             </button>
