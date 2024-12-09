@@ -203,6 +203,65 @@ const Home = () => {
 
     // expandDiv();
 
+    const textreveal = () => {
+      // Navigation animation
+      gsap.from(".nav-item", {
+        y: 50,
+        opacity: 0,
+        duration: 1,
+        stagger: 0.2,
+        ease: "power3.out",
+        onComplete: () => {
+          document.querySelectorAll(".nav-item").forEach((item) => {
+            item.classList.add("animation-complete");
+          });
+        },
+      });
+
+      // Function to split text into spans
+      const splitText = (element) => {
+        const words = element.textContent.split("");
+        element.innerHTML = "";
+        words.forEach((char) => {
+          const span = document.createElement("span");
+          span.textContent = char;
+          span.style.display = "inline-block";
+          element.appendChild(span);
+        });
+      };
+
+      const footer = document.querySelector(".footer-animation");
+      if (footer) splitText(footer);
+
+      // Footer animation
+      gsap.from(".footer-animation span", {
+        y: -110,
+        opacity: 0,
+        ease: "power3.out",
+        duration: 0.7,
+        stagger: 0.04,
+        onComplete: () => {
+          ScrollTrigger.create({
+            trigger: ".page-4",
+            start: "top bottom",
+            onEnter: () => {
+              gsap.set(".footer-animation span", { y: -110, opacity: 0 });
+              gsap.to(".footer-animation span", {
+                y: 0,
+                opacity: 1,
+                ease: "power3.out",
+                duration: 1,
+                delay: 0.5,
+                stagger: 0.06,
+              });
+            },
+          });
+        },
+      });
+    };
+
+    textreveal(); // Call the function inside the effect
+
   }, [])
 
   return (

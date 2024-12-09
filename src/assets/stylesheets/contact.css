@@ -8,14 +8,13 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-family: "alm";
     background-color: var(--bg-color);
+    font-family: Saans, sans-serif;
 }
-
 @font-face {
-    font-family: "alm";
-    src: url(../text/AlmiregoDisplayLight.woff2);
-}
+    font-family: "Saans";
+    src: url(../text/Saans-Medium.woff2);
+  }
 
 :root {
     --bg-color: #faf8f3;

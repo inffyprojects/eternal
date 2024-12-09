@@ -2,14 +2,16 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "alm";
+  font-family: Saans, sans-serif;
   background-color: var(--bg-color);
 }
 
 @font-face {
-  font-family: "alm";
-  src: url(../text/AlmiregoDisplayLight.woff2);
+  font-family: "Saans";
+  src: url(../text/Saans-Medium.woff2);
 }
+
+
 
 .about-content h1 {
   font-weight: 900;

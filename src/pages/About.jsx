@@ -121,7 +121,7 @@ const About = () => {
               </div>
               <div className="ab-card">
                 <h3><FontAwesomeIcon icon={faEarthAmericas} className='globeabt' /></h3>
-                <p>This is the fourth card.</p>
+                <p>All of African countries</p>
               </div>
             </div>
           </div>
