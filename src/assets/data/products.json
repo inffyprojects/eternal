@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Floor Tiles",
     "description": "Durable and elegant tiles for your flooring needs.",
-    "image": "https://images.unsplash.com/photo-1692464591040-232a89f8686f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "",
     "products": [
       {
         "id": 1,
@@ -23,7 +23,7 @@
     "id": 2,
     "category": "Wall Tiles",
     "description": "Beautiful wall tiles for interior decor.",
-    "image": "https://plus.unsplash.com/premium_photo-1664372145513-fb7cbfa3e3c4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+    "image": "",
     "products": [
       {
         "id": 1,

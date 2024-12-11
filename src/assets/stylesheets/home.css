@@ -1617,11 +1617,6 @@ footer {
     transition: filter 0.3s ease;
   }
 
-  /* 
-      .hamburger-menu.fullscreen-active {
-        transform: scale(1); 
-        transition: all 0.5s ease;
-      } */
   .svg-ham {
     z-index: 102;
     position: fixed;
@@ -1753,11 +1748,47 @@ footer {
   .btn {
     padding: 1px 1px;
   }
+
+  .work_title {
+    font-size: 4rem;
+  }
+
+  .work-card-container {
+    width: 150px;
+    height: 250px;
+  }
+
+  .work-text h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .work-header {
+    font-size: 1.2rem;
+  }
 }
 
-@media (min-width: 1025px) {}
+
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
+  .work_title {
+    font-size: 6rem;
+  }
+
+  .work-card-container {
+    width: 175px;
+    height: 275px;
+  }
+
+  .work-text h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .work-header {
+    font-size: 1.2rem;
+  }
 
   .page-1 {
     height: 150vh;
@@ -1977,6 +2008,8 @@ footer {
   .btn {
     padding: 1px 1px;
   }
+
+
 }
 
 .btnformob {
@@ -2014,7 +2047,7 @@ footer {
 }
 
 .work_card {
-gap: 15%;
+  gap: 15%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2026,31 +2059,35 @@ gap: 15%;
   align-items: center;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   z-index: 5;
   flex-direction: column;
 }
 
-.work_card:nth-child(1){
+.work_card:nth-child(1) {
   background-color: var(--blue);
   z-index: 4;
-  transform:rotate(-50deg);
-  }
-.work_card:nth-child(2){
-  background-color: var(--green);
-  transform:rotate(-40deg);
-z-index: 3;
+  transform: rotate(-50deg);
 }
-.work_card:nth-child(3){
+
+.work_card:nth-child(2) {
+  background-color: var(--green);
+  transform: rotate(-40deg);
+  z-index: 3;
+}
+
+.work_card:nth-child(3) {
   background-color: var(--red);
-  transform:rotate(-30deg);
+  transform: rotate(-30deg);
   z-index: 2;
 }
-.work_card:nth-child(4){
+
+.work_card:nth-child(4) {
   background-color: var(--purple);
-  transform:rotate(-20deg);
+  transform: rotate(-20deg);
   z-index: 1;
 }
-.page-3{
+
+.page-3 {
   overflow: hidden;
 }
