@@ -21,7 +21,7 @@ const Header = () => {
         scale: 1,
         opacity: 1,
         duration: 0.5,
-        ease: "elastic.out(1, 0.3)",
+        ease: "sine.ease",
       });
     } else {
       gsap.to(".mobile-nav", {
