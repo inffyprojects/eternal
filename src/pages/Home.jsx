@@ -23,7 +23,7 @@ const Home = () => {
     const cards = document.querySelectorAll(".work_card");
     const page3 = document.querySelector(".page-3");
   
-    if (!page3 || cards.length === 0) return; // Ensure elements exist
+    if (!page3 || cards.length === 0) return;
   
     // Pin the `.page-3` section during the scroll animation
     ScrollTrigger.create({
