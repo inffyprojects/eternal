@@ -99,14 +99,14 @@ select:focus {
 
 .input-row {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    gap: 20px;
 }
 
 .calc-start {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
+
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     width: 100%;
 }
@@ -145,8 +145,13 @@ select:focus {
 }
 
 @media (max-width: 900px) {
+    .input-row {
+        flex-direction: column;
+    }
+
     .calc-start {
         flex-direction: column;
+        gap: 20px;
     }
 }
 
