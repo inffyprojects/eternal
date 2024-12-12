@@ -38,19 +38,18 @@ label {
 input,
 select {
     padding: 10px;
-    margin-right: 15px;
     margin-bottom: 15px;
     border: 1px solid var(--card3);
     background: var(--bg-color);
     color: #000000;
     border-radius: 25px;
     font-size: 1em;
-    width: calc(100% - 100px);
-    display: inline-block;
+    width: 100%;
+    display: block;
 }
 
 select {
-    width: 80px;
+    width: 100%;
 }
 
 #calculateBtn {
@@ -100,13 +99,16 @@ select:focus {
 
 .input-row {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .calc-start {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
 }
 
 /* Responsive Design */
@@ -142,6 +144,12 @@ select:focus {
     }
 }
 
+@media (max-width: 900px) {
+    .calc-start {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         margin-top: 6rem;
@@ -154,7 +162,6 @@ select:focus {
 
     input,
     select {
-        width: calc(100% - 50px);
         font-size: 0.85em;
     }
 
@@ -175,8 +182,6 @@ select:focus {
 
     input,
     select {
-        width: 100%;
-        margin-right: 0;
         font-size: 0.8em;
     }
 
