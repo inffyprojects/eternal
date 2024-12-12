@@ -31,7 +31,7 @@ const Home = () => {
       start: "top top",
       end: `+=${cards.length * 240 + 500}`, // Total scroll length based on cards
       pin: true,
-      markers: true,
+      markers: false,
       anticipatePin: 1,
     });
   
@@ -47,7 +47,7 @@ const Home = () => {
           start: `top+=${index * 240}px center`, // Adjusted calculation for consistency
           end: `top+=${index * 240 + 150}px center`, // Smooth end point
           scrub: true,
-          markers: true,
+          markers: false,
         },
       });
     });
