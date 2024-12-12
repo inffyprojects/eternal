@@ -22,32 +22,37 @@ const Home = () => {
   useEffect(() => {
     const cards = document.querySelectorAll(".work_card");
     const page3 = document.querySelector(".page-3");
-
+  
+    if (!page3 || cards.length === 0) return; // Ensure elements exist
+  
+    // Pin the `.page-3` section during the scroll animation
     ScrollTrigger.create({
       trigger: page3,
       start: "top top",
-      end: `+=${cards.length * 240 + 500}`,
+      end: `+=${cards.length * 240 + 500}`, // Total scroll length based on cards
       pin: true,
-      markers: false,
+      markers: true,
       anticipatePin: 1,
     });
-
+  
+    // Animate each card
     cards.forEach((card, index) => {
       gsap.to(card, {
-        y: "-100vh",
-        rotation: "30deg",
+        y: "-100vh", // Move out of the viewport vertically
+        rotation: "30deg", // Add rotation
         duration: 4,
         ease: "sine.ease",
         scrollTrigger: {
           trigger: card,
-          start: index === 0 ? "center center+=10s" : `top+=${index * 500}px center`,
-          end: `top+=${index * 50 + 150}px center`,
+          start: `top+=${index * 240}px center`, // Adjusted calculation for consistency
+          end: `top+=${index * 240 + 150}px center`, // Smooth end point
           scrub: true,
-          markers: false,
+          markers: true,
         },
       });
     });
   }, []);
+  
   
   // const handleMouseMove = (event) => {
   //   setImagePosition({ x: event.clientX, y: event.clientY });

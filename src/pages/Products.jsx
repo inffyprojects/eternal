@@ -31,7 +31,7 @@ const Products = () => {
             <p className="card__job-title">{category.category}</p>
           </section>
 
-          <footer className="card__footer">
+          <div className="card__footer">
             <div className="card__job-summary">
               <div className="card__job-icon">
                 <img
@@ -50,7 +50,7 @@ const Products = () => {
             >
               View
             </button>
-          </footer>
+          </div>
         </article>
       ))}
     </div>

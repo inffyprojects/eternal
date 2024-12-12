@@ -60,7 +60,7 @@ body {
 
 .page-3 {
   height: 100%;
-  position: relative;
+  position: sticky;
 }
 
 .page-2 {
