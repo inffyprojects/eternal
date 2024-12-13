@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Header from './components/Header';
@@ -9,6 +9,7 @@ import Lenis from '@studio-freight/lenis';
 import TileCalculator from './pages/Tilecalculator';
 import Products from './pages/Products';
 import Export from './pages/Export';
+import SubCategoryPage from './pages/SubCategoryPage';
 
 const App = () => {
   function smoothscroll() {
@@ -21,22 +22,23 @@ const App = () => {
 
     requestAnimationFrame(raf);
   }
-  smoothscroll()
+  smoothscroll();
+
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path='/products' element={<Products/>} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/products/:categoryId" element={<SubCategoryPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/export" element={<Export />} />
         <Route path="/calculator" element={<TileCalculator />} />
       </Routes>
       <Footer />
     </Router>
-   
   );
-}
+};
 
 export default App;
