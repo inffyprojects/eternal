@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Header from './components/Header';
@@ -12,7 +12,8 @@ import Export from './pages/Export';
 import SubCategoryPage from './pages/SubCategoryPage';
 
 const App = () => {
-  function smoothscroll() {
+
+  useEffect(() => {
     const lenis = new Lenis();
 
     function raf(time) {
@@ -21,8 +22,18 @@ const App = () => {
     }
 
     requestAnimationFrame(raf);
-  }
-  smoothscroll();
+  }, []);
+
+  useEffect(() => {
+    const metaTag = document.createElement('meta');
+    metaTag.name = 'viewport';
+    metaTag.content = 'width=device-width, initial-scale=1, user-scalable=no';
+    document.head.appendChild(metaTag);
+
+    return () => {
+      document.head.removeChild(metaTag); 
+    };
+  }, []);
 
   return (
     <Router>
