@@ -1,11 +1,17 @@
 import React from "react";
 import "../assets/stylesheets/products.css";
-import SubCategoryCard from "./SubCategoryPage";
+import SubCategoryCard from "./SubCategoryCard";
+import productsData from "../assets/data/products.json"; 
 
 const Products = ({ data }) => {
+  const items = data || productsData; 
+
+
+
   return (
     <div className="products-container">
-      {data.map((item) => (
+
+      {items.map((item) => (
         <article key={item.id} className="card">
           <section className="card__hero">
             <header className="card__hero-header"></header>

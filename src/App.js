@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Header from './components/Header';
@@ -9,11 +9,10 @@ import Lenis from '@studio-freight/lenis';
 import TileCalculator from './pages/Tilecalculator';
 import Products from './pages/Products';
 import Export from './pages/Export';
-import SubCategoryPage from './pages/SubCategoryPage';
+import SubCategoryPage from './pages/SubCategoryCard';
 
 const App = () => {
-
-  useEffect(() => {
+  function smoothscroll() {
     const lenis = new Lenis();
 
     function raf(time) {
@@ -22,18 +21,8 @@ const App = () => {
     }
 
     requestAnimationFrame(raf);
-  }, []);
-
-  useEffect(() => {
-    const metaTag = document.createElement('meta');
-    metaTag.name = 'viewport';
-    metaTag.content = 'width=device-width, initial-scale=1, user-scalable=no';
-    document.head.appendChild(metaTag);
-
-    return () => {
-      document.head.removeChild(metaTag); 
-    };
-  }, []);
+  }
+  smoothscroll();
 
   return (
     <Router>
