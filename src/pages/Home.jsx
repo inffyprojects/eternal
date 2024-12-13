@@ -25,11 +25,11 @@ const Home = () => {
   
     if (!page3 || cards.length === 0) return;
   
-    // Pin the `.page-3` section during the scroll animation
+    
     ScrollTrigger.create({
       trigger: page3,
       start: "top top",
-      end: `+=${cards.length * 240 + 500}`, // Total scroll length based on cards
+      end: `+=${cards.length * 240 + 500}`, 
       pin: true,
       markers: false,
       anticipatePin: 1,
@@ -38,8 +38,8 @@ const Home = () => {
     // Animate each card
     cards.forEach((card, index) => {
       gsap.to(card, {
-        y: "-100vh", // Move out of the viewport vertically
-        rotation: "30deg", // Add rotation
+        y: "-100vh", 
+        rotation: "30deg", 
         duration: 4,
         ease: "sine.ease",
         scrollTrigger: {
