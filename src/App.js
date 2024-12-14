@@ -9,7 +9,7 @@ import Lenis from '@studio-freight/lenis';
 import TileCalculator from './pages/Tilecalculator';
 import Products from './pages/Products';
 import Export from './pages/Export';
-import SubCategoryPage from './pages/SubCategoryCard';
+
 
 const App = () => {
   function smoothscroll() {
@@ -31,7 +31,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/products/:categoryId" element={<SubCategoryPage />} />
+
         <Route path="/about" element={<About />} />
         <Route path="/export" element={<Export />} />
         <Route path="/calculator" element={<TileCalculator />} />

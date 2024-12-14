@@ -1,12 +1,9 @@
 import React from "react";
 import "../assets/stylesheets/products.css";
-import SubCategoryCard from "./SubCategoryCard";
 import productsData from "../assets/data/products.json"; 
 
 const Products = ({ data }) => {
   const items = data || productsData; 
-
-
 
   return (
     <div className="products-container">
@@ -31,9 +28,6 @@ const Products = ({ data }) => {
                 <p className="card__job-title">{item.description}</p>
               </div>
             </div>
-            {item.products ? (
-              <SubCategoryCard id={item.id} />
-            ) : null}
           </div>
         </article>
       ))}
