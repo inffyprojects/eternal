@@ -1,33 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../assets/stylesheets/products.css";
-import productsData from "../assets/data/products.json"; 
+import productsData from "../assets/data/products.json";
 
-const Products = ({ data }) => {
-  const items = data || productsData; 
-
+const Products = () => {
   return (
     <div className="products-container">
-
-      {items.map((item) => (
-        <article key={item.id} className="card">
+      {productsData.map((category) => (
+        <article key={category.id} className="card">
           <section className="card__hero">
             <header className="card__hero-header"></header>
-            <p className="card__job-title">{item.category || item.name}</p>
+            <p className="card__job-title">{category.category}</p>
           </section>
 
           <div className="card__footer">
             <div className="card__job-summary">
-              <div className="card__job-icon">
-                <img
-                  src={item.image}
-                  alt={item.category || item.name}
-                  className="product-image"
-                />
-              </div>
-              <div className="card__job">
-                <p className="card__job-title">{item.description}</p>
-              </div>
+              <img
+                src={category.image}
+                alt={category.category}
+                className="product-image"
+              />
+              <p className="card__job-title">{category.description}</p>
             </div>
+            <Link to={`/category/${category.id}`}>
+              <button className="card__btn">View More</button>
+            </Link>
           </div>
         </article>
       ))}

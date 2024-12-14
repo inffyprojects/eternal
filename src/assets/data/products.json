@@ -1,35 +1,37 @@
 [
   {
     "id": 1,
-    "category": "Floor Tiles",
-    "description": "Durable and elegant tiles for your flooring needs.",
-    "image": "",
-    "products": [
+    "category": "Ceramics",
+    "description": "High-quality ceramic tiles.",
+    "image": "/path/to/ceramics.jpg",
+    "subcategories": [
       {
-        "id": 1,
-        "name": "Marble Finish",
-        "description": "Premium marble finish tiles.",
-        "image": "https://via.placeholder.com/300x150?text=Marble+Finish"
-      },
-      {
-        "id": 2,
-        "name": "Wood Finish",
-        "description": "Elegant wood finish tiles.",
-        "image": "https://via.placeholder.com/300x150?text=Wood+Finish"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "category": "Wall Tiles",
-    "description": "Beautiful wall tiles for interior decor.",
-    "image": "",
-    "products": [
-      {
-        "id": 1,
-        "name": "Ceramic Gloss",
-        "description": "Glossy ceramic tiles for walls.",
-        "image": ""
+        "id": 11,
+        "subcategory": "Modern Style",
+        "description": "Trendy ceramic styles.",
+        "image": "/path/to/modern.jpg",
+        "styles": [
+          {
+            "id": 111,
+            "style": "Matte Finish",
+            "description": "Non-glossy, subtle look.",
+            "image": "/path/to/matte.jpg",
+            "options": [
+              {
+                "id": 1111,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/path/to/beige.jpg"
+              },
+              {
+                "id": 1112,
+                "color": "Gray",
+                "dimension": "12x24",
+                "image": "/path/to/gray.jpg"
+              }
+            ]
+          }
+        ]
       }
     ]
   }

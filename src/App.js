@@ -9,6 +9,9 @@ import Lenis from '@studio-freight/lenis';
 import TileCalculator from './pages/Tilecalculator';
 import Products from './pages/Products';
 import Export from './pages/Export';
+import SubCategories from "./pages/SubCategories";
+import Styles from "./pages/Styles";
+import Options from "./pages/Options";
 
 
 const App = () => {
@@ -31,7 +34,9 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
-
+        <Route path="/category/:categoryId" element={<SubCategories />} />
+        <Route path="/subcategory/:subcategoryId" element={<Styles />} />
+        <Route path="/style/:styleId" element={<Options />} />
         <Route path="/about" element={<About />} />
         <Route path="/export" element={<Export />} />
         <Route path="/calculator" element={<TileCalculator />} />
