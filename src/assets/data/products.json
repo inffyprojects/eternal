@@ -3,31 +3,31 @@
     "id": 1,
     "category": "Ceramics",
     "description": "High-quality ceramic tiles.",
-    "image": "/path/to/ceramics.jpg",
+    "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
     "subcategories": [
       {
         "id": 11,
         "subcategory": "Modern Style",
         "description": "Trendy ceramic styles.",
-        "image": "/path/to/modern.jpg",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
         "styles": [
           {
             "id": 111,
             "style": "Matte Finish",
             "description": "Non-glossy, subtle look.",
-            "image": "/path/to/matte.jpg",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
             "options": [
               {
                 "id": 1111,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "/path/to/beige.jpg"
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
               },
               {
                 "id": 1112,
                 "color": "Gray",
                 "dimension": "12x24",
-                "image": "/path/to/gray.jpg"
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
               }
             ]
           }
