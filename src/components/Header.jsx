@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <header className="nav">
       <div className="nav-logo">
-        <img src="logo.png" alt="Logo" /> Eternal Overseas
+        <img src="/logo.png" alt="Logo" /> Eternal Overseas
       </div>
 
       <div className={`inside-nav ${menuOpen ? 'mobile-active' : ''}`}>
