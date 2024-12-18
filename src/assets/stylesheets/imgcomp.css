@@ -1,0 +1,18 @@
+.img-comp{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+img-comparison-slider {
+    --divider-width: 2px;
+    --divider-color: #c0c0c0;
+    --default-handle-opacity: 1;
+    --handle-position-start:50%;
+    --default-handle-width:50px;
+    --default-handle-color:rgba(255, 255, 255, 0.5);
+  }
+  .page-5{
+    height: 100vh;
+  }

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../assets/stylesheets/home.css';
-import jsonData from '../assets/data/desc.json'
+import jsonData from '../assets/data/desc.json';
+import ImgCompare from '../components/ImgCompare';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -605,23 +606,9 @@ const Home = () => {
           ))}
 
         </div>
-        {/* {imageVisible && (
-          <img
-            src="https://images.unsplash.com/photo-1668889716746-fd2ca90373f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60"
-            alt="Funny element"
-            className="fixed-image"
-            style={{
-              position: 'fixed',
-              left: `${imagePosition.x}px`,
-              top: `${imagePosition.y}px`,
-              opacity: 0.8,
-              transition: 'left 0.1s, top 0.1s'
-            }}
-          />
-        )} */}
       </div>
 
-      <div className="page-3">
+      <div className="page-3" >
         <div className="work_content">
           <h1 className="work_title">How We Work</h1>
           <div className="work-card-container">
@@ -652,9 +639,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <div className="page-5">
+      <ImgCompare/>
+      </div>
     </div>
-
+  
   );
 };
 
