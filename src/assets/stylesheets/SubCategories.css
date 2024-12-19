@@ -1,8 +1,19 @@
 .subcategory-container{
     height: 100%;
     width: 100%; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20vh;
+    gap:2rem;
  }
- 
+ .subcategory-prnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+ }
  .subcategory-card{
      height: 250px;
      width: 300px;

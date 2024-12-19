@@ -10,6 +10,7 @@ const SubCategories = () => {
   return (
     <div className="subcategory-container">
       <h2>{category.category}</h2>
+      <div className="subcategory-prnt">
       {category.subcategories.map((subcategory) => (
         <div key={subcategory.id} className="subcategory-card">
           <img
@@ -26,6 +27,7 @@ const SubCategories = () => {
         </div>
         </div>
       ))}
+      </div>
     </div>
   );
 };

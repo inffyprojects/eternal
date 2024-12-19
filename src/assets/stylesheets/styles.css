@@ -1,8 +1,20 @@
 .styles-container{
    height: 100%;
    width: 100%; 
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding-top: 20vh;
+   gap:2rem;
 }
-
+.style-prnt{
+display: flex;
+justify-content: center;
+align-items: center;
+gap:2rem;
+flex-wrap: wrap;
+}
 .style-card{
     height: 250px;
     width: 300px;
