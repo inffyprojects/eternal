@@ -1,20 +1,34 @@
-.products-container{
+.products-container {
   height: 100%;
-  width: 100%; 
-padding-top: 20vh
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 12%;
+  gap: 2rem;
 }
 
-.product-card{
-   height: 250px;
-   width: 300px;
-   border-radius: 10px;
-display: flex;
-align-items: center;
-flex-direction: column ;
-padding: 1rem;
-background-color: #fff;
+.products-prnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
-.card__hero{
+
+.product-card {
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.card__hero {
   background-color: #fef4e2;
   padding: 1.5rem;
   text-align: center;
@@ -22,11 +36,12 @@ background-color: #fff;
   height: 80%;
   border-radius: 0.5rem;
 }
+
 .card__hero .card__job-title {
   color: #141417;
   font-size: 1.5rem;
   font-weight: 600;
-margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .card__footer {
@@ -37,6 +52,7 @@ margin: 2rem 0;
   /* padding: 1rem; */
   position: relative;
 }
+
 .card__btn {
   background-color: #141417;
   border: none;

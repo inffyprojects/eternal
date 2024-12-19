@@ -6,6 +6,7 @@ import productsData from "../assets/data/products.json";
 const Products = () => {
   return (
     <div className="products-container">
+      <div className="products-prnt">
       {productsData.map((category) => (
         <div key={category.id} className="product-card">
           <section className="card__hero"> 
@@ -20,6 +21,7 @@ const Products = () => {
           </div>
       
       ))}
+      </div>
     </div>
   );
 };
