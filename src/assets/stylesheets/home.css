@@ -2230,7 +2230,7 @@ z-index: 3;
   top: 0;
   justify-self: end;
 }
-.exp-card1:hover, .exp-card2:hover {
+.exp-card1:hover, .exp-card2:hover,.exp-card3:hover, .exp-card4:hover  {
   transform: scale(1);
   box-shadow: 10px 10px;
 }
