@@ -19,42 +19,8 @@ const Home = () => {
       )
     );
   };
-  
-  useEffect(() => {
-    const cards = document.querySelectorAll(".work_card");
-    const page3 = document.querySelector(".page-3");
-  
-    if (!page3 || cards.length === 0) return;
-  
-    
-    ScrollTrigger.create({
-      trigger: page3,
-      start: "top top",
-      end: `+=${cards.length * 240 + 500}`, 
-      pin: true,
-      markers: false,
-      anticipatePin: 1,
-    });
-  
-    // Animate each card
-    cards.forEach((card, index) => {
-      gsap.to(card, {
-        y: "-100vh", 
-        rotation: "30deg", 
-        duration: 4,
-        ease: "sine.ease",
-        scrollTrigger: {
-          trigger: card,
-          start: `top+=${index * 240}px center`, // Adjusted calculation for consistency
-          end: `top+=${index * 240 + 150}px center`, // Smooth end point
-          scrub: true,
-          markers: false,
-        },
-      });
-    });
-  }, []);
-  
-  
+
+
   // const handleMouseMove = (event) => {
   //   setImagePosition({ x: event.clientX, y: event.clientY });
   // };
@@ -609,41 +575,36 @@ const Home = () => {
       </div>
 
       <div className="page-3" >
-        <div className="work_content">
-          <h1 className="work_title">How We Work</h1>
-          <div className="work-card-container">
-            <div className="work_card">
-              <h3 className="work-header">Consultation</h3>
-              <div className="work-text">
-                <h4>Understand your requirements and expectations.</h4>
-              </div>
+        <div class="exp-prnt">
+          <div class="exp-txt">
+            <h1>Our Vision and Mission</h1>
+
+          </div>
+          <div class="exp-card">
+            <div class="exp-card1">
+              <h3>Our Vision</h3>
+              <h5>To become a global leader in innovative, sustainable, and premium-quality tiles, transforming every space into a masterpiece.</h5>
             </div>
-            <div className="work_card">
-              <h3 className="work-header">Customization</h3>
-              <div className="work-text">
-                <h4>Tailor our products/services to suit your specific needs.</h4>
-              </div>
+            <div class="exp-card2">
+              <h3>Our Mission</h3>
+              <h5>To provide customers with a wide range of durable and stylish tiles, combining quality craftsmanship with unparalleled service.</h5>
             </div>
-            <div className="work_card">
-              <h3 className="work-header">Implementation</h3>
-              <div className="work-text">
-                <h4>Efficient execution of our solutions</h4>
-              </div>
+            <div class="exp-card3">
+              <h3>Our Mission</h3>
+              <h5>To provide customers with a wide range of durable and stylish tiles, combining quality craftsmanship with unparalleled service.</h5>
             </div>
-            <div className="work_card">
-              <h3 className="work-header">Feedback</h3>
-              <div className="work-text">
-                <h4>Continuous improvement based on your valuable feedback.</h4>
-              </div>
+            <div class="exp-card4">
+              <h3>Our Mission</h3>
+              <h5>To provide customers with a wide range of durable and stylish tiles, combining quality craftsmanship with unparalleled service.</h5>
             </div>
           </div>
         </div>
       </div>
       <div className="page-5">
-      <ImgCompare/>
+        <ImgCompare />
       </div>
     </div>
-  
+
   );
 };
 

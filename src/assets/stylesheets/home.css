@@ -59,7 +59,7 @@ body {
 }
 
 .page-3 {
-  height: 100%;
+  height: auto;
   position: sticky;
 }
 
@@ -464,7 +464,7 @@ footer {
 }
 
 .page-3 {
-  height: 100vh;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -678,7 +678,7 @@ z-index: 3;
   z-index: 1;
 }
 .page-3{
-  overflow: hidden;
+  overflow:hidden;
 }
 .no-scroll {
   overflow: hidden;
@@ -2138,4 +2138,100 @@ z-index: 3;
 }
 
 
+.exp-prnt {
+  height: 100%;
+  width: 100%;
+  padding: 100px 72px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
 
+.exp-txt {
+  padding-top: 4rem;
+  height: 100%;
+  padding-right: 1.4em;
+}
+
+.exp-card {
+
+  height: 100%;
+  grid-column-gap: 2em;
+  grid-row-gap: 2.78em;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.exp-card1, .exp-card2,.exp-card3,.exp-card4 {
+  padding: 32px;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 12.42em;
+  height: 18.49em;
+  display: flex;
+  position: relative;
+  border: 2px solid black;
+  box-shadow: 10px 10px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.exp-card3{
+  background-color: var(--purple);
+}
+.exp-card4{
+  top: 5rem;
+  background-color: var(--red);
+}
+.exp-card2{
+  top: 5rem;
+  background-color: #8ED993;
+}
+.exp-card1{
+  background-color: #8BDFDD;
+}
+.exp-card1 h5, .exp-card2 h5{
+  font-weight: 100;
+}
+.exp-card1:hover, .exp-card2:hover,.exp-card3:hover, .exp-card4:hover {
+  transform: scale(1.1);
+  box-shadow: 20px 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .exp-prnt {
+      grid-column-gap: 3.33em;
+      grid-row-gap: 3.33em;
+      grid-template-columns: 1fr;
+  }
+  
+.exp-txt h1{
+  font-size: 2rem;
+}
+.exp-txt{
+  padding-top: 0rem;
+}
+.exp-prnt {
+  padding: 20px 70px;
+}
+.exp-card {
+  grid-template-columns: 1fr;
+}
+.exp-card2{
+  top: 0;
+  justify-self: end;
+}
+.exp-card4{
+  top: 0;
+  justify-self: end;
+}
+.exp-card1:hover, .exp-card2:hover {
+  transform: scale(1);
+  box-shadow: 10px 10px;
+}
+}
