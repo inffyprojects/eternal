@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../assets/stylesheets/home.css';
 import jsonData from '../assets/data/desc.json';
-import ImgCompare from '../components/ImgCompare';
+import ImageSlider from '../components/ImgCompare';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -601,7 +601,25 @@ const Home = () => {
         </div>
       </div>
       <div className="page-5">
-        <ImgCompare />
+        <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-4 md:p-8">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-8 text-center">
+              <h1 className="text-4xl font-bold mb-4">Image Comparison Slider</h1>
+              <p className="text-gray-600">
+                Slide to compare before and after images
+              </p>
+            </div>
+
+            <div className="rounded-xl overflow-hidden shadow-2xl">
+              <ImageSlider
+                beforeImage="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                afterImage="https://media.istockphoto.com/id/1087361806/photo/modern-contemporary-loft-design-living-room-apartment-interior.jpg?s=2048x2048&w=is&k=20&c=hFhaDmes_bQTmLbOdZt29ug8kAmS-A-1IfOLVItdcsw="
+                beforeLabel="Before"
+                afterLabel="After"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

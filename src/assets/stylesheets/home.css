@@ -582,14 +582,17 @@ footer {
 .mobile-nav {
   display: none;
 }
+
 .work-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .work-center h1 {
   position: absolute;
 }
+
 .work-info {
   display: flex;
   justify-content: center;
@@ -611,6 +614,7 @@ footer {
   text-decoration-color: #3700eb;
   text-decoration-style: wavy;
 }
+
 .work-text {
   padding: 1rem;
   text-align: center;
@@ -640,7 +644,7 @@ footer {
 }
 
 .work_card {
-gap: 15%;
+  gap: 15%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -652,39 +656,45 @@ gap: 15%;
   align-items: center;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   z-index: 5;
   flex-direction: column;
 }
 
-.work_card:nth-child(1){
+.work_card:nth-child(1) {
   background-color: var(--blue);
   z-index: 4;
-  transform:rotate(-50deg);
-  }
-.work_card:nth-child(2){
-  background-color: var(--green);
-  transform:rotate(-40deg);
-z-index: 3;
+  transform: rotate(-50deg);
 }
-.work_card:nth-child(3){
+
+.work_card:nth-child(2) {
+  background-color: var(--green);
+  transform: rotate(-40deg);
+  z-index: 3;
+}
+
+.work_card:nth-child(3) {
   background-color: var(--red);
-  transform:rotate(-30deg);
+  transform: rotate(-30deg);
   z-index: 2;
 }
-.work_card:nth-child(4){
+
+.work_card:nth-child(4) {
   background-color: var(--purple);
-  transform:rotate(-20deg);
+  transform: rotate(-20deg);
   z-index: 1;
 }
-.page-3{
-  overflow:hidden;
+
+.page-3 {
+  overflow: hidden;
 }
+
 .no-scroll {
   overflow: hidden;
   position: fixed;
   width: 100%;
 }
+
 /* mobile responsive  */
 /* 
 @media (max-width: 480px) {
@@ -1358,6 +1368,7 @@ z-index: 3;
 /* responsivenessssssssss */
 
 @media (max-width: 480px) {
+
   .page-1 {
     height: 120vh;
   }
@@ -1436,19 +1447,29 @@ z-index: 3;
     display: none;
   }
 
+  .nav-logo {
+    height: 2rem;
+    width: 4rem;
+    font-size: small;
+  }
+
   .nav {
-    padding: 3% 10%;
-    background-color: transparent;
-    border-radius: 0;
+    padding: 3% 5% 3% 10%;
+    backdrop-filter: blur(10px);
+    background-color: #9a9a9a66;
+    border-radius: 0px 0px 25px 25px;
     width: 100%;
-    align-items: baseline;
+    height: 8%;
+    align-items: center;
   }
 
   .hamburger-menu {
-    display: block;
-    position: fixed;
-    top: 1%;
-    right: 2%;
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
     z-index: 3;
     cursor: pointer;
   }
@@ -1470,9 +1491,7 @@ z-index: 3;
     } */
   .svg-ham {
     z-index: 102;
-    position: fixed;
-    top: 2%;
-    right: 5%;
+    position: relative;
     transition: transform 0.4s ease;
     z-index: 4;
     background-color: #dadada;
@@ -1501,6 +1520,9 @@ z-index: 3;
     padding: 1rem 0;
     width: 70vw;
     border-radius: 25px;
+    position:absolute;
+    top:5%;
+    right:1%;
   }
 
   .mobile-nav a {
@@ -1540,6 +1562,7 @@ z-index: 3;
   }
 
   .child-page {
+    padding: 0px 3rem;
     font-size: 0.8rem;
   }
 
@@ -1609,17 +1632,21 @@ z-index: 3;
   .first-line {
     display: inline;
   }
+
   .work_title {
     font-size: 3rem;
   }
+
   .work-card-container {
     width: 135px;
     height: 225px;
   }
+
   .work-text h4 {
     font-size: 0.8rem;
     text-align: center;
   }
+
   .work-header {
     font-size: 1rem;
   }
@@ -1705,24 +1732,34 @@ z-index: 3;
     display: none;
   }
 
-  .nav {
-    padding: 3% 10%;
-    background-color: transparent;
-    border-radius: 0;
-    backdrop-filter: blur(0px);
-    width: 100%;
-    align-items: baseline;
+  .nav-logo {
+    height: 2.5rem;
+    width: 4.5rem;
+    font-size: small;
   }
+
+  .nav {
+    padding: 3% 5% 3% 10%;
+    backdrop-filter: blur(10px);
+    background-color: #9a9a9a66;
+    border-radius: 0px 0px 25px 25px;
+    height: 8%;
+    width: 100%;
+    align-items: center;
+  }
+
 
   .hamburger-menu {
-    display: block;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
     z-index: 3;
     cursor: pointer;
-
   }
+
 
   .blur-background {
     filter: blur(5px);
@@ -1735,9 +1772,7 @@ z-index: 3;
 
   .svg-ham {
     z-index: 102;
-    position: fixed;
-    top: 30%;
-    right: 5%;
+    position: relative;
     transition: transform 0.4s ease;
     z-index: 4;
     background-color: #dadada;
@@ -1747,6 +1782,8 @@ z-index: 3;
     height: 40px;
     align-items: center;
     justify-content: center;
+
+
   }
 
   .mobile-nav {
@@ -1767,6 +1804,9 @@ z-index: 3;
     padding: 1rem 0;
     width: 50vw;
     border-radius: 25px;
+    position:absolute;
+    top:5%;
+    right:1%;
   }
 
   .mobile-nav a {
@@ -1802,6 +1842,7 @@ z-index: 3;
 
   .child-page {
     font-size: 0.8rem;
+    padding: 0px 3rem
   }
 
   .child-content {
@@ -1985,19 +2026,22 @@ z-index: 3;
   }
 
   .nav {
-    padding: 3% 10%;
-    background-color: transparent;
-    border-radius: 0;
-    backdrop-filter: blur(0px);
+    padding: 0 5% 0 10%;
+    backdrop-filter: blur(10px);
+    background-color: #9a9a9a66;
+    border-radius: 0px 0px 25px 25px;
     width: 100%;
-    align-items: baseline;
+    height: 8%;
+    align-items: center;
   }
 
   .hamburger-menu {
-    display: block;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
+
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    height: auto;
     z-index: 3;
     cursor: pointer;
 
@@ -2019,9 +2063,7 @@ z-index: 3;
       } */
   .svg-ham {
     z-index: 102;
-    position: fixed;
-    top: 25%;
-    right: 5%;
+    position: relative;
     transition: transform 0.4s ease;
     z-index: 4;
     background-color: #dadada;
@@ -2038,7 +2080,6 @@ z-index: 3;
     flex-direction: column;
     font-family: Saans, sans-serif;
     align-items: center;
-
     height: 100%;
     background-color: var(--black);
   }
@@ -2051,6 +2092,9 @@ z-index: 3;
     padding: 1rem 0;
     width: 50vw;
     border-radius: 25px;
+    position:absolute;
+    top:5%;
+    right:1%;
   }
 
   .mobile-nav a {
@@ -2081,6 +2125,7 @@ z-index: 3;
   }
 
   .child-page {
+    padding: 0px 4rem;
     font-size: 0.8rem;
   }
 
@@ -2167,7 +2212,10 @@ z-index: 3;
   display: grid;
 }
 
-.exp-card1, .exp-card2,.exp-card3,.exp-card4 {
+.exp-card1,
+.exp-card2,
+.exp-card3,
+.exp-card4 {
   padding: 32px;
   flex-flow: column;
   justify-content: space-between;
@@ -2181,57 +2229,76 @@ z-index: 3;
   border-radius: 25px;
   transition: all 0.3s ease;
 }
-.exp-card3{
+
+.exp-card3 {
   background-color: var(--purple);
 }
-.exp-card4{
+
+.exp-card4 {
   top: 5rem;
   background-color: var(--red);
 }
-.exp-card2{
+
+.exp-card2 {
   top: 5rem;
   background-color: #8ED993;
 }
-.exp-card1{
+
+.exp-card1 {
   background-color: #8BDFDD;
 }
-.exp-card1 h5, .exp-card2 h5{
+
+.exp-card1 h5,
+.exp-card2 h5 {
   font-weight: 100;
 }
-.exp-card1:hover, .exp-card2:hover,.exp-card3:hover, .exp-card4:hover {
+
+.exp-card1:hover,
+.exp-card2:hover,
+.exp-card3:hover,
+.exp-card4:hover {
   transform: scale(1.1);
   box-shadow: 20px 20px;
 }
 
 @media screen and (max-width: 991px) {
   .exp-prnt {
-      grid-column-gap: 3.33em;
-      grid-row-gap: 3.33em;
-      grid-template-columns: 1fr;
+    grid-column-gap: 3.33em;
+    grid-row-gap: 3.33em;
+    grid-template-columns: 1fr;
   }
-  
-.exp-txt h1{
-  font-size: 2rem;
-}
-.exp-txt{
-  padding-top: 0rem;
-}
-.exp-prnt {
-  padding: 20px 70px;
-}
-.exp-card {
-  grid-template-columns: 1fr;
-}
-.exp-card2{
-  top: 0;
-  justify-self: end;
-}
-.exp-card4{
-  top: 0;
-  justify-self: end;
-}
-.exp-card1:hover, .exp-card2:hover,.exp-card3:hover, .exp-card4:hover  {
-  transform: scale(1);
-  box-shadow: 10px 10px;
-}
+
+  .exp-txt h1 {
+    font-size: 2rem;
+  }
+
+  .exp-txt {
+    padding-top: 0rem;
+  }
+
+  .exp-prnt {
+    padding: 20px 70px;
+  }
+
+  .exp-card {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-card2 {
+    top: 0;
+    justify-self: end;
+  }
+
+  .exp-card4 {
+    top: 0;
+    justify-self: end;
+  }
+
+  .exp-card1:hover,
+  .exp-card2:hover,
+  .exp-card3:hover,
+  .exp-card4:hover {
+    transform: scale(1);
+    box-shadow: 10px 10px;
+  }
 }

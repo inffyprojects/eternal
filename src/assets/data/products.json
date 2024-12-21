@@ -201,7 +201,7 @@
         "styles": [
           {
             "id": 2011,
-            "style": "Ceramic Wall Tiles",
+            "style": "Closets",
             "description": "Non-glossy, subtle look.",
             "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
             "options": [
@@ -215,6 +215,550 @@
                 "id": 20112,
                 "color": "Gray",
                 "dimension": "12x24",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "subcategory": "Pans",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 2021,
+            "style": "Pans",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 20211,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "subcategory": "Sinks",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 2031,
+            "style": "Sinks",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 20311,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 204,
+        "subcategory": "Table Top",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 2041,
+            "style": "Table Top",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 20411,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 205,
+        "subcategory": "Basins",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 2051,
+            "style": "Basins",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 20511,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "subcategory": "Urinals",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 2061,
+            "style": "Urinals",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 20611,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "subcategory": "Taps & Showers",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 2071,
+            "style": "Taps & Showers",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 20711,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "PVC Products",
+    "description": "High-quality ceramic tiles.",
+    "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+    "subcategories": [
+      {
+        "id": 301,
+        "subcategory": "PVC Chair",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3011,
+            "style": "PVC Chair",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30111,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 302,
+        "subcategory": "PVC Suction Pipes",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3021,
+            "style": "PVC Suction Pipe3",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30211,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 303,
+        "subcategory": "Decor Louvers",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3031,
+            "style": "Decor Louver3",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30311,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 304,
+        "subcategory": "Electric Pipe & Fittings",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3041,
+            "style": "Electric Pipe & Fittings",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30411,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 305,
+        "subcategory": "Kitchen Set",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3051,
+            "style": "Kitchen Set",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30511,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 306,
+        "subcategory": "Plastic Bucket & Tub",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3061,
+            "style": "Plastic Bucket & Tub",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30611,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 307,
+        "subcategory": "Drainage Cap",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3071,
+            "style": "Drainage Cap",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30711,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 308,
+        "subcategory": "All type of Rope",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 3081,
+            "style": "All type of Rope",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 30811,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Electric Products",
+    "description": "High-quality ceramic tiles.",
+    "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+    "subcategories": [
+      {
+        "id": 401,
+        "subcategory": "Cable & Wire",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4011,
+            "style": "Cable & Wire",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40111,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 402,
+        "subcategory": "Electric Adapter",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4021,
+            "style": "Electric Adapter",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40211,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 403,
+        "subcategory": "Celling Fan",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4031,
+            "style": "Celling Fan",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40311,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 404,
+        "subcategory": "Batteries",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4041,
+            "style": "Batteries",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40411,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 405,
+        "subcategory": "Electric Pannel",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4051,
+            "style": "Electric Pannel",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40511,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 406,
+        "subcategory": "Solar Pannel",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4061,
+            "style": "Solar Pannel",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40611,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 407,
+        "subcategory": "Water Heater",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4071,
+            "style": "Water Heater",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40711,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 408,
+        "subcategory": "All types of Clocks",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4081,
+            "style": "All types of Clocks",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40811,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 409,
+        "subcategory": "Power Tools",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 4091,
+            "style": "Power Tools",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 40911,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4010,
+        "subcategory": "Bulb & Switch",
+        "description": "Trendy ceramic styles.",
+        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "styles": [
+          {
+            "id": 40101,
+            "style": "Bulb & Switch",
+            "description": "Non-glossy, subtle look.",
+            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "options": [
+              {
+                "id": 401011,
+                "color": "Beige",
+                "dimension": "12x12",
                 "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
               }
             ]

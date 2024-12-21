@@ -1,18 +1,115 @@
-.img-comp{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
+.slider-container {
+  --handle-size: 44px;
+  --handle-color: white;
+  --label-background: rgba(0, 0, 0, 0.5);
+  --label-color: white;
+  
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 12px;
+  touch-action: none;
+  user-select: none;
+  background-color: #f3f4f6;
 }
-img-comparison-slider {
-    --divider-width: 2px;
-    --divider-color: #c0c0c0;
-    --default-handle-opacity: 1;
-    --handle-position-start:50%;
-    --default-handle-width:50px;
-    --default-handle-color:rgba(255, 255, 255, 0.5);
+
+@media (max-width: 768px) {
+  .slider-container {
+    height: 400px;
   }
-  .page-5{
-    height: 100vh;
+}
+
+.slider-image-container {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-label {
+  position: absolute;
+  padding: 8px 16px;
+  border-radius: 24px;
+  background: var(--label-background);
+  color: var(--label-color);
+  font-size: 14px;
+  font-weight: 500;
+  backdrop-filter: blur(4px);
+  transition: opacity 0.3s ease;
+}
+
+.before-label {
+  top: 16px;
+  left: 16px;
+}
+
+.after-label {
+  top: 16px;
+  right: 16px;
+}
+
+.slider-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: var(--handle-size);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: ew-resize;
+}
+
+.handle-line {
+  flex: 1;
+  width: 2px;
+  background: var(--handle-color);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.handle-circle {
+  width: var(--handle-size);
+  height: var(--handle-size);
+  border-radius: 50%;
+  background: var(--handle-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  color: #666;
+  transition: transform 0.2s ease;
+}
+
+.slider-handle:hover .handle-circle {
+  transform: scale(1.1);
+}
+
+.slider-container:hover .image-label {
+  opacity: 0;
+}
+
+/* Add smooth transition for clip-path */
+.slider-image-container {
+  transition: clip-path 0.1s ease-out;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .slider-container {
+    --handle-size: 36px;
   }
+  
+  .image-label {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+

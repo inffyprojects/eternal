@@ -129,6 +129,9 @@ select:focus {
 }
 
 @media (max-width: 1024px) {
+    .calc-main{
+        padding-top:1%
+    }
     .container {
         width: 85%;
         padding: 20px;
@@ -144,6 +147,9 @@ select:focus {
 }
 
 @media (max-width: 900px) {
+    .calc-main{
+        padding-top:1%
+    }
     .input-row {
         flex-direction: column;
     }
@@ -155,6 +161,9 @@ select:focus {
 }
 
 @media (max-width: 768px) {
+    .calc-main{
+        padding-top:2%
+    }
     .container {
         margin-top: 6rem;
         width: 90%;
@@ -175,6 +184,9 @@ select:focus {
 }
 
 @media (max-width: 600px) {
+    .calc-main{
+        padding-top:2%
+    }
     .container {
         margin-top: 5rem;
         padding: 15px;
@@ -196,6 +208,9 @@ select:focus {
 }
 
 @media (max-width: 480px) {
+    .calc-main{
+        padding-top:5%
+    }
     .container {
         margin-top: 4rem;
         width: 95%;
@@ -221,6 +236,9 @@ select:focus {
 }
 
 @media (max-width: 360px) {
+    .calc-main{
+        padding-top:8%
+    }
     .container {
         margin-top: 3rem;
         padding: 10px;
@@ -243,6 +261,9 @@ select:focus {
 }
 
 @media (max-width: 320px) {
+    .calc-main{
+        padding-top:10%
+    }
     .container {
         margin-top: 2rem;
     }
