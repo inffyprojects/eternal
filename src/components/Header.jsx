@@ -8,12 +8,20 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
     animateMobileNav(!menuOpen);
     toggleBlur(!menuOpen);
   };
+
+  const productOptions = [
+    { title: "Ceramic Tiles", path: "/products/ceramic" },
+    { title: "Porcelain Tiles", path: "/products/porcelain" },
+    { title: "Natural Stone", path: "/products/stone" },
+    { title: "Mosaic Tiles", path: "/products/mosaic" }
+  ];
 
   const animateMobileNav = (open) => {
     if (open) {
@@ -58,7 +66,29 @@ const Header = () => {
 
       <div className={`inside-nav ${menuOpen ? 'mobile-active' : ''}`}>
         <span className="reveal"><Link className="nav-item" to='/'>Home</Link></span>
-        <span className="reveal"><Link className="nav-item" to='/products'>Products</Link></span>
+        <span 
+          className="reveal dropdown-container"
+          onMouseEnter={() => setIsDropdownOpen(true)}
+          onMouseLeave={() => setIsDropdownOpen(false)}
+        >
+          <Link className="nav-item" to='/products'>Products</Link>
+          <div className={`dropdown-menu ${isDropdownOpen ? 'show' : ''}`}>
+            {productOptions.map((option, index) => (
+              <Link 
+                key={index} 
+                className="dropdown-item"
+                to={option.path}
+              >
+                <span className="dropdown-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </span>
+                {option.title}
+              </Link>
+            ))}
+          </div>
+        </span>
         <span className="reveal"><Link className="nav-item" to='/about'>About us</Link></span>
         <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
         <span className="reveal"><Link className="nav-item" to='/export'>Export</Link></span>

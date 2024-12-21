@@ -577,7 +577,7 @@ const Home = () => {
       <div className="page-3" >
         <div class="exp-prnt">
           <div class="exp-txt">
-            <h1>Our Vision and Mission</h1>
+            <h1>What We Stand For</h1>
 
           </div>
           <div class="exp-card">
@@ -590,12 +590,13 @@ const Home = () => {
               <h5>To provide customers with a wide range of durable and stylish tiles, combining quality craftsmanship with unparalleled service.</h5>
             </div>
             <div class="exp-card3">
-              <h3>Our Mission</h3>
-              <h5>To provide customers with a wide range of durable and stylish tiles, combining quality craftsmanship with unparalleled service.</h5>
+              <h3>Our Values</h3>
+              <h5>Built on trust, innovation, and quality, we strive to deliver exceptional tiles that exceed expectations and inspire creativity."
+</h5>
             </div>
             <div class="exp-card4">
-              <h3>Our Mission</h3>
-              <h5>To provide customers with a wide range of durable and stylish tiles, combining quality craftsmanship with unparalleled service.</h5>
+              <h3>Wide Range of Designs</h3>
+              <h5>Explore an unparalleled selection of tiles, crafted to complement every style and transform your spaces effortlessly.</h5>
             </div>
           </div>
         </div>
@@ -603,10 +604,10 @@ const Home = () => {
       <div className="page-5">
         <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-4 md:p-8">
           <div className="mx-auto max-w-5xl">
-            <div className="mb-8 text-center">
-              <h1 className="text-4xl font-bold mb-4">Image Comparison Slider</h1>
+            <div className="mb-8 text-center .img-comp-txt">
+              <h1 className="text-4xl font-bold mb-4">Witness the Magic of Tile Transformation</h1>
               <p className="text-gray-600">
-                Slide to compare before and after images
+              Our tiles, your transformation.
               </p>
             </div>
 
