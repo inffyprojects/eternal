@@ -67,24 +67,24 @@ const TileCalculator = () => {
   const units = ['meter', 'centimeter', 'feet', 'inch'];
 
   return (
-    <div className="calculator-container">
-      <div className="max-width-wrapper">
-        <header className="header">
-          <div className="header-icon">
+    <div className="tile-calculator-container">
+      <div className="tile-max-width-wrapper">
+        <header className="tile-header">
+          <div className="tile-header-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M4 4h16v16H4z" />
               <path d="M4 12h16M12 4v16" />
             </svg>
           </div>
-          <h1 className="header-title">Tile Calculator</h1>
-          <p className="header-subtitle">Calculate tiles needed with precision</p>
+          <h1 className="tile-header-title">Tile Calculator</h1>
+          <p className="tile-header-subtitle">Calculate tiles needed with precision</p>
         </header>
 
-        <div className="calculator-grid">
-          <div className="glass-panel">
-            <div className="panel-content">
-              <div className="input-group">
-                <label className="input-label">
+        <div className="tile-calculator-grid">
+          <div className="tile-glass-panel">
+            <div className="tile-panel-content">
+              <div className="tile-input-group">
+                <label className="tile-input-label">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M21 3H3v18h18V3z" />
                     <path d="M3 9h18M3 15h18" />
@@ -92,7 +92,7 @@ const TileCalculator = () => {
                   Room Dimensions
                 </label>
 
-                <div className="input-row">
+                <div className="tile-input-row">
                   <InputField
                     label="Width"
                     value={dimensions.roomWidth.value}
@@ -156,98 +156,60 @@ const TileCalculator = () => {
                   onChange={(value) => updateDimension('gapSize', value)}
                   unit={dimensions.gapSize.unit}
                   onUnitChange={(unit) => updateUnit('gapSize', unit)}
-                  max={10}
                 />
+
                 <Slider
                   value={dimensions.gapSize.value}
                   onChange={(value) => updateDimension('gapSize', value)}
-                  max={10}
+                  max={100}
                   color="--primary"
                 />
               </div>
+            </div>
+          </div>
 
-              <div className="input-group">
-                <label className="input-label">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H7" />
-                  </svg>
-                  Price Settings
-                </label>
+          <div className="tile-glass-panel">
+            <div className="tile-panel-content">
+              <InputField
+                label="Tiles per Box"
+                value={tilesPerBox}
+                onChange={(value) => setTilesPerBox(value)}
+              />
 
-                <div className="input-row">
-                  <input
-                    type="number"
-                    className="input-field"
-                    placeholder="Tiles per box"
-                    value={tilesPerBox}
-                    onChange={(e) => setTilesPerBox(parseInt(e.target.value) || 0)}
-                  />
-                  <select
-                    className="select"
-                    value={currency}
-                    onChange={(e) => setCurrency(e.target.value)}
-                  >
-                    <option value="USD">USD</option>
-                    <option value="INR">INR</option>
-                  </select>
-                </div>
+              <InputField
+                label="Tile Price"
+                value={tilePrice}
+                onChange={(value) => setTilePrice(value)}
+              />
 
-                <input
-                  type="number"
-                  className="input-field"
-                  placeholder="Price per tile"
-                  value={tilePrice}
-                  onChange={(e) => setTilePrice(parseFloat(e.target.value) || 0)}
-                />
-              </div>
+              <InputField
+                label="Currency"
+                value={currency}
+                onChange={(value) => setCurrency(value)}
+              />
 
-              <button className="calculate-button" onClick={calculateTiles}>
+              <button className="tile-calculate-button" onClick={calculateTiles}>
                 Calculate
               </button>
             </div>
           </div>
+        </div>
 
-          <div className="glass-panel">
-            <div className="panel-content">
-              <h2 className="input-label">Results</h2>
-
-              {results ? (
-                <>
-                  <ResultCard
-                    label="Total Tiles Needed"
-                    value={`${results.totalTiles} tiles`}
-                    gradient="var(--primary), var(--primary-light)"
-                  />
-                  <ResultCard
-                    label="Number of Boxes"
-                    value={`${results.totalBoxes} boxes`}
-                    gradient="var(--secondary), var(--secondary-light)"
-                  />
-                  <ResultCard
-                    label="Total Cost"
-                    value={`${currency === 'USD' ? '$' : '₹'}${currency === 'USD' ? results.totalCostUSD.toFixed(2) : results.totalCostINR.toFixed(2)}`}
-                    gradient="var(--warning), var(--warning-light)"
-                  />
-                </>
-              ) : (
-                <div className="empty-results">
-                  <div>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M4 4h16v16H4z" />
-                      <path d="M4 12h16M12 4v16" />
-                    </svg>
-                    <p>Enter dimensions and details</p>
-                    <p>Your results will appear here</p>
-                  </div>
-                </div>
-              )}
+        {results && (
+          <div className="tile-result-card">
+            <div className="tile-result-gradient" />
+            <div className="tile-result-content">
+              <h3 className="tile-result-label">Results</h3>
+              <div className="tile-result-value">Total Tiles: {results.totalTiles}</div>
+              <div className="tile-result-value">Total Boxes: {results.totalBoxes}</div>
+              <div className="tile-result-value">Total Cost: ${results.totalCostUSD.toFixed(2)}</div>
+              <div className="tile-result-value">Total Cost in INR: ₹{results.totalCostINR.toFixed(2)}</div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
 };
 
 export default TileCalculator;
-

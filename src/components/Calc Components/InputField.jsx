@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../assets/stylesheets/calculator.css';
 
 export const InputField = ({ 
   label, 
@@ -19,14 +20,14 @@ export const InputField = ({
   };
 
   return (
-    <div className="input-group">
+    <div className="tile-input-group">
       <label>{label}</label>
-      <div className="input-row">
+      <div className="tile-input-row">
         <input
           type="number"
           value={value}
           onChange={handleInputChange}
-          className="input-field"
+          className="tile-input-field"
           min={min}
           max={max}
           step={step}
@@ -35,7 +36,7 @@ export const InputField = ({
           <select 
             value={unit} 
             onChange={(e) => onUnitChange(e.target.value)}
-            className="select-unit"
+            className="tile-select-unit"
           >
             <option value="meter">Meters</option>
             <option value="centimeter">Centimeters</option>
@@ -51,7 +52,7 @@ export const InputField = ({
         step={step}
         value={value}
         onChange={handleSliderChange}
-        className="slider"
+        className="tile-slider"
       />
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import '../../assets/stylesheets/calculator.css';
 
 export function Slider({ value, onChange, min = 0, max = 100, step = 0.1, color = '--primary' }) {
   const sliderRef = useRef(null);
@@ -43,17 +44,17 @@ export function Slider({ value, onChange, min = 0, max = 100, step = 0.1, color 
 
   return (
     <div 
-      className="slider" 
+      className="tile-slider" 
       ref={sliderRef}
       onMouseDown={handleMouseDown}
       style={{ '--slider-color': `var(${color})` }}
     >
       <div 
-        className="slider-track"
+        className="tile-slider-track"
         style={{ width: `${percentage}%` }}
       />
       <div 
-        className="slider-thumb"
+        className="tile-slider-thumb"
         style={{ 
           left: `${percentage}%`,
           background: `var(${color})` 
