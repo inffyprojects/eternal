@@ -92,7 +92,6 @@ const TileCalculator = () => {
                   Room Dimensions
                 </label>
 
-                <div className="tile-input-row">
                   <InputField
                     label="Width"
                     value={dimensions.roomWidth.value}
@@ -100,7 +99,7 @@ const TileCalculator = () => {
                     unit={dimensions.roomWidth.unit}
                     onUnitChange={(unit) => updateUnit('roomWidth', unit)}
                   />
-                </div>
+              
                 
 
                 <InputField
@@ -154,11 +153,7 @@ const TileCalculator = () => {
                 onChange={(value) => setTilePrice(value)}
               />
 
-              <InputField
-                label="Currency"
-                value={currency}
-                onChange={(value) => setCurrency(value)}
-              />
+          
 
               <button className="tile-calculate-button" onClick={calculateTiles}>
                 Calculate

@@ -285,7 +285,7 @@ background: linear-gradient(159deg, rgba(0,71,171,1) 0%, rgba(28,169,201,1) 100%
   background: linear-gradient(to right, var(--purple), var(--blue));
   color: white;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 100;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -296,6 +296,7 @@ background: linear-gradient(159deg, rgba(0,71,171,1) 0%, rgba(28,169,201,1) 100%
 
 
 .tile-result-card {
+  margin-top: 2rem;
   padding: 1.5rem;
   border-radius: 50px;
   border:1px solid black;

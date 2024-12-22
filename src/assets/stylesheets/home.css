@@ -221,6 +221,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  text-align: center;
 }
 
 .dropdown-container {
@@ -1458,10 +1459,16 @@ footer {
 
 
 
-/* responsivenessssssssss */
+/* responsiveness */
 
 @media (max-width: 480px) {
-
+  .img-comp-txt h1  {
+ font-size: 1.5rem;
+ padding: 2rem;
+  }
+  .img-comp-txt p {
+    font-size: 1rem;
+     }
   .page-1 {
     height: 120vh;
   }
@@ -1750,6 +1757,14 @@ footer {
   .page-1 {
     height: 150vh;
   }
+  .img-comp-txt h1  {
+    font-size: 2rem;
+    padding: 3rem;
+     }
+     .img-comp-txt p {
+      font-size: 1.5rem;
+       }
+     
 
   .prnt-intro {
     height: 100%;
@@ -2021,6 +2036,12 @@ footer {
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .img-comp-txt h1  {
+    font-size: 4rem;
+     }
+     .img-comp-txt p{
+      font-size: 3;
+     }
 
   .work_title {
     font-size: 6rem;

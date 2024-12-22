@@ -36,8 +36,8 @@ const Page2 = () => {
       if (!isAlreadyExpanded) {
         child.classList.add('expanded');
         const sectionIndex = Array.from(expandContainer.querySelectorAll('.ex-child')).indexOf(child);
-        child.style.height = sectionIndex < 2 ? '80vh' : '50vh'; 
-
+        child.style.height = sectionIndex < 2 ? '90vh' : '60vh'; 
+        child.style.height = sectionIndex < 3 ? '90vh' : '65vh';
         const childPage = child.querySelector('.child-page');
         if (childPage) {
           childPage.style.opacity = '1'; 
