@@ -44,23 +44,22 @@ export function Slider({ value, onChange, min = 0, max = 100, step = 0.1, color 
 
   return (
     <div 
-      className="tile-slider" 
+      className="tile-slider-container"
       ref={sliderRef}
       onMouseDown={handleMouseDown}
       style={{ '--slider-color': `var(${color})` }}
     >
       <div 
         className="tile-slider-track"
-        style={{ width: `${percentage}%` }}
+        style={{ width: `${percentage}%`, background: `var(${color})` }}
       />
       <div 
         className="tile-slider-thumb"
         style={{ 
           left: `${percentage}%`,
-          background: `var(${color})` 
+          background: `var(${color})`
         }}
       />
     </div>
   );
 }
-

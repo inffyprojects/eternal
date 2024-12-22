@@ -361,7 +361,7 @@ body {
 }
 
 .ex-child {
-  height: 20vh;
+  height: 15vh;
   max-height: 100vh;
   width: 100%;
   position: relative;

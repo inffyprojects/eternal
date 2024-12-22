@@ -21,38 +21,36 @@ const Page2 = () => {
     if (child) {
       const isAlreadyExpanded = child.classList.contains('expanded');
 
-      // Collapse all sections
+    
       expandContainer.querySelectorAll('.ex-child').forEach((el) => {
         el.classList.remove('expanded');
-        el.style.height = '20vh'; // Reset to original height
-        el.style.backgroundColor = ''; // Reset background color
+        el.style.height = '15vh';
+        el.style.backgroundColor = ''; 
 
         const otherChildPage = el.querySelector('.child-page');
         if (otherChildPage) {
-          otherChildPage.style.opacity = '0'; // Hide content
+          otherChildPage.style.opacity = '0'; 
         }
       });
 
-      // Expand the clicked section if not already expanded
       if (!isAlreadyExpanded) {
         child.classList.add('expanded');
-        child.style.height = '130vh'; // Expand height
+        const sectionIndex = Array.from(expandContainer.querySelectorAll('.ex-child')).indexOf(child);
+        child.style.height = sectionIndex < 2 ? '80vh' : '50vh'; 
 
         const childPage = child.querySelector('.child-page');
         if (childPage) {
-          childPage.style.opacity = '1'; // Show content
+          childPage.style.opacity = '1'; 
         }
 
-        // Apply background color using data attributes or index
         const children = Array.from(expandContainer.querySelectorAll('.ex-child'));
         const index = children.indexOf(child);
 
-        // Map background colors based on index
         const colors = ['var(--red)', 'var(--blue)', 'var(--green)', 'var(--purple)'];
         const backgroundColor = colors[index];
 
         if (backgroundColor) {
-          child.style.backgroundColor = backgroundColor; // Apply color
+          child.style.backgroundColor = backgroundColor; 
         }
       }
     }
@@ -67,6 +65,7 @@ const Page2 = () => {
             className={`ex-child border ${child.expanded ? 'expanded' : ''} ${
               index === children.length - 1 ? 'hidden' : ''
             }`}
+
             onClick={() => handleExpandClick(child.id)}
           >
             <div className="child-content">
