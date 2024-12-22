@@ -101,12 +101,7 @@ const TileCalculator = () => {
                     onUnitChange={(unit) => updateUnit('roomWidth', unit)}
                   />
                 </div>
-                <Slider
-                  value={dimensions.roomWidth.value}
-                  onChange={(value) => updateDimension('roomWidth', value)}
-                  max={100}
-                  color="--primary"
-                />
+                
 
                 <InputField
                   label="Length"
@@ -115,13 +110,7 @@ const TileCalculator = () => {
                   unit={dimensions.roomLength.unit}
                   onUnitChange={(unit) => updateUnit('roomLength', unit)}
                 />
-                <Slider
-                  value={dimensions.roomLength.value}
-                  onChange={(value) => updateDimension('roomLength', value)}
-                  max={100}
-                  color="--primary"
-                />
-
+               
                 <InputField
                   label="Tile Width"
                   value={dimensions.tileWidth.value}
@@ -129,13 +118,7 @@ const TileCalculator = () => {
                   unit={dimensions.tileWidth.unit}
                   onUnitChange={(unit) => updateUnit('tileWidth', unit)}
                 />
-                <Slider
-                  value={dimensions.tileWidth.value}
-                  onChange={(value) => updateDimension('tileWidth', value)}
-                  max={100}
-                  color="--primary"
-                />
-
+               
                 <InputField
                   label="Tile Length"
                   value={dimensions.tileLength.value}
@@ -143,13 +126,7 @@ const TileCalculator = () => {
                   unit={dimensions.tileLength.unit}
                   onUnitChange={(unit) => updateUnit('tileLength', unit)}
                 />
-                <Slider
-                  value={dimensions.tileLength.value}
-                  onChange={(value) => updateDimension('tileLength', value)}
-                  max={100}
-                  color="--primary"
-                />
-
+               
                 <InputField
                   label="Gap Size (Optional)"
                   value={dimensions.gapSize.value}
@@ -158,12 +135,7 @@ const TileCalculator = () => {
                   onUnitChange={(unit) => updateUnit('gapSize', unit)}
                 />
 
-                <Slider
-                  value={dimensions.gapSize.value}
-                  onChange={(value) => updateDimension('gapSize', value)}
-                  max={100}
-                  color="--primary"
-                />
+               
               </div>
             </div>
           </div>

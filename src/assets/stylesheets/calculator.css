@@ -67,7 +67,8 @@
 .tile-glass-panel {
   position: relative;
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 50px;
+  border: 1px solid black;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.2);
 }
@@ -144,6 +145,97 @@
   position: relative;
   margin: 1rem 0;
 }
+/* Basic styling for the input container */
+.tile-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tile-input-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tile-input-field {
+  width: 80px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.tile-input-field:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 2px rgba(129, 188, 249, 0.2);
+}
+
+/* Styling for the select unit dropdown */
+.tile-select-unit {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--blue);
+  background: rgba(255, 255, 255, 0.5);
+  min-width: 100px;
+}
+
+/* Range input slider custom styles */
+.tile-slider-range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  background: rgb(0,71,171);
+background: linear-gradient(159deg, rgba(0,71,171,1) 0%, rgba(28,169,201,1) 100%);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.tile-slider-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--purple);
+  border: 1px solid #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tile-slider-range::-webkit-slider-thumb:hover {
+  background: var(--purple);
+}
+
+.tile-slider-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--green);
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tile-slider-range::-moz-range-thumb:hover {
+  background: var(--purple);
+}
+
+.tile-slider-range::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--green);
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tile-slider-range::-ms-thumb:hover {
+  background: var(--purple);
+}
 
 
 .tile-slider-thumb {
@@ -173,7 +265,7 @@
 .tile-input-field {
   width: 100%;
   padding: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   border: 1px solid var(--input-border-color);
   background: rgba(255, 255, 255, 0.5);
   transition: all 0.3s ease;
@@ -202,18 +294,16 @@
   opacity: 0.9;
 }
 
+
 .tile-result-card {
   padding: 1.5rem;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  border:1px solid black;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
 }
-
-.tile-result-card:hover {
-  transform: translateY(-2px);
-}
+ 
 
 .tile-result-gradient {
   position: absolute;

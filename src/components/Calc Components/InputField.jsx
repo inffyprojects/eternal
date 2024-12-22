@@ -52,10 +52,11 @@ export const InputField = ({
         step={step}
         value={value}
         onChange={handleSliderChange}
-        className="tile-slider"
+        className="tile-slider-range"
       />
     </div>
   );
 };
+
 
 
