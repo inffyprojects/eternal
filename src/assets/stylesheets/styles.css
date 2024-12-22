@@ -5,8 +5,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 12%;
+    padding-top: 12vh;
     gap: 2rem;
+    padding-bottom: 10%;
 }
 
 .style-prnt {

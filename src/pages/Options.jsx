@@ -20,14 +20,21 @@ const Options = () => {
 
   return (
     <div className="options-container">
-      <h2>{style.style}</h2>
+      <h2 className="option-h1">{style.style}</h2>
+      <div className="option-card-prnt">
       {style.options.map((option) => (
         <article key={option.id} className="option-card">
           <img src={option.image} alt={option.color} className="option-image" />
-          <p>Color: {option.color}</p>
-          <p>Dimension: {option.dimension}</p>
+          <div className="option-footer">
+            <div>
+              <p>Color: {option.color}</p>
+              <p>Dimension: {option.dimension}</p>
+          </div>
+          <button className="card__btn">Download</button>
+          </div>
         </article>
       ))}
+      </div>
     </div>
   );
 };
