@@ -12,6 +12,7 @@ body {
   background-color: var(--bg-color);
 }
 
+
 @font-face {
   font-family: "Saans";
   src: url(../text/Saans-Medium.woff2);
@@ -209,13 +210,14 @@ body {
   background-color: var(--bg-color);
   position: relative;
 }
-.page-5{
+
+.page-5 {
   height: auto;
   padding-top: 5rem;
 
 }
 
-.img-comp-txt{
+.img-comp-txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,7 +228,7 @@ body {
 
 .dropdown-container {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
 }
 
 
@@ -246,7 +248,7 @@ body {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 10;
-  border:1px solid #000;
+  border: 1px solid #000;
 }
 
 .dropdown-menu::before {
@@ -268,7 +270,7 @@ body {
 .dropdown-container:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(0); 
+  transform: translateX(-50%) translateY(0);
 }
 
 
@@ -1462,13 +1464,16 @@ footer {
 /* responsiveness */
 
 @media (max-width: 480px) {
-  .img-comp-txt h1  {
- font-size: 1.5rem;
- padding: 2rem;
+  .img-comp-txt h1 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 100vw;
   }
+
   .img-comp-txt p {
     font-size: 1rem;
-     }
+  }
+
   .page-1 {
     height: 120vh;
   }
@@ -1620,9 +1625,9 @@ footer {
     padding: 1rem 0;
     width: 70vw;
     border-radius: 25px;
-    position:absolute;
-    top:5%;
-    right:1%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
   }
 
   .mobile-nav a {
@@ -1757,14 +1762,16 @@ footer {
   .page-1 {
     height: 150vh;
   }
-  .img-comp-txt h1  {
+
+  .img-comp-txt h1 {
     font-size: 2rem;
     padding: 3rem;
-     }
-     .img-comp-txt p {
-      font-size: 1.5rem;
-       }
-     
+  }
+
+  .img-comp-txt p {
+    font-size: 1.5rem;
+  }
+
 
   .prnt-intro {
     height: 100%;
@@ -1912,9 +1919,9 @@ footer {
     padding: 1rem 0;
     width: 50vw;
     border-radius: 25px;
-    position:absolute;
-    top:5%;
-    right:1%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
   }
 
   .mobile-nav a {
@@ -2036,12 +2043,13 @@ footer {
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .img-comp-txt h1  {
+  .img-comp-txt h1 {
     font-size: 4rem;
-     }
-     .img-comp-txt p{
-      font-size: 3;
-     }
+  }
+
+  .img-comp-txt p {
+    font-size: 3;
+  }
 
   .work_title {
     font-size: 6rem;
@@ -2206,9 +2214,9 @@ footer {
     padding: 1rem 0;
     width: 50vw;
     border-radius: 25px;
-    position:absolute;
-    top:5%;
-    right:1%;
+    position: absolute;
+    top: 5%;
+    right: 1%;
   }
 
   .mobile-nav a {
@@ -2312,11 +2320,12 @@ footer {
 .exp-txt {
   padding-top: 4rem;
   height: 100%;
+  text-align:center;
   padding-right: 1.4em;
 }
 
-.exp-card {
 
+.exp-card {
   height: 100%;
   grid-column-gap: 2em;
   grid-row-gap: 2.78em;
