@@ -790,6 +790,12 @@ footer {
   position: fixed;
   width: 100%;
 }
+.exp-txt h1 {
+
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--card3);
+}
 
 /* mobile responsive  */
 /* 

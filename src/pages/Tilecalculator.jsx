@@ -70,12 +70,7 @@ const TileCalculator = () => {
     <div className="tile-calculator-container">
       <div className="tile-max-width-wrapper">
         <header className="tile-header">
-          <div className="tile-header-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M4 4h16v16H4z" />
-              <path d="M4 12h16M12 4v16" />
-            </svg>
-          </div>
+        
           <h1 className="tile-header-title">Tile Calculator</h1>
           <p className="tile-header-subtitle">Calculate tiles needed with precision</p>
         </header>

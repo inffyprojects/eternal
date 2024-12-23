@@ -14,6 +14,7 @@
 .tile-calculator-container {
   min-height: 100vh;
   padding: 1.5rem;
+  padding-top: 15vh;
   background: var(--bg-color);
 }
 
