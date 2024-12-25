@@ -69,7 +69,7 @@ const Home = () => {
 
 
     const textreveal = () => {
-      // Navigation animation
+     
       gsap.from(".nav-item", {
         y: 50,
         opacity: 0,
@@ -83,7 +83,7 @@ const Home = () => {
         },
       });
 
-      // Function to split text into spans
+     
       const splitText = (element) => {
         const words = element.textContent.split("");
         element.innerHTML = "";
@@ -98,7 +98,7 @@ const Home = () => {
       const footer = document.querySelector(".footer-animation");
       if (footer) splitText(footer);
 
-      // Footer animation
+     
       gsap.from(".footer-animation span", {
         y: -110,
         opacity: 0,
@@ -125,7 +125,7 @@ const Home = () => {
       });
     };
 
-    textreveal(); // Call the function inside the effect
+    textreveal(); 
 
 
 
