@@ -157,25 +157,25 @@ const Home = () => {
               <div className="list">
                 <div className="item" style={{ "--position": 1 }}>
                   <img
-                    src="https://images.unsplash.com/photo-1569400177960-d13fc8bc16aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY3fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    src="/images/Scrollimg1.png"
                     alt=""
                   />
                 </div>
                 <div className="item" style={{ "--position": 2 }}>
                   <img
-                    src="https://images.unsplash.com/photo-1522582324369-2dfc36bd9275?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDgyfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    src="/images/Scrollimg2.png"
                     alt=""
                   />
                 </div>
                 <div className="item" style={{ "--position": 3 }}>
                   <img
-                    src="https://plus.unsplash.com/premium_photo-1721681765444-10e3e82600a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDgwfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    src="/images/Scrollimg3.png"
                     alt=""
                   />
                 </div>
                 <div className="item" style={{ "--position": 4 }}>
                   <img
-                    src="https://images.unsplash.com/photo-1539424675410-513ddd709ebd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                    src="/images/Scrollimg5.png"
                     alt=""
                   />
                 </div>
@@ -185,25 +185,25 @@ const Home = () => {
               <div className="list">
                 <div className="item" style={{ "--position": 1 }}>
                   <img
-                    src="https://varmora.com/wp-content/uploads/2024/07/GLACETONE-300x300.jpg"
+                    src="/images/Scrollimg7.png"
                     alt=""
                   />
                 </div>
                 <div className="item" style={{ "--position": 2 }}>
                   <img
-                    src="https://varmora.com/wp-content/uploads/2024/07/WEGANERO1.jpg"
+                    src="/images/Scrollimg9.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="item" style={{ "--position": 3 }}>
                   <img
-                    src="https://varmora.com/wp-content/uploads/2024/07/RAINFORESTAQUA1.jpg"
+                    src="/images/Scrollimg10.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="item" style={{ "--position": 4 }}>
                   <img
-                    src="https://varmora.com/wp-content/uploads/2024/07/CIANANERO1.jpg"
+                    src="/images/Scrollimg11.jpeg"
                     alt=""
                   />
                 </div>
@@ -212,36 +212,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="page-2">
-        <div className="expand">
-          {children.map((child, index) => (
-            <div
-              key={child.id}
-              className={`ex-child border ${child.expanded ? 'expanded' : ''} ${index === children.length - 1 ? 'hidden' : ''}`}
-              onClick={() => handleExpandClick(child.id)}
-            >
-              <div className="child-content">
-                <h1 className="child-heading">{child.title}</h1>
-                <span className="plus-btn">+</span>
-              </div>
-              {child.expanded && (
-                <div className={`child-page child${child.id}`}>
-                  <h3>{child.content.description}</h3>
-                  <ul className="unorderlist">
-                    {child.content.list.map((item, index) => (
-                      <li key={index}>
-                        <strong>{item.title}:</strong> {item.description}
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="btn"><span data-text="Explore">Explore</span></div>
-                </div>
-              )}
-            </div>
-          ))}
-
-        </div>
-      </div>        */}
       <Page2 />
       <div className="page-3" >
         <div class="exp-prnt">
