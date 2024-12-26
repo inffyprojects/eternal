@@ -55,10 +55,12 @@
   height: 100%;
   position: relative;
   border-radius: 99px 99px 0px 0px;
-  padding: 5rem 0rem 0rem 5em;
+  padding: 5rem 0rem 5rem 5rem ;
   background-color: #050307;
 }
-
+/* #ab-card-p{
+  font-size: 1vw;
+} */
 .page2-content {
   display: flex;
   justify-content: start;

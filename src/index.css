@@ -3,6 +3,23 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 1000;
+    z-index: 1000; 
+    font-family: "Saans";
   }
-  
+  .gt_float_switcher {
+  border: 1px solid black !important;
+  border-radius: 25px !important;
+
+  }
+  .gt_float_switcher{
+    backdrop-filter: blur(10px) !important;
+    background-color: #55555566  !important;
+  }
+  .gt-selected{
+    backdrop-filter: blur(10px) !important;
+    background-color: #ffffff66  !important;
+  }
+@font-face {
+  font-family: "Saans";
+  src: url(/src/assets/text/Saans-Medium.woff2);
+}

@@ -1472,10 +1472,12 @@ footer {
 @media (max-width: 480px) {
   .img-comp-txt h1 {
     font-size: 1.5rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
     width: 100vw;
   }
-
+  .exp-card{
+    justify-self: center;
+  }
   .img-comp-txt p {
     font-size: 1rem;
   }
@@ -1561,7 +1563,7 @@ footer {
   .nav-logo {
     height: 2rem;
     width: 4rem;
-    font-size: small;
+    font-size: medium;
   }
 
   .nav {
@@ -1768,10 +1770,12 @@ footer {
   .page-1 {
     height: 150vh;
   }
-
+  .exp-card{
+    justify-self: center;
+  }
   .img-comp-txt h1 {
     font-size: 2rem;
-    padding: 3rem;
+    padding: 3rem 3rem 0rem 3rem;
   }
 
   .img-comp-txt p {
@@ -1856,7 +1860,7 @@ footer {
   .nav-logo {
     height: 2.5rem;
     width: 4.5rem;
-    font-size: small;
+    font-size: medium;
   }
 
   .nav {

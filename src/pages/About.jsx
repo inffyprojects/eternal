@@ -15,7 +15,7 @@ const About = () => {
         element.innerHTML = words.map(word => `<span class="words">${word}</span>`).join(" ");
       });
     }
-    
+
     function textReveal() {
       splitText(".text-reveal");
 
@@ -27,8 +27,8 @@ const About = () => {
           stagger: 0.2,
           ease: "power1.in",
           scrollTrigger: {
-            trigger: textReveal,  
-            start: "top 80%",  
+            trigger: textReveal,
+            start: "top 80%",
             once: true
           },
           onComplete: () => {
@@ -52,39 +52,39 @@ const About = () => {
         });
       });
     }
-    
+
     function wrapWords(element) {
-      const words = element.innerText.split(' '); 
-      element.innerHTML = ''; 
+      const words = element.innerText.split(' ');
+      element.innerHTML = '';
       words.forEach(word => {
         const span = document.createElement('span');
-        span.textContent = word; 
-        element.appendChild(span); 
+        span.textContent = word;
+        element.appendChild(span);
         element.appendChild(document.createTextNode(' '));
       });
     }
-    
+
     function fadeInBlurWords(element) {
       const wordSpans = element.querySelectorAll('span');
 
       wordSpans.forEach((span, index) => {
-        gsap.fromTo(span, 
-          { opacity: 0, filter: "blur(10px)" }, 
-          { 
-            opacity: 1, 
-            filter: "blur(0px)", 
-            duration: 0.3, 
-            delay: index * 0.06, 
-            ease: "power4.out" 
+        gsap.fromTo(span,
+          { opacity: 0, filter: "blur(10px)" },
+          {
+            opacity: 1,
+            filter: "blur(0px)",
+            duration: 0.3,
+            delay: index * 0.06,
+            ease: "power4.out"
           }
         );
       });
     }
 
     // Call the functions
-    
+
     blurText();
-    
+
     // Cleanup on unmount
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
@@ -113,10 +113,12 @@ const About = () => {
             <div className="card-grid">
               <div className="ab-card">
                 <h3><FontAwesomeIcon icon={faUsers} className='globeabt' /></h3>
-                <p>This is the first card.</p>
+                <p id="ab-card-p">Dipak</p>
+                <p id="ab-card-p"> Sandip</p>
+                <p id="ab-card-p"> Ravi</p>
               </div>
               <div className="ab-card">
-              <h3><FontAwesomeIcon icon={faChartLine} className='globeabt' /></h3>
+                <h3><FontAwesomeIcon icon={faChartLine} className='globeabt' /></h3>
                 <p>50+ Million</p>
               </div>
               <div className="ab-card">
@@ -126,7 +128,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <img className="Gujarat" src="Stippling-bff8.svg" alt=""/>
+        <img className="Gujarat" src="Stippling-bff8.svg" alt="" />
       </div>
     </div>
   );

@@ -40,6 +40,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <div className="call-data">
+          <h6>Call-123456789</h6>
+        </div>
         <div className="inffy-data">
           <h6>Design And Manage By INFFY</h6>
         </div>
