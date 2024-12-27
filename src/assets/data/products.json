@@ -244,19 +244,31 @@
         "id": 202,
         "subcategory": "Pans",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/sanitary/pans/pan1.jpeg",
         "styles": [
           {
             "id": 2021,
             "style": "Pans",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/sanitary/pans/pan1.jpeg",
             "options": [
               {
                 "id": 20211,
-                "color": "Beige",
-                "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+                "color": "White (ORISA 20'')",
+                "dimension": "",
+                "image": "/images/products/sanitary/pans/pan1.jpeg"
+              },
+              {
+                "id": 20212,
+                "color": "White (Aqua Pan)",
+                "dimension": "",
+                "image": "/images/products/sanitary/pans/pan2.jpeg"
+              },
+              {
+                "id": 20213,
+                "color": "White (MD Pan)",
+                "dimension": "",
+                "image": "/images/products/sanitary/pans/pan3.jpeg"
               }
             ]
           }
@@ -310,19 +322,37 @@
         "id": 205,
         "subcategory": "Basins",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/sanitary/basins/basin1.jpeg",
         "styles": [
           {
             "id": 2051,
             "style": "Basins",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/sanitary/basins/basin1.jpeg",
             "options": [
               {
                 "id": 20511,
-                "color": "Beige",
+                "color": "Silver design",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+                "image": "/images/products/sanitary/basins/basin1.jpeg"
+              },
+              {
+                "id": 20512,
+                "color": "White",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/basins/basin2.jpeg"
+              },
+              {
+                "id": 20513,
+                "color": "White",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/basins/basin3.jpeg"
+              },
+              {
+                "id": 20514,
+                "color": "White",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/basins/basin4.jpeg"
               }
             ]
           }
@@ -332,19 +362,31 @@
         "id": 206,
         "subcategory": "Urinals",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/sanitary/urinals/urinal2.jpeg",
         "styles": [
           {
             "id": 2061,
             "style": "Urinals",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/sanitary/urinals/urinal2.jpeg",
             "options": [
               {
                 "id": 20611,
-                "color": "Beige",
-                "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+                "color": "White",
+                "dimension": "360x370x590mm",
+                "image": "/images/products/sanitary/urinals/urinal1.jpeg"
+              },
+              {
+                "id": 20612,
+                "color": "White",
+                "dimension": "300x360x600mm",
+                "image": "/images/products/sanitary/urinals/urinal2.jpeg"
+              },
+              {
+                "id": 20613,
+                "color": "White",
+                "dimension": "322x250x390mm",
+                "image": "/images/products/sanitary/urinals/urinal3.jpeg"
               }
             ]
           }
