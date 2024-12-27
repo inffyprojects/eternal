@@ -278,19 +278,31 @@
         "id": 203,
         "subcategory": "Sinks",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/sanitary/sinks/sink1.jpeg",
         "styles": [
           {
             "id": 2031,
             "style": "Sinks",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/sanitary/sinks/sink1.jpeg",
             "options": [
               {
                 "id": 20311,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+                "image": "/images/products/sanitary/sinks/sink2.jpeg"
+              },
+              {
+                "id": 20312,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/sinks/sink3.jpeg"
+              },
+              {
+                "id": 20313,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/sinks/sink4.jpeg"
               }
             ]
           }
@@ -300,19 +312,49 @@
         "id": 204,
         "subcategory": "Table Top",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/sanitary/tabletop/tabletop5.jpeg",
         "styles": [
           {
             "id": 2041,
             "style": "Table Top",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/sanitary/tabletop/tabletop4.jpeg",
             "options": [
               {
                 "id": 20411,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+                "image": "/images/products/sanitary/tabletop/tabletop1.jpeg"
+              },
+              {
+                "id": 20412,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/tabletop/tabletop2.jpeg"
+              },
+              {
+                "id": 20413,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/tabletop/tabletop3.jpeg"
+              },
+              {
+                "id": 20414,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/tabletop/tabletop4.jpeg"
+              },
+              {
+                "id": 20415,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/tabletop/tabletop5.jpeg"
+              },
+              {
+                "id": 20416,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/sanitary/tabletop/tabletop6.jpeg"
               }
             ]
           }
