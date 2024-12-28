@@ -215,26 +215,32 @@
         "id": 201,
         "subcategory": "Closets",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/sanitary/closets/closet1.jpeg",
         "styles": [
           {
             "id": 2011,
             "style": "Closets",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/sanitary/closets/closet1.jpeg",
             "options": [
               {
                 "id": 20111,
-                "color": "Beige",
-                "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/closets/closet1.jpeg",
                 "link": "https://example.com/download/101"
               },
               {
                 "id": 20112,
-                "color": "Gray",
-                "dimension": "12x24",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/closets/closet2.jpeg"
+              },
+              {
+                "id": 20112,
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/closets/closet3.jpeg"
               }
             ]
           }
@@ -438,19 +444,43 @@
         "id": 207,
         "subcategory": "Taps & Showers",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/sanitary/taps&showers/tap1.jpeg",
         "styles": [
           {
             "id": 2071,
             "style": "Taps & Showers",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/sanitary/taps&showers/tap1.jpeg",
             "options": [
               {
                 "id": 20711,
-                "color": "Beige",
-                "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8"
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/taps&showers/tap2.jpeg"
+              },
+              {
+                "id": 20712,
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/taps&showers/tap3.jpeg"
+              },
+              {
+                "id": 20713,
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/taps&showers/tap4.jpeg"
+              },
+              {
+                "id": 20714,
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/taps&showers/shower1.jpeg"
+              },
+              {
+                "id": 20715,
+                "color": "-",
+                "dimension": "-",
+                "image": "/images/products/sanitary/taps&showers/shower2.jpeg"
               }
             ]
           }
