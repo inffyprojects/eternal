@@ -670,7 +670,9 @@ footer {
   font-size: 1.5rem;
 }
 
-
+.call-data{
+  z-index: 12;
+}
 .inffy-data {
   z-index: 12;
 }
