@@ -252,8 +252,8 @@ const Home = () => {
 
             <div>
               <ImageSlider
-                beforeImage="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                afterImage="https://media.istockphoto.com/id/1087361806/photo/modern-contemporary-loft-design-living-room-apartment-interior.jpg?s=2048x2048&w=is&k=20&c=hFhaDmes_bQTmLbOdZt29ug8kAmS-A-1IfOLVItdcsw="
+                beforeImage="/images/comp1.jpeg"
+                afterImage="/images/comp2.jpeg"
                 beforeLabel="Before"
                 afterLabel="After"
               />
