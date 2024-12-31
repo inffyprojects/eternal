@@ -8,7 +8,7 @@ export const InputField = ({
   unit, 
   onUnitChange, 
   min = 0, 
-  max = 1000,
+  max = 2500,
   step = 0.1 
 }) => {
   const handleSliderChange = (e) => {
@@ -40,6 +40,7 @@ export const InputField = ({
           >
             <option value="meter">Meters</option>
             <option value="centimeter">Centimeters</option>
+            <option value="millimeter">Millimeter</option>
             <option value="feet">Feet</option>
             <option value="inch">Inches</option>
           </select>

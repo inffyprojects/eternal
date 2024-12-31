@@ -41,10 +41,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="call-data">
-          <h6>Call-123456789</h6>
+          <h6>Call- +919408215556 & +919054765556</h6>
         </div>
         <div className="inffy-data">
-          <h6>Design And Manage By INFFY</h6>
+          <h6>Designed And Managed By INFFY</h6>
         </div>
       </footer>
     </div>

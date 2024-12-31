@@ -21,6 +21,7 @@ const TileCalculator = () => {
   const convertToMeters = (value, unit) => {
     switch (unit) {
       case 'centimeter': return value / 100;
+      case 'millimeter': return value / 1000;
       case 'feet': return value * 0.3048;
       case 'inch': return value * 0.0254;
       default: return value;
