@@ -9,7 +9,7 @@
         "id": 101,
         "subcategory": "Wall Tiles",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt3.jpeg",
         "styles": [
           {
             "id": 1011,
@@ -51,20 +51,34 @@
             "id": 1012,
             "style": "Digital Wall Tiles",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/ceramic/walltiles/digitalwt/dwt1.jpeg",
             "options": [
               {
                 "id": 10121,
                 "color": "Beige",
                 "dimension": "30x45",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/ceramic/walltiles/digitalwt/dwt1.jpeg",
                 "link": "https://example.com/download/101"
               },
               {
                 "id": 10122,
                 "color": "Gray",
                 "dimension": "12x24",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/ceramic/walltiles/digitalwt/dwt2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 10123,
+                "color": "Gray",
+                "dimension": "12x24",
+                "image": "/images/products/ceramic/walltiles/digitalwt/dwt3.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 10124,
+                "color": "Gray",
+                "dimension": "12x24",
+                "image": "/images/products/ceramic/walltiles/digitalwt/dwt4.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
