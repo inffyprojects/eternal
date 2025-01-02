@@ -65,25 +65,25 @@ const Header = () => {
               className="dropdown-item"
               to="/style/1011"
               style={{ '--strip-color': '#ff7c44' }}>
-              Ceramic Tiles
+              Ceramic Products
             </Link>
             <Link
               className="dropdown-item"
               to="/style/1013"
               style={{ '--strip-color': '#000' }}>
-              Porcelain Tiles
+              Sanitaryware
             </Link>
             <Link
               className="dropdown-item"
               to="/products/stone"
               style={{ '--strip-color': '#b175ff' }}>
-              Natural Stone
+              PVC Products
             </Link>
             <Link
               className="dropdown-item"
               to="/products/mosaic"
               style={{ '--strip-color': '#8ED993' }}>
-              Mosaic Tiles
+             Electric Products
             </Link>
           </div>
         </div>
