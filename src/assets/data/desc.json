@@ -61,7 +61,7 @@
     "id": 3,
     "title": "Decorative Ceramics",
     "content": {
-      "description": "Roofing tiles are building materials designed for covering the roof of a structure. They come in various materials, styles, and shapes, providing options for different architectural styles and climate considerations. Here are some common types of roofing tiles:",
+      "description": "Roofing tiles are building materials designed for covering the roof of a structure. They come in various materials, styles, and shapes, providing options for different architectural styles and climate considerations.",
       "list": [
         {
           "title": "Clay Roof Tiles",
@@ -73,7 +73,7 @@
         },
         {
           "title": "Slate Roof Tiles",
-          "description": "Crafted from natural slate stone, these tiles are highly durable, weather-resistant, and provide a luxurious, traditional appearance. They are often used for high-end architectural designs."
+          "description": "Crafted from natural slate stone, these tiles are highly durable, weather-resistant, and provide a luxurious, traditional appearance."
         },
         {
           "title": "Concrete Roof Tiles",
@@ -81,7 +81,7 @@
         },
         {
           "title": "Metal Roof Tiles",
-          "description": "Made from lightweight materials like aluminum, steel, or copper, these tiles are durable, eco-friendly, and ideal for modern designs. They often feature protective coatings for additional weather resistance."
+          "description": "Made from lightweight materials like aluminum, steel, or copper, these tiles are durable, eco-friendly, and ideal for modern designs."
         }
       ]
     }
@@ -90,7 +90,7 @@
     "id": 4,
     "title": "Wall ware",
     "content": {
-      "description": "Immerse yourself in the timeless beauty of our Product Gallery. From classic designs to contemporary patterns, these ceramic tiles add a touch of sophistication to any space.",
+      "description": "From classic designs to contemporary patterns, these ceramic tiles add a touch of sophistication to any space.",
       "list": [
         {
           "title": "Kitchen Wall Tiles",
@@ -98,11 +98,11 @@
         },
         {
           "title": "Bathroom Wall Tiles",
-          "description": "Transform your bathroom into a spa-like oasis with our  selection of bathroom wall tiles. Choose from a variety of textures and colors to  achieve the perfect ambiance."
+          "description": "Transform your bathroom into a spa-like oasis with our  selection of bathroom wall tiles."
         },
         {
           "title": "Living Room Accent Tiles",
-          "description": "Make a statement in your living room with our accent wall tiles. Add depth and character to your space, creating a focal point that reflects your personality."
+          "description": "Add depth and character to your space, creating a focal point that reflects your personality."
         },
         {
           "title": "Bedroom Wall Tiles",
