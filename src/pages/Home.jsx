@@ -252,8 +252,8 @@ const Home = () => {
 
             <div>
               <ImageSlider
-                beforeImage="/images/comp1.jpeg"
-                afterImage="/images/comp2.jpeg"
+                beforeImage="/images/comp1.jpg"
+                afterImage="/images/comp2.jpg"
                 beforeLabel="Before"
                 afterLabel="After"
               />
