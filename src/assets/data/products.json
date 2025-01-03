@@ -794,19 +794,33 @@
         "id": 401,
         "subcategory": "Cable & Wire",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/cw1.jpeg",
         "styles": [
           {
             "id": 4011,
             "style": "Cable & Wire",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/cw1.jpeg",
             "options": [
               {
                 "id": 40111,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/cw1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40112,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/cw2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40113,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/cw3.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
@@ -817,19 +831,26 @@
         "id": 402,
         "subcategory": "Electric Adapter",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/adapt1.jpeg",
         "styles": [
           {
             "id": 4021,
             "style": "Electric Adapter",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/adapt1.jpeg",
             "options": [
               {
                 "id": 40211,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/adapt1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40212,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/adapt2.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
@@ -840,19 +861,33 @@
         "id": 403,
         "subcategory": "Celling Fan",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/cf1.jpeg",
         "styles": [
           {
             "id": 4031,
             "style": "Celling Fan",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/cf1.jpeg",
             "options": [
               {
                 "id": 40311,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/cf1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40312,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/cf2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40313,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/cf3.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
@@ -863,19 +898,33 @@
         "id": 404,
         "subcategory": "Batteries",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/battery1.jpeg",
         "styles": [
           {
             "id": 4041,
             "style": "Batteries",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/battery1.jpeg",
             "options": [
               {
                 "id": 40411,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/battery1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40412,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/battery2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40413,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/battery3.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
@@ -932,19 +981,33 @@
         "id": 407,
         "subcategory": "Water Heater",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/wh1.jpeg",
         "styles": [
           {
             "id": 4071,
             "style": "Water Heater",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/wh1.jpeg",
             "options": [
               {
                 "id": 40711,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/wh1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40712,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/wh2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40713,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/wh3.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
@@ -955,19 +1018,26 @@
         "id": 408,
         "subcategory": "All types of Clocks",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/clk1.jpeg",
         "styles": [
           {
             "id": 4081,
             "style": "All types of Clocks",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/clk1.jpeg",
             "options": [
               {
                 "id": 40811,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/clk1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40812,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/clk2.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
@@ -1001,19 +1071,33 @@
         "id": 4010,
         "subcategory": "Bulb & Switch",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/bs1.jpeg",
         "styles": [
           {
             "id": 40101,
             "style": "Bulb & Switch",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/bs1.jpeg",
             "options": [
               {
                 "id": 401011,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/bs1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 401012,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/bs2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 401013,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/bs3.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
