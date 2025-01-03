@@ -63,25 +63,25 @@ const Header = () => {
           <div className="dropdown-menu">
             <Link
               className="dropdown-item"
-              to="/style/1011"
+              to="/category/1"
               style={{ '--strip-color': '#ff7c44' }}>
               Ceramic Products
             </Link>
             <Link
               className="dropdown-item"
-              to="/style/1013"
+              to="/category/2"
               style={{ '--strip-color': '#000' }}>
               Sanitaryware
             </Link>
             <Link
               className="dropdown-item"
-              to="/products/stone"
+              to="/category/3"
               style={{ '--strip-color': '#b175ff' }}>
               PVC Products
             </Link>
             <Link
               className="dropdown-item"
-              to="/products/mosaic"
+              to="/category/4"
               style={{ '--strip-color': '#8ED993' }}>
              Electric Products
             </Link>
