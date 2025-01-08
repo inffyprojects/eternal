@@ -132,26 +132,40 @@
         "id": 102,
         "subcategory": "Parking Tiles",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/ceramic/parkingtiles/ptiles3.jpeg",
         "styles": [
           {
             "id": 1021,
             "style": "Parking Tiles",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/ceramic/parkingtiles/ptiles3.jpeg",
             "options": [
               {
                 "id": 10211,
                 "color": "Beige",
                 "dimension": "30x30",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/ceramic/parkingtiles/ptiles.jpeg",
                 "link": "https://example.com/download/101"
               },
               {
                 "id": 10212,
                 "color": "Gray",
                 "dimension": "40x40",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/ceramic/parkingtiles/ptiles1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 10213,
+                "color": "Beige",
+                "dimension": "30x30",
+                "image": "/images/products/ceramic/parkingtiles/ptiles2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 10214,
+                "color": "Gray",
+                "dimension": "40x40",
+                "image": "/images/products/ceramic/parkingtiles/ptiles3.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
@@ -1048,19 +1062,40 @@
         "id": 409,
         "subcategory": "Power Tools",
         "description": "Trendy ceramic styles.",
-        "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+        "image": "/images/products/electric/pt1.jpeg",
         "styles": [
           {
             "id": 4091,
             "style": "Power Tools",
             "description": "Non-glossy, subtle look.",
-            "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+            "image": "/images/products/electric/pt1.jpeg",
             "options": [
               {
                 "id": 40911,
                 "color": "Beige",
                 "dimension": "12x12",
-                "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+                "image": "/images/products/electric/pt1.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40912,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/pt2.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40913,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/pt3.jpeg",
+                "link": "https://example.com/download/101"
+              },
+              {
+                "id": 40914,
+                "color": "Beige",
+                "dimension": "12x12",
+                "image": "/images/products/electric/pt4.jpeg",
                 "link": "https://example.com/download/101"
               }
             ]
