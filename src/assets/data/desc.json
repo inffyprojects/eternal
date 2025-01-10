@@ -61,7 +61,7 @@
     "id": 3,
     "title": "Decorative Ceramics",
     "content": {
-      "description": "Roofing tiles are building materials designed for covering the roof of a structure. They come in various materials, styles, and shapes, providing options for different architectural styles and climate considerations.",
+      "description": "Roofing tiles are building materials designed for covering the roof of a structure.",
       "list": [
         {
           "title": "Clay Roof Tiles",
@@ -111,10 +111,6 @@
         {
           "title": "Outdoor Wall Cladding",
           "description": "Enhance your outdoor spaces with durable and stylish wall cladding tiles. Perfect for facades, patios, or garden walls, these tiles withstand the elements while adding charm."
-        },
-        {
-          "title": "Commercial Wall Tiles",
-          "description": "Upgrade your office or retail environment with our commercial wall tiles. Durable and visually appealing, they create a professional and inviting atmosphere."
         }
       ]
     }
