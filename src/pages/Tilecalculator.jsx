@@ -71,7 +71,7 @@ const TileCalculator = () => {
     <div className="tile-calculator-container">
       <div className="tile-max-width-wrapper">
         <header className="tile-header">
-        
+
           <h1 className="tile-header-title">Tile Calculator</h1>
           <p className="tile-header-subtitle">Calculate tiles needed with precision</p>
         </header>
@@ -88,15 +88,15 @@ const TileCalculator = () => {
                   Room Dimensions
                 </label>
 
-                  <InputField
-                    label="Width"
-                    value={dimensions.roomWidth.value}
-                    onChange={(value) => updateDimension('roomWidth', value)}
-                    unit={dimensions.roomWidth.unit}
-                    onUnitChange={(unit) => updateUnit('roomWidth', unit)}
-                  />
-              
-                
+                <InputField
+                  label="Width"
+                  value={dimensions.roomWidth.value}
+                  onChange={(value) => updateDimension('roomWidth', value)}
+                  unit={dimensions.roomWidth.unit}
+                  onUnitChange={(unit) => updateUnit('roomWidth', unit)}
+                />
+
+
 
                 <InputField
                   label="Length"
@@ -105,7 +105,13 @@ const TileCalculator = () => {
                   unit={dimensions.roomLength.unit}
                   onUnitChange={(unit) => updateUnit('roomLength', unit)}
                 />
-               
+                <label className="tile-input-label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M21 3H3v18h18V3z" />
+                    <path d="M3 9h18M3 15h18" />
+                  </svg>
+                  Tile Dimensions
+                </label>
                 <InputField
                   label="Tile Width"
                   value={dimensions.tileWidth.value}
@@ -113,7 +119,7 @@ const TileCalculator = () => {
                   unit={dimensions.tileWidth.unit}
                   onUnitChange={(unit) => updateUnit('tileWidth', unit)}
                 />
-               
+
                 <InputField
                   label="Tile Length"
                   value={dimensions.tileLength.value}
@@ -121,7 +127,7 @@ const TileCalculator = () => {
                   unit={dimensions.tileLength.unit}
                   onUnitChange={(unit) => updateUnit('tileLength', unit)}
                 />
-               
+
                 <InputField
                   label="Gap Size (Optional)"
                   value={dimensions.gapSize.value}
@@ -130,7 +136,7 @@ const TileCalculator = () => {
                   onUnitChange={(unit) => updateUnit('gapSize', unit)}
                 />
 
-               
+
               </div>
             </div>
           </div>
@@ -149,7 +155,7 @@ const TileCalculator = () => {
                 onChange={(value) => setTilePrice(value)}
               />
 
-          
+
 
               <button className="tile-calculate-button" onClick={calculateTiles}>
                 Calculate
