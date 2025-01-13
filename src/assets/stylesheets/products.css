@@ -1,70 +1,203 @@
+/* Ensure the products-container takes full screen height and width */
 .products-container {
-  height: 100%;
+  display: flex;
   width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  position: relative;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 20%; /* Sidebar occupies 20% of the width */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  padding-top: 15vh;
-  gap: 2rem;
-  padding-bottom: 10%;
+  align-items: flex-start;
+  transition: transform 0.3s ease;
 }
 
-.products-prnt {
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+.sidebar h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
 }
 
-.product-card {
-  height: 250px;
-  width: 300px;
+/* Category and subcategory styling */
+.category, .subcategory {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 1rem;
-  background-color: #fff;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.category:hover, .subcategory:hover {
+  background-color: #d0d0d0;
+}
+
+.category.active, .subcategory.active {
+  background-color: #c0c0c0;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Products display */
+.products-prnt {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 2rem;
+}
+
+/* Product card styling */
+.product-card {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Hero section for product card */
 .card__hero {
   background-color: #fef4e2;
   padding: 1.5rem;
   text-align: center;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__image {
   width: 100%;
-  height: 80%;
-  border-radius: 0.5rem;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .card__hero .card__job-title {
   color: #141417;
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 2rem 0;
+  margin-top: 1rem;
 }
 
+/* Footer section for product card */
 .card__footer {
-  background-color: #fff;
   display: flex;
-   gap: 1rem; 
-   padding: 1rem;
-  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .card__btn {
   background-color: #141417;
   border: none;
-  border-radius: 1rem;
+  border-radius: 10px;
   color: #fff;
   cursor: pointer;
-  display: block;
   font-size: 1rem;
   font-weight: 400;
-  padding: .5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   text-align: center;
-  width: 100%;
   width: max-content;
+  transition: background-color 0.3s ease;
+}
+
+.card__btn:hover {
+  background-color: #007bff;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .product-card {
+    width: 45%; /* Adjust card width for smaller screens */
+  }
+
+  .sidebar {
+    width: 25%; /* Increase sidebar width slightly */
+  }
+}
+
+@media (max-width: 900px) {
+  .products-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translateX(-100%);
+    z-index: 1000;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .products-prnt {
+    padding-top: 80px; /* Leave space for the fixed sidebar */
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .product-card {
+    width: 90%; /* Full width for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    width: 100%; /* Full width for very small screens */
+  }
+
+  .card__hero .card__job-title {
+    font-size: 1.25rem; /* Slightly smaller text */
+  }
+}
+
+@media (max-width: 400px) {
+  .card__btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem; /* Smaller button size for very small screens */
+  }
+
+  .sidebar h2 {
+    font-size: 1.2rem; /* Adjust sidebar title font size */
+  }
 }

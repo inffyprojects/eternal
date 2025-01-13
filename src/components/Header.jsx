@@ -58,9 +58,9 @@ const Header = () => {
 
       <div className={`inside-nav ${menuOpen ? 'mobile-active' : ''}`}>
         <span className="reveal"><Link className="nav-item" to='/'>Home</Link></span>
-        <div className="dropdown-container">
+        {/* <div className="dropdown-container"> */}
           <Link className="nav-item" to="/products">Products</Link>
-          <div className="dropdown-menu">
+          {/* <div className="dropdown-menu">
             <Link
               className="dropdown-item"
               to="/category/1"
@@ -85,8 +85,8 @@ const Header = () => {
               style={{ '--strip-color': '#8ED993' }}>
              Electric Products
             </Link>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         <span className="reveal"><Link className="nav-item" to='/about'>About us</Link></span>
         <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
         <span className="reveal"><Link className="nav-item" to='/export'>Export</Link></span>

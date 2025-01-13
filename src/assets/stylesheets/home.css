@@ -675,8 +675,14 @@ footer {
   font-size: 1.5rem;
 }
 
+.footer-social-item span {
+  font-size: 1em;
+}
+
 .call-data{
+  font-weight: 100;
   z-index: 12;
+  font-size: 1em;
 }
 .inffy-data {
   z-index: 12;
