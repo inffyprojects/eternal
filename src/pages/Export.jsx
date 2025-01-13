@@ -19,12 +19,13 @@ const Export = () => {
       <div className="contact-page2">
         <div className="email-contact">
           <h1>Mail Us</h1>
-          <a href="mailto:Customercare@eternaloverseas.com">
+          <span><a href="mailto:Customercare@eternaloverseas.com">
             Customercare@eternaloverseas.com
           </a> &amp;{' '}
           <a href="mailto:Dipak.kasundra@eternaloverseas.in">
             Dipak.kasundra@eternaloverseas.in
           </a>
+          </span>
         </div>
 
         <div className="number-contact">
