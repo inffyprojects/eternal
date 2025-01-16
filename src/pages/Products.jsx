@@ -92,11 +92,16 @@ const Products = () => {
           ) : (
             <div key={item.id} className="product-card">
               <section className="card__hero">
-                <img src={item.image} alt={item.subcategory} className="card__image" />
-                <p className="card__job-title">{item.subcategory}</p>
+                {/* Render only text for category level */}
+                <p className="card__job-title">{item.category || item.subcategory}</p>
               </section>
               <div className="card__footer">
                 <p className="card__job-title">{item.description}</p>
+                {item.category && (
+                  <Link to={`/category/${item.id}`}>
+                    <button className="card__btn">View More</button>
+                  </Link>
+                )}
               </div>
             </div>
           )
