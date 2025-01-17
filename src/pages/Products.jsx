@@ -92,7 +92,6 @@ const Products = () => {
           ) : (
             <div key={item.id} className="product-card">
               <section className="card__hero">
-                {/* Render only text for category level */}
                 <p className="card__job-title">{item.category || item.subcategory}</p>
               </section>
               <div className="card__footer">

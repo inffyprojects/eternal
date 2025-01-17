@@ -105,10 +105,13 @@
   width: 250px; /* Fixed width */
   height: 100vh; /* Full height to cover the viewport */
   padding: 20px;
+  padding-top: 15vh;
   background-color: #f8f8f8;
   border-right: 1px solid #ddd;
-  overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scroll */
   z-index: 1000; /* Ensure it stays on top of other elements */
+  scrollbar-width: thin; /* Thin scrollbar for better UI */
 }
 
 .sidebar h2 {
@@ -142,6 +145,7 @@
 .arrow-icon {
   margin-left: 10px;
 }
+
 
 /* Sidebar for responsive design */
 @media (max-width: 900px) {
