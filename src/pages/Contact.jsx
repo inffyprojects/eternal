@@ -15,8 +15,7 @@ const Contact = () => {
             <div className="contact-page2">
                 <div className="email-contact">
                     <h1>Mail Us</h1>
-                    <a href="mailto:customercare@eternaloverseas.com">customercare@eternaloverseas.com</a> & 
-                    <a href="mailto:dipak.kasundra@eternaloverseas.in"> dipak.kasundra@eternaloverseas.in</a>
+                    <a href="mailto:customercare@eternaloverseas.com">customercare@eternaloverseas.com</a>
                 </div>
                 <div className="number-contact">
                     <h1>Phone Number</h1>
