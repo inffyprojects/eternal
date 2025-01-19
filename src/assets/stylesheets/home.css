@@ -572,7 +572,6 @@ footer {
   backdrop-filter: blur(10px);
   z-index: 12;
 } */
-
 .footer-container {
   position: absolute;
   display: flex;
@@ -679,18 +678,21 @@ footer {
   color: #00bcd4;
 }
 
-@media (max-width: 768px) {
+/* Media query for screens below 900px */
+@media (max-width: 900px) {
   .footer-container {
     flex-direction: column;
     padding: 20px;
+    height: auto; /* Adjust height to fit content */
   }
 
   .footer-section {
     margin: 15px 0;
+    text-align: center; /* Center align for better readability */
   }
 
-  .social-icons a {
-    margin: 0 10px;
+  .social-icons {
+    margin-top: 10px;
   }
 
   .footer-products ul {
@@ -703,6 +705,7 @@ footer {
   }
 }
 
+/* Media query for screens below 480px */
 @media (max-width: 480px) {
   .footer-container {
     padding: 15px;
