@@ -86,7 +86,7 @@
 }
 
 .ab-card {
-  height: 200px;
+  min-height: 180px;
   color: #050307;
   border-radius: 15px;
   padding: 1em;

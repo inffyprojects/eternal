@@ -113,9 +113,9 @@ const About = () => {
             <div className="card-grid">
               <div className="ab-card" id='ab-card-p'>
                 <h3><FontAwesomeIcon icon={faUsers} className='globeabt' /></h3>
-                <p class="ab-card-p">Dipak K</p> <hr className='abtline' />
-                <p class="ab-card-p"> Sandip K</p> <hr className='abtline' />
-                <p class="ab-card-p"> Ravi K</p>
+                <p class="ab-card-p">Dipak Kasundra</p> <hr className='abtline' />
+                <p class="ab-card-p"> Sandip Kasundra</p> <hr className='abtline' />
+                <p class="ab-card-p"> Ravi Kasundra</p>
               </div>
               <div className="ab-card">
                 <h3><FontAwesomeIcon icon={faChartLine} className='globeabt' /></h3>
