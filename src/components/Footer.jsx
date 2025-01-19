@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="page-4">
       <div className="footer-overlay"></div>
       <footer className="footer-container">
-       
+        {/* Address Section */}
         <div className="footer-section footer-address">
           <h4>Eternal Overseas</h4>
           <p>
@@ -20,16 +20,18 @@ const Footer = () => {
           </p>
         </div>
 
+        {/* Quick Links Section */}
         <div className="footer-section footer-quick-links">
           <h4>Quick Links</h4>
           <ul>
             <li><a href="/about">About Us</a></li>
-            <li><a href="/products">Products</a></li>
+            <li><a href="/services">Services</a></li>
             <li><a href="/contact">Contact Us</a></li>
-            <li><a href="/calculator">Calculator</a></li>
+            <li><a href="/faq">FAQ</a></li>
           </ul>
         </div>
 
+        {/* Social Media Section */}
         <div className="footer-section footer-social-media">
           <h4>Social Media</h4>
           <div className="social-icons">
@@ -48,7 +50,24 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="footer-section footer-credit">
+       
+
+        {/* Products Section */}
+        <div className="footer-products">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="/bathroom-tiles">Bathroom Tiles</a></li>
+            <li><a href="/kitchen-tiles">Kitchen Tiles</a></li>
+            <li><a href="/wall-tiles">Wall Tiles</a></li>
+            <li><a href="/floor-tiles">Floor Tiles</a></li>
+            <li><a href="/vitrified-tiles">Vitrified Tiles</a></li>
+            <li><a href="/ceramic-tiles">Ceramic Tiles</a></li>
+            <li><a href="/polished-vitrified-tiles">Polished Vitrified Tiles</a></li>
+            <li><a href="/eternity-tiles">Eternity - Glazed Vitrified Tiles</a></li>
+          </ul>
+        </div>
+         {/* Footer Credit Section */}
+         <div className="footer-section footer-credit">
           <h6>Designed And Managed By INFFY</h6>
         </div>
       </footer>
