@@ -69,7 +69,7 @@ const Home = () => {
 
 
     const textreveal = () => {
-     
+
       gsap.from(".nav-item", {
         y: 50,
         opacity: 0,
@@ -83,7 +83,7 @@ const Home = () => {
         },
       });
 
-     
+
       const splitText = (element) => {
         const words = element.textContent.split("");
         element.innerHTML = "";
@@ -98,7 +98,7 @@ const Home = () => {
       const footer = document.querySelector(".footer-animation");
       if (footer) splitText(footer);
 
-     
+
       gsap.from(".footer-animation span", {
         y: -110,
         opacity: 0,
@@ -125,7 +125,7 @@ const Home = () => {
       });
     };
 
-    textreveal(); 
+    textreveal();
 
 
 
@@ -237,6 +237,19 @@ const Home = () => {
               <h3>Wide Range of Designs</h3>
               <h5>Explore an unparalleled selection of tiles, crafted to complement every style and transform your spaces effortlessly.</h5>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="certification-container">
+        <h1>Certifications</h1>
+        <div class="certificates">
+          <div class="certificate">
+            <img src="/images/ieccerti.jpeg" alt="CE Certificate"/>
+              <p>IEC CERTIFICATE</p>
+          </div>
+          <div class="certificate">
+            <img src="/images/msmecerti.jpeg" alt="ISO 9001:2015"/>
+              <p>MSME CERTIFICATE</p>
           </div>
         </div>
       </div>

@@ -700,6 +700,10 @@ footer {
     align-items: center;
   }
 
+  .footer-products h4 {
+    text-align: center;
+  }
+
   .footer-products ul li {
     margin: 5px 0;
   }
@@ -714,6 +718,7 @@ footer {
   .footer-section h4,
   .footer-products h4 {
     font-size: 1.3em;
+    text-align: center;
   }
 
   .social-icons a {
@@ -2600,4 +2605,56 @@ footer {
 
 .gtranslate_wrapper{
   z-index: 100000;
+}
+
+
+
+.certification-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.certification-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.certificates {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.certificate {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.certificate img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.certificate p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .certificates {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certificate {
+    max-width: 90%;
+  }
 }
