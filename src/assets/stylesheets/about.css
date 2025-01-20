@@ -1,9 +1,10 @@
 .about-content h1 {
   font-weight: 400;
   letter-spacing: 1px;
+  padding-top: 8vh;
 }
 .about-content p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   font-weight: 100;
   text-align: justify;
