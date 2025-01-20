@@ -213,7 +213,7 @@ const Home = () => {
         </div>
       </div>
       <Page2 />
-      <div className="page-3" >
+      {/* <div className="page-3" >
         <div class="exp-prnt">
           <div class="exp-txt">
             <h1>What We Stand For</h1>
@@ -239,7 +239,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div class="certification-container">
         <h1>Certifications</h1>
         <div class="certificates">
@@ -253,7 +253,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="page-5">
+      {/* <div className="page-5">
         <div >
           <div className='set-prnt' >
             <div className="img-comp-txt">
@@ -273,7 +273,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
 
   );

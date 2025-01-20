@@ -97,7 +97,11 @@ const About = () => {
         <span className="reveal"><h1 className="text-reveal">✦ About Eternal Overseas</h1></span>
         <span className="reveal">
           <p className="text-blureffect">
-            Eternal Overseas Group stands as a global leader in ceramic and vitrified tile manufacturing, acclaimed for its innovative designs and exceptional product quality. Founded in 2009 in Morbi, Gujarat, with an initial capacity of 12,000 sq. meters per day, the company has significantly expanded its reach and production, driven by state-of-the-art Italian machinery and advanced technology.
+            At Eternal Overseas, we are a leading manufacturer and exporter of a diverse range of high-quality products, including all the types of ceramic tiles, sanitary ware, plastic products, and many more. With years of expertise in the industry, we have built a reputation for delivering innovative and reliable solutions to customers around the world.
+            Our manufacturing process is driven by precision, utilizing advanced technology and skilled craftsmanship to ensure that each product meets the highest standards of quality and performance. From the timeless beauty of our tiles to the durability and functionality of our sanitary ware and plastic products, we provide a comprehensive range of items that cater to residential, commercial, and industrial needs. 
+            As a global exporter, we are committed to serving markets across more than 50 countries, delivering products that not only meet international standards but exceed expectations. We understand the importance of timely delivery, customer satisfaction, and sustainability, which is why we continually strive to improve our processes and offer innovative solutions tailored to the specific demands of our clients.
+            Whether you are renovating a home, completing a large-scale project, or seeking reliable suppliers for a range of products, Eternal Overseas is your trusted partner. Our commitment to quality, customer service, and sustainability ensures that we remain at the forefront of the industry, offering a wide array of products designed to enhance your spaces and projects.
+
           </p>
         </span>
       </div>
