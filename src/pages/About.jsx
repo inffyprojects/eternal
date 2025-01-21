@@ -98,7 +98,7 @@ const About = () => {
         <span className="reveal">
           <p className="text-blureffect">
             At Eternal Overseas, we are a leading manufacturer and exporter of a diverse range of high-quality products, including all the types of ceramic tiles, sanitary ware, plastic products, and many more. With years of expertise in the industry, we have built a reputation for delivering innovative and reliable solutions to customers around the world.
-            Our manufacturing process is driven by precision, utilizing advanced technology and skilled craftsmanship to ensure that each product meets the highest standards of quality and performance. From the timeless beauty of our tiles to the durability and functionality of our sanitary ware and plastic products, we provide a comprehensive range of items that cater to residential, commercial, and industrial needs. 
+            Our manufacturing process is driven by precision, utilizing advanced technology and skilled craftsmanship to ensure that each product meets the highest standards of quality and performance. From the timeless beauty of our tiles to the durability and functionality of our sanitary ware and plastic products, we provide a comprehensive range of items that cater to residential, commercial, and industrial needs.
             As a global exporter, we are committed to serving markets across more than 50 countries, delivering products that not only meet international standards but exceed expectations. We understand the importance of timely delivery, customer satisfaction, and sustainability, which is why we continually strive to improve our processes and offer innovative solutions tailored to the specific demands of our clients.
             Whether you are renovating a home, completing a large-scale project, or seeking reliable suppliers for a range of products, Eternal Overseas is your trusted partner. Our commitment to quality, customer service, and sustainability ensures that we remain at the forefront of the industry, offering a wide array of products designed to enhance your spaces and projects.
 
@@ -137,6 +137,13 @@ const About = () => {
       <div class="container">
         <section class="info-section">
 
+          <div class="image-container">
+            <img src="/logo.png" alt="Decorative Image" class="info-image" />
+          </div>
+
+
+
+
           <div class="info-item">
             <div class="icon">
               <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -145,17 +152,18 @@ const About = () => {
             </div>
             <div class="text-content">
               <h2>Our Mission</h2>
-              <p>At Eternal Overseas, we strive to deliver products that exceed expectations across the construction, interior design, and industrial sectors. Our mission is built on key principles:</p>
+              <p>At Eternal Overseas, our mission is to deliver exceptional products that meet the diverse needs of our customers in the construction, interior design, and industrial sectors.</p>
               <ul>
-                <li><strong>Innovation & Excellence:</strong> We leverage cutting-edge technology to deliver superior products that exceed industry standards in quality, aesthetics, and performance.</li>
-                <li><strong>Sustainability & Responsibility:</strong> Eco-friendly production and sustainable sourcing are at the core of our operations, aiming to minimize environmental impact.</li>
-                <li><strong>Global Reach, Local Service:</strong> Our international presence enables us to serve diverse markets with personalized, customer-focused solutions.</li>
-                <li><strong>Customer-Centric Approach:</strong> We prioritize long-term relationships through exceptional service and reliable delivery.</li>
-                <li><strong>Employee Growth & Well-being:</strong> We invest in our people to foster a collaborative and innovative work environment.</li>
-                <li><strong>Quality & Integrity:</strong> Every product reflects our commitment to the highest standards, ensuring reliability and excellence.</li>
+                <li><strong>Innovation & Excellence:</strong> We embrace technology and innovation to provide cutting-edge products, from elegant tiles and sanitary ware to durable plastic products, all of which exceed industry standards for quality, performance, and aesthetics.</li>
+                <li><strong>Sustainability & Responsibility:</strong> We recognize the importance of sustainable practices and strive to minimize our environmental impact. From eco-friendly production processes to sustainable sourcing of raw materials, we work to protect the planet while providing superior products.</li>
+                <li><strong>Global Reach, Local Service:</strong> With a strong international footprint, we pride ourselves on our ability to serve diverse markets, offering customized solutions and personalized service to meet the unique needs of every client, no matter the size or location of the project.</li>
+                <li><strong>Customer-Centric Approach:</strong> We are dedicated to building long-term relationships with our customers by providing exceptional service, reliable delivery, and value-driven solutions. Our goal is to exceed expectations and support our clients at every stage of their projects.</li>
+                <li><strong>Employee Growth & Well-being:</strong> We believe that a successful company begins with a strong, motivated team. We invest in our people through continuous training, a collaborative work environment, and opportunities for personal and professional growth.</li>
+                <li><strong>Quality & Integrity:</strong> Every product we manufacture is a testament to our unwavering commitment to quality. We uphold the highest standards in every aspect of our business, from raw material selection to final delivery, ensuring that our customers receive nothing less than the best.</li>
               </ul>
             </div>
           </div>
+
 
           <div class="info-item">
             <div class="icon">
@@ -176,6 +184,7 @@ const About = () => {
           </div>
         </section>
       </div>
+
 
 
     </div>
