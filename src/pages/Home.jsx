@@ -9,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
 
-  // different functions 
 
   useEffect(() => {
 
