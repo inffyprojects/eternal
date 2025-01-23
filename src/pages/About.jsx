@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../assets/stylesheets/about.css';
@@ -56,7 +56,7 @@ const About = () => {
         <section class="info-section">
 
           <div class="image-container">
-            <img src="/logo.png" alt="Decorative Image" class="info-image" />
+            <img src="/logo.png" alt="Decorative Image" class="info-image"/>
           </div>
 
 
