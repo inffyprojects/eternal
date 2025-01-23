@@ -20,30 +20,114 @@
               {
                 "id": 10111,
                 "color": "-",
-                "dimension": "-",
+                "dimension": "300x300",
                 "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt1.jpeg",
-                "link": "https://example.com/download/101"
+                "link": "https://drive.google.com/drive/folders/1r3J2BzepGASKBagO6-5qiNDvbN0ev8lr"
               },
               {
                 "id": 10112,
                 "color": "-",
-                "dimension": "-",
+                "dimension": "400x400",
                 "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt2.jpeg",
-                "link": "https://example.com/download/101"
+                "link": "https://drive.google.com/drive/folders/1PUMHQZRCghfE7xIkz8txUA5wUdcC7O3x"
               },
               {
                 "id": 10113,
                 "color": "-",
-                "dimension": "-",
+                "dimension": "500x500",
                 "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt3.jpeg",
-                "link": "https://example.com/download/101"
+                "link": "https://drive.google.com/drive/folders/1jtBX1yyvOn-U40RGfB9ZvgWbwpXGGag1"
               },
               {
                 "id": 10114,
                 "color": "-",
-                "dimension": "-",
+                "dimension": "600x600 Porcellian",
                 "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt4.jpeg",
-                "link": "https://example.com/download/101"
+                "link": "https://drive.google.com/drive/folders/14Nh6cJ1pXcCnLZMaNTZ6bNBvAXDq62MJ"
+              },
+              {
+                "id": 10115,
+                "color": "-",
+                "dimension": "600x600 Double charge",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt1.jpeg",
+                "link": "https://drive.google.com/drive/folders/1Yokup9Yr7QU1LI6Pksfi9cKrf4q52pmm"
+              },
+              {
+                "id": 10116,
+                "color": "-",
+                "dimension": "600x600 Vitrified",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt2.jpeg",
+                "link": "https://drive.google.com/drive/folders/1QqT4ZeAJFOt2wSVFSRzAXBS3UQjfXt-Z"
+              },
+              {
+                "id": 10117,
+                "color": "-",
+                "dimension": "600x1200",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt3.jpeg",
+                "link": "https://drive.google.com/drive/folders/1xr5XGSlirlLmcT0jonIdC0QLxsUnVEr0"
+              },
+              {
+                "id": 10118,
+                "color": "-",
+                "dimension": "800x800 Double charge",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt4.jpeg",
+                "link": "https://drive.google.com/drive/folders/1JnQNr0bgiyfLWxVnK0bf_dC67ZeSmr5T"
+              },
+              {
+                "id": 10119,
+                "color": "-",
+                "dimension": "800x800 Porcelian",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt1.jpeg",
+                "link": "https://drive.google.com/drive/folders/1yxKBS0gubgcFcL3A2znoBnuJhJeGtEjF"
+              },
+              {
+                "id": 101110,
+                "color": "-",
+                "dimension": "800x1600",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt2.jpeg",
+                "link": "https://drive.google.com/drive/folders/14hG36KonrIt3U07i7AnS3L9jAFY9aLBw"
+              },
+              {
+                "id": 101111,
+                "color": "-",
+                "dimension": "1200x1200",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt3.jpeg",
+                "link": "https://drive.google.com/drive/folders/1Pil-rsyiPf_x9jo3KU7V9qAobTv4EjHm"
+              },
+              {
+                "id": 101112,
+                "color": "-",
+                "dimension": "1200x1800",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt4.jpeg",
+                "link": "https://drive.google.com/drive/folders/19et3AXOV65aAu4Wnah7rO3Nud6w8r9PK"
+              },
+              {
+                "id": 101113,
+                "color": "-",
+                "dimension": "1200x2400",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt1.jpeg",
+                "link": "https://drive.google.com/drive/folders/1pBpv0aO-RyKPxFEtaDItpDiC8qUgG6_p"
+              },
+              {
+                "id": 101114,
+                "color": "-",
+                "dimension": "800x2400",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt2.jpeg",
+                "link": "https://drive.google.com/drive/folders/1TYFBjAUY9chvYNACn5B0YNjoML6eU196"
+              },
+              {
+                "id": 101115,
+                "color": "-",
+                "dimension": "800x3000",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt3.jpeg",
+                "link": "https://drive.google.com/drive/folders/1cz4vHfnDWw2r71QEtJeav41kDPT1nx3H"
+              },
+              {
+                "id": 101116,
+                "color": "-",
+                "dimension": "1200x200",
+                "image": "/images/products/ceramic/walltiles/ceramicwalltile/cwt4.jpeg",
+                "link": "https://drive.google.com/drive/folders/1ZAIFk1r8Iny-YRNCKSAuO2W7Y9XXFl5R"
               }
             ]
           },
@@ -142,17 +226,17 @@
             "options": [
               {
                 "id": 10211,
-                "color": "Beige",
-                "dimension": "30x30",
+                "color": "-",
+                "dimension": "300x300",
                 "image": "/images/products/ceramic/parkingtiles/ptiles.jpeg",
-                "link": "https://example.com/download/101"
+                "link": "https://drive.google.com/drive/folders/1GHcFE82cpfaILcbjk0W7VaX_vbszUweQ"
               },
               {
                 "id": 10212,
                 "color": "Gray",
-                "dimension": "40x40",
+                "dimension": "400x400",
                 "image": "/images/products/ceramic/parkingtiles/ptiles1.jpeg",
-                "link": "https://example.com/download/101"
+                "link": "https://drive.google.com/drive/folders/11g8hc_cU08WiuYNahlqylyeYq1YB2BJQ"
               },
               {
                 "id": 10213,
@@ -318,7 +402,7 @@
           {
             "id": 2021,
             "style": "Pans",
-            "description": "Non-glossy, subtle look.",
+            "description": "Pans",
             "image": "/images/products/sanitary/pans/pan1.jpeg",
             "options": [
               {
@@ -352,7 +436,7 @@
           {
             "id": 2031,
             "style": "Sinks",
-            "description": "Non-glossy, subtle look.",
+            "description": "Sinks",
             "image": "/images/products/sanitary/sinks/sink1.jpeg",
             "options": [
               {
@@ -386,7 +470,7 @@
           {
             "id": 2041,
             "style": "Table Top",
-            "description": "Non-glossy, subtle look.",
+            "description": "Table Top",
             "image": "/images/products/sanitary/tabletop/tabletop4.jpeg",
             "options": [
               {
@@ -438,7 +522,7 @@
           {
             "id": 2051,
             "style": "Basins",
-            "description": "Non-glossy, subtle look.",
+            "description": "Basins",
             "image": "/images/products/sanitary/basins/basin1.jpeg",
             "options": [
               {
@@ -478,7 +562,7 @@
           {
             "id": 2061,
             "style": "Urinals",
-            "description": "Non-glossy, subtle look.",
+            "description": "Urinals",
             "image": "/images/products/sanitary/urinals/urinal2.jpeg",
             "options": [
               {
@@ -512,7 +596,7 @@
           {
             "id": 2071,
             "style": "Taps & Showers",
-            "description": "Non-glossy, subtle look.",
+            "description": "Taps & Showers",
             "image": "/images/products/sanitary/taps&showers/tap1.jpeg",
             "options": [
               {
@@ -566,7 +650,7 @@
           {
             "id": 3011,
             "style": "PVC Chair",
-            "description": "Non-glossy, subtle look.",
+            "description": "PVC Chair",
             "image": "/images/products/pvc/chair/chair2.jpeg",
             "options": [
               {
@@ -611,8 +695,8 @@
         "styles": [
           {
             "id": 3021,
-            "style": "PVC Suction Pipe3",
-            "description": "Non-glossy, subtle look.",
+            "style": "PVC Suction Pipe",
+            "description": "PVC Suction Pipe",
             "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
             "options": [
               {
@@ -633,8 +717,8 @@
         "styles": [
           {
             "id": 3031,
-            "style": "Decor Louver3",
-            "description": "Non-glossy, subtle look.",
+            "style": "Decor Louver",
+            "description": "Decor Louver",
             "image": "https://images.unsplash.com/photo-1568622236461-eb0c07aadb6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
             "options": [
               {
