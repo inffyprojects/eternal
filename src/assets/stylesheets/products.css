@@ -98,7 +98,7 @@
   width: max-content;
 }
 
-/* Sidebar styling */
+
 .sidebar {
   position: fixed; /* Fixed position to keep it on the left */
   top: 0;
@@ -165,4 +165,14 @@
   .sidebar.open {
     transform: translateX(0);
   }
+}
+
+.products-prnt {
+  margin-left: 250px; /* Offset for the fixed sidebar */
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 20px;
 }

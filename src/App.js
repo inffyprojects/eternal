@@ -35,8 +35,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
         <Route path="/category/:categoryId" element={<SubCategories />} />
-        <Route path="/subcategory/:subcategoryId" element={<Styles />} />
-        <Route path="/style/:styleId" element={<Options />} />
+        <Route path="/subcategory/:subcategoryId" element={<Options />} />
         <Route path="/about" element={<About />} />
         <Route path="/export" element={<Export />} />
         <Route path="/calculator" element={<TileCalculator />} />
