@@ -114,8 +114,31 @@
   overflow-x: hidden; /* Prevent horizontal scroll */
   z-index: 1000; /* Ensure it stays on top of other elements */
   scrollbar-width: thin; /* Thin scrollbar for better UI */
+
+}
+.subcategory::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0px;
+  height: 2px;
+  background:#141414;
+  transition: width 0.3s ease;
 }
 
+.subcategory:hover::before {
+  width: 15px;
+}
+.subcategory{
+  transition: padding-left 0.3s ease, background 0.3s ease;
+  position:relative;
+}
+.subcategory:hover {
+  padding-left: 1.5rem;
+  background: rgba(20, 20, 20, 0.03);
+}
 .sidebar h2 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -134,7 +157,7 @@
   transition: background-color 0.3s ease;
 }
 
-.category:hover, .subcategory:hover {
+.category:hover{
   background-color: #e0e0e0;
 }
 

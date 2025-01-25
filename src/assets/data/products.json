@@ -317,5 +317,49 @@
         ]   
       }
     ]
+  },
+  {
+    "id": 4,
+    "category": "Electric Products",
+    "description": "Premium Electric products.",
+    "image": "/images/categories/sanitaryware.jpg",
+    "subcategories": [
+      {
+        "id": 401,
+        "subcategory": "All Electric Products",
+        "description": "Aesthetic Electric Products",
+        "image": "/images/subcategories/wash_basins.jpg",
+        "options": [
+          {
+            "id": 4011,
+            "dimension": "All Electric Products",
+            "image": "/images/options/parking_tile_400x400.jpg",
+            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mNgg3aDI"
+          }
+        ]   
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Electric Products",
+    "description": "Premium Electric products.",
+    "image": "/images/categories/sanitaryware.jpg",
+    "subcategories": [
+      {
+        "id": 501,
+        "subcategory": "All Electric Products",
+        "description": "Aesthetic Electric Products",
+        "image": "/images/subcategories/wash_basins.jpg",
+        "options": [
+          {
+            "id": 5011,
+            "dimension": "All Electric Products",
+            "image": "/images/options/parking_tile_400x400.jpg",
+            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC"
+          }
+        ]   
+      }
+    ]
   }
 ]
