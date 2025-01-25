@@ -45,6 +45,7 @@
 /* Below 900px, one card per row */
 @media (max-width: 900px) {
   .products-prnt {
+    margin-left: 0px;
     grid-template-columns: 1fr; /* One card per row */
   }
 }
