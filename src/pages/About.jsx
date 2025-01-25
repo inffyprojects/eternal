@@ -53,8 +53,11 @@ const About = () => {
         <img className="Gujarat" src="Stippling-bff8.svg" alt="" />
       </div>
       <div class="container">
-        <section class="info-section">
+        
+     
 
+        <section class="info-section">
+        
           <div class="image-container">
             <img src="/logo.png" alt="Decorative Image" class="info-image"/>
           </div>
@@ -82,7 +85,9 @@ const About = () => {
             </div>
           </div>
 
-
+          <div class="image-container">
+          
+          </div>
           <div class="info-item">
             <div class="icon">
               <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

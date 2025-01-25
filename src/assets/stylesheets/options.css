@@ -113,11 +113,11 @@
     padding: 10px;
   }
 
-  .option-card {
-    width: 80%; /* Card should be 80% of the screen width */
-    max-width: 100%; /* Ensures it doesn’t exceed the screen width */
+  /* .option-card {
+    width: 80%;
+    max-width: 100%; 
     margin-bottom: 20px;
-  }
+  } */
 }
 
 /* Tablet Styling (Medium Screens) */

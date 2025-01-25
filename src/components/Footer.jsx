@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="page-4">
       <div className="footer-overlay"></div>
       <footer className="footer-container">
-        {/* Address Section */}
+
         <div className="footer-section footer-address">
           <h4>Eternal Overseas</h4>
           <p>
@@ -20,14 +20,15 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links Section */}
+
         <div className="footer-section footer-quick-links">
           <h4>Quick Links</h4>
           <ul>
             <li><a href="/about">About Us</a></li>
-            <li><a href="/services">Services</a></li>
+            <li><a href="/products">Products</a></li>
             <li><a href="/contact">Contact Us</a></li>
-            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/export">Export</a></li>
+            <li><a href="/calculator">Calculator</a></li>
           </ul>
         </div>
 
@@ -50,24 +51,119 @@ const Footer = () => {
           </div>
         </div>
 
-       
 
-        {/* Products Section */}
+
+
         <div className="footer-products">
           <h4>Products</h4>
           <ul>
-            <li><a href="/bathroom-tiles">Bathroom Tiles</a></li>
-            <li><a href="/kitchen-tiles">Kitchen Tiles</a></li>
-            <li><a href="/wall-tiles">Wall Tiles</a></li>
-            <li><a href="/floor-tiles">Floor Tiles</a></li>
-            <li><a href="/vitrified-tiles">Vitrified Tiles</a></li>
-            <li><a href="/ceramic-tiles">Ceramic Tiles</a></li>
-            <li><a href="/polished-vitrified-tiles">Polished Vitrified Tiles</a></li>
-            <li><a href="/eternity-tiles">Eternity - Glazed Vitrified Tiles</a></li>
+            <ul>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/2YhDVY4a"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Parking Tiles
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/jMo3EKIR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Roof Tiles
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/SBgj3CaA"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Wall Tiles
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/zMoSUCDA"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Floor Tiles
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rNhQEAZT"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Subway Tiles
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/aVomyCQb"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Step Riser
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3NpmBILK"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Polished Vitrified Tiles
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3RgwlQ4a"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Sanitary Ware
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rchUnCKL"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Plastic Products
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mNgg3aDI"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Electric Products
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  More Products
+                </a>
+              </li>
+            </ul>
+
+
           </ul>
         </div>
-         {/* Footer Credit Section */}
-         <div className="footer-section footer-credit">
+
+        <div className="footer-section footer-credit">
           <h6>Designed And Managed By INFFY</h6>
         </div>
       </footer>

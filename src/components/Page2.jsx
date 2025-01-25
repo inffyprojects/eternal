@@ -82,9 +82,9 @@ const Page2 = () => {
                     </li>
                   ))}
                 </ul>
-                <div className="btn">
+                {/* <div className="btn">
                   <span data-text="Explore">Explore</span>
-                </div>
+                </div> */}
               </div>
             )}
           </div>

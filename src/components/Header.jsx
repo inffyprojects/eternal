@@ -59,8 +59,8 @@ const Header = () => {
       <div className={`inside-nav ${menuOpen ? 'mobile-active' : ''}`}>
         <span className="reveal"><Link className="nav-item" to='/'>Home</Link></span>
         {/* <div className="dropdown-container"> */}
-          <Link className="nav-item" to="/products">Products</Link>
-          {/* <div className="dropdown-menu">
+        <Link className="nav-item" to="/products">Products</Link>
+        {/* <div className="dropdown-menu">
             <Link
               className="dropdown-item"
               to="/category/1"
@@ -90,7 +90,7 @@ const Header = () => {
         <span className="reveal"><Link className="nav-item" to='/about'>About us</Link></span>
         <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
         <span className="reveal"><Link className="nav-item" to='/export'>Export</Link></span>
-        <div className="btn"><span data-text="let's Talk">let's Talk</span></div>
+        <div className="btn"> <a href="https://wa.me/919408215556" target="_blank" rel="noopener noreferrer">  <span data-text="let's Talk">let's Talk</span> </a> </div>
       </div>
 
       <div

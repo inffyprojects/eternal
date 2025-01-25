@@ -1,4 +1,5 @@
 import React from 'react';
+import Rollinggallary from '../components/Rollinggallary.jsx';
 import '../assets/stylesheets/export.css';
 
 const Export = () => {
@@ -16,33 +17,7 @@ const Export = () => {
         </div>
       </div>
 
-      <div className="contact-page2">
-        <div className="email-contact">
-          <h1>Mail Us</h1>
-          <span><a href="mailto:Customercare@eternaloverseas.com">
-            Customercare@eternaloverseas.com
-          </a> &amp;{' '}
-          <a href="mailto:Dipak.kasundra@eternaloverseas.in">
-            Dipak.kasundra@eternaloverseas.in
-          </a>
-          </span>
-        </div>
-
-        <div className="number-contact">
-          <h1>Phone Number</h1>
-          <p>+91 9408215556 &amp; +91 9054765556</p>
-        </div>
-
-        <div className="location-contact">
-          <h1>Our Office</h1>
-          <p>
-            Block No 1, <br />
-            Kunjgali, Vivekanand Nagar 1, <br />
-            Ravapar Road, Morbi - 363641 <br />
-            Gujarat - India
-          </p>
-        </div>
-      </div>
+      <Rollinggallary/>
     </>
   );
 };
