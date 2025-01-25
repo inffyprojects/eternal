@@ -161,12 +161,19 @@
   background-color: #e0e0e0;
 }
 
-.category.active, .subcategory.active {
+.category.active{
   font-weight: bold;
   color: #007bff;
   background-color: #d0d0d0;
 }
-
+.subcategory.active{
+  font-weight: bold;
+  border:1px solid black;
+}
+.subcategory.active::before {
+  width: 15px; 
+  transition: none;
+}
 .arrow-icon {
   margin-left: 10px;
 }
