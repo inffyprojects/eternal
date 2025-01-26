@@ -3,24 +3,24 @@
     "id": 1,
     "category": "Ceramic Products",
     "description": "High-quality ceramic tiles.",
-    "image": "/images/categories/ceramic_products.jpg",
+    "image": "/products/cover/ceramic_cover.jpg",
     "subcategories": [
       {
         "id": 101,
         "subcategory": "Floor Tiles",
         "description": "Trendy ceramic floor tiles in various dimensions.",
-        "image": "/images/subcategories/floor_tiles.jpg",
+        "image": "/products/ceramic/300_300.png",
         "options": [
           {
             "id": 1011,
             "dimension": "300x300",
-            "image": "/logo.png",
+            "image": "/products/ceramic/300_300.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mJok0DRB"
           },
           {
             "id": 1012,
             "dimension": "400x400",
-            "image": "/images/options/floor_tile_400x400.jpg",
+            "image": "/products/ceramic/400_400.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/LVpmjZrQ"
           },
           {
@@ -278,7 +278,7 @@
     "id": 2,
     "category": "Sanitaryware",
     "description": "Premium sanitary products for your bathrooms.",
-    "image": "/images/categories/sanitaryware.jpg",
+    "image": "/products/cover/sanitary_cover.jpg",
     "subcategories": [
       {
         "id": 201,
@@ -342,19 +342,19 @@
   },
   {
     "id": 5,
-    "category": "Electric Products",
-    "description": "Premium Electric products.",
+    "category": "Other Products",
+    "description": "All Other products.",
     "image": "/images/categories/sanitaryware.jpg",
     "subcategories": [
       {
         "id": 501,
-        "subcategory": "All Electric Products",
-        "description": "Aesthetic Electric Products",
+        "subcategory": "All Other Products",
+        "description": "Other Products",
         "image": "/images/subcategories/wash_basins.jpg",
         "options": [
           {
             "id": 5011,
-            "dimension": "All Electric Products",
+            "dimension": "All Other Products",
             "image": "/images/options/parking_tile_400x400.jpg",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC"
           }

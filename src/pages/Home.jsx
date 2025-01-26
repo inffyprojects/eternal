@@ -94,34 +94,34 @@ const Home = () => {
         });
       };
 
-      const footer = document.querySelector(".footer-animation");
-      if (footer) splitText(footer);
+      // const footer = document.querySelector(".footer-animation");
+      // if (footer) splitText(footer);
 
 
-      gsap.from(".footer-animation span", {
-        y: -110,
-        opacity: 0,
-        ease: "power3.out",
-        duration: 0.7,
-        stagger: 0.04,
-        onComplete: () => {
-          ScrollTrigger.create({
-            trigger: ".page-4",
-            start: "top bottom",
-            onEnter: () => {
-              gsap.set(".footer-animation span", { y: -110, opacity: 0 });
-              gsap.to(".footer-animation span", {
-                y: 0,
-                opacity: 1,
-                ease: "power3.out",
-                duration: 1,
-                delay: 0.5,
-                stagger: 0.06,
-              });
-            },
-          });
-        },
-      });
+      // gsap.from(".footer-animation span", {
+      //   y: -110,
+      //   opacity: 0,
+      //   ease: "power3.out",
+      //   duration: 0.7,
+      //   stagger: 0.04,
+      //   onComplete: () => {
+      //     ScrollTrigger.create({
+      //       trigger: ".page-4",
+      //       start: "top bottom",
+      //       onEnter: () => {
+      //         gsap.set(".footer-animation span", { y: -110, opacity: 0 });
+      //         gsap.to(".footer-animation span", {
+      //           y: 0,
+      //           opacity: 1,
+      //           ease: "power3.out",
+      //           duration: 1,
+      //           delay: 0.5,
+      //           stagger: 0.06,
+      //         });
+      //       },
+      //     });
+      //   },
+      // });
     };
 
     textreveal();
