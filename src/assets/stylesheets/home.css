@@ -227,7 +227,7 @@ body {
   text-align: center;
 }
 
-.img-comp-txt h1{
+.img-comp-txt h1 {
   letter-spacing: 1.5px;
 }
 
@@ -629,10 +629,12 @@ footer {
 .footer-quick-links ul li a:hover {
   color: #00bcd4;
 }
+
 .social-icons {
   gap: 20px;
   display: flex;
 }
+
 .social-icons a {
   color: #fff;
 
@@ -685,16 +687,19 @@ footer {
   .footer-container {
     flex-direction: column;
     padding: 20px;
-    height: auto; /* Adjust height to fit content */
+    height: auto;
+    /* Adjust height to fit content */
   }
 
   .footer-section {
     margin: 15px 0;
-    text-align: center; /* Center align for better readability */
+    text-align: center;
+    /* Center align for better readability */
   }
 
   .social-icons {
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .footer-products ul {
@@ -836,11 +841,12 @@ footer {
   font-size: 1em;
 }
 
-.call-data{
+.call-data {
   font-weight: 100;
   z-index: 12;
   font-size: 1em;
 }
+
 .inffy-data {
   z-index: 12;
 }
@@ -960,6 +966,7 @@ footer {
   position: fixed;
   width: 100%;
 }
+
 .exp-txt h1 {
 
   text-decoration: underline;
@@ -1645,9 +1652,11 @@ footer {
     padding: 2rem 2rem 0rem 2rem;
     width: 100vw;
   }
-  .exp-card{
+
+  .exp-card {
     justify-self: center;
   }
+
   .img-comp-txt p {
     font-size: 1rem;
   }
@@ -1940,9 +1949,11 @@ footer {
   .page-1 {
     height: 150vh;
   }
-  .exp-card{
+
+  .exp-card {
     justify-self: center;
   }
+
   .img-comp-txt h1 {
     font-size: 2rem;
     padding: 3rem 3rem 0rem 3rem;
@@ -2500,7 +2511,7 @@ footer {
 .exp-txt {
   padding-top: 4rem;
   height: 100%;
-  text-align:center;
+  text-align: center;
   padding-right: 1.4em;
 }
 
@@ -2605,7 +2616,7 @@ footer {
   }
 }
 
-.gtranslate_wrapper{
+.gtranslate_wrapper {
   z-index: 100000;
 }
 

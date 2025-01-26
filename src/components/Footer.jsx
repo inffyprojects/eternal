@@ -42,7 +42,7 @@ const Footer = () => {
             <a href="https://twitter.com/eternaloverseas" rel="noreferrer" target="_blank">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="https://instagram.com/eternaloverseas" rel="noreferrer" target="_blank">
+            <a href="https://instagram.com/eternal.overseas/?hl=en" rel="noreferrer" target="_blank">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a href="https://linkedin.com/company/eternaloverseas" rel="noreferrer" target="_blank">
