@@ -30,7 +30,7 @@ const Products = () => {
               <article key={option.id} className="option-card">
                 <img src={option.image} alt={option.dimension} className="option-image" />
                 <div className="option-footer">
-                  <h3>Dimension: {option.dimension}</h3>
+                  <h4>Dimension: {option.dimension}</h4>
                   <a href={option.link} target="_blank" rel="noopener noreferrer">
                     <button className="card__btn">Download</button>
                   </a>

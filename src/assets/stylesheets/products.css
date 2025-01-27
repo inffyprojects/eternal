@@ -14,6 +14,7 @@
 
 /* Product card styling */
 .product-card {
+  border:1px solid black;
   width: 100%;
   max-width: 300px;
   border-radius: 10px;
@@ -46,6 +47,7 @@
 
 /* Hero section for product card */
 .card__hero {
+  border:1px solid black;
   background-color: #fef4e2;
   padding: 1.5rem;
   text-align: center;
@@ -94,7 +96,7 @@
 
 
 .sidebar {
-  position: fixed; /* Fixed position to keep it on the left */
+  position: absolute; /* Fixed position to keep it on the left */
   top: 0;
   left: 0;
   width: 250px; /* Fixed width */
@@ -150,7 +152,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background-color 0.3s ease;
 }
 
 .category:hover{
@@ -195,7 +196,12 @@
     transform: translateX(0);
   }
 }
+@media (max-width: 480px) {
+  .card__btn {
+    font-size: 0.8rem;
+}
 
+}
 .products-prnt {
   margin-left: 250px; /* Offset for the fixed sidebar */
   flex: 1;

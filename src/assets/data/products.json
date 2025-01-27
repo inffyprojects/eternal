@@ -119,42 +119,42 @@
         "id": 102,
         "subcategory": "Wall Tiles",
         "description": "Stylish wall tiles to enhance your interiors.",
-        "image": "/images/subcategories/wall_tiles.jpg",
+        "image": "/products/walltile/200_300.png",
         "options": [
           {
             "id": 1021,
             "dimension": "200x300",
-            "image": "/images/options/wall_tile_300x600.jpg",
+            "image": "/products/walltile/200_300.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/vJp0VDQK"
           },
           {
             "id": 1022,
             "dimension": "200x600",
-            "image": "/images/options/wall_tile_600x1200.jpg",
+            "image": "/products/walltile/200_300.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/6V4CRJzT"
           },
           {
             "id": 1023,
             "dimension": "250x375",
-            "image": "/images/options/wall_tile_600x1200.jpg",
+            "image": "/products/walltile/250_375.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7FxWGb5D"
           },
           {
             "id": 1024,
             "dimension": "250x400",
-            "image": "/images/options/wall_tile_600x1200.jpg",
+            "image": "/products/walltile/250_400.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3NxCQJSS"
           },
           {
             "id": 1025,
             "dimension": "300x450 High depth",
-            "image": "/images/options/wall_tile_600x1200.jpg",
+            "image": "/products/walltile/300_450_dp.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/bM4iDJCC"
           },
           {
             "id": 1026,
             "dimension": "300x450",
-            "image": "/images/options/wall_tile_600x1200.jpg",
+            "image": "/products/walltile/300_450.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/SRo0gZab"
           },
           {
@@ -188,18 +188,18 @@
         "id": 103,
         "subcategory": "Parking Tiles",
         "description": "Durable tiles designed for parking spaces.",
-        "image": "/images/subcategories/parking_tiles.jpg",
+        "image": "/products/walltile/300_300_pt.png",
         "options": [
           {
             "id": 1031,
             "dimension": "300x300",
-            "image": "/images/options/parking_tile_400x400.jpg",
+            "image": "/products/walltile/300_300_pt.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/KJxxRZQZ"
           },
           {
             "id": 1032,
             "dimension": "400x400",
-            "image": "/images/options/parking_tile_600x600.jpg",
+            "image": "/products/walltile/400_400_pt.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/iIg3jB6T"
           }
         ]
@@ -208,12 +208,12 @@
         "id": 104,
         "subcategory": "Roof Tiles",
         "description": "Elegant and durable roof tiles.",
-        "image": "/images/subcategories/roof_tiles.jpg" ,
+        "image": "/products/walltile/roof.png" ,
         "options": [
           {
             "id": 1041,
             "dimension": "All Roof Tiles",
-            "image": "/images/options/parking_tile_400x400.jpg",
+            "image": "/products/walltile/roof.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/jMo3EKIR"
           }
         ]   
@@ -222,12 +222,12 @@
         "id": 105,
         "subcategory": "Subway Tiles",
         "description": "Elegant and durable roof tiles.",
-        "image": "/images/subcategories/roof_tiles.jpg",
+        "image": "/products/walltile/subway.png",
         "options": [
           {
             "id": 1051,
             "dimension": "All Subway Tiles",
-            "image": "/images/options/parking_tile_400x400.jpg",
+            "image": "/products/walltile/subway.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rNhQEAZT"
           }
         ]   
@@ -236,24 +236,24 @@
         "id": 106,
         "subcategory": "Step Riser",
         "description": "Elegant and durable roof tiles.",
-        "image": "/images/subcategories/roof_tiles.jpg",
+        "image": "/products/walltile/3_ft_sr.png",
         "options": [
           {
             "id": 1061,
             "dimension": "3 feet step Riser",
-            "image": "/images/options/roof_tile_400x400.jpg",
+            "image": "/products/walltile/3_ft_sr.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/OM5xTZYb"
           },
           {
             "id": 1062,
             "dimension": "4 feet step Riser",
-            "image": "/images/options/roof_tile_400x400.jpg",
+            "image": "/products/walltile/4_ft_sr.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/qI41TZIL"
           },
           {
             "id": 1063,
             "dimension": "5 feet step Riser",
-            "image": "/images/options/roof_tile_400x400.jpg",
+            "image": "/products/walltile/5_ft_sr.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/2Zo1GDjS"
           }
         ]
@@ -262,12 +262,12 @@
         "id": 107,
         "subcategory": "Poster & Decoretive tiles",
         "description": "Elegant and durable roof tiles.",
-        "image": "/images/subcategories/roof_tiles.jpg",
+        "image": "/products/walltile/poster_decorative.png",
         "options": [
           {
             "id": 1071,
             "dimension": "All Poster & Decorative Tiles",
-            "image": "/images/options/parking_tile_400x400.jpg",
+            "image": "/products/walltile/poster_decorative.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3NpmBILK"
           }
         ]   
@@ -284,12 +284,12 @@
         "id": 201,
         "subcategory": "All Sanitaryware",
         "description": "Stylish and functional sanitary wares",
-        "image": "/images/subcategories/wash_basins.jpg",
+        "image": "/products/cover/sanitary_cover.jpg",
         "options": [
           {
             "id": 1071,
             "dimension": "All Sanitaryware",
-            "image": "/images/options/parking_tile_400x400.jpg",
+            "image": "/products/cover/sanitary_cover.jpg",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3RgwlQ4a"
           }
         ]   

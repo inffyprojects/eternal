@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Media Section */}
+        
         <div className="footer-section footer-social-media">
           <h4>Social Media</h4>
           <div className="social-icons">
