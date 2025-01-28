@@ -28,7 +28,7 @@ const About = () => {
           <span className="reveal"><h1 className="text-reveal">✲  Our Vision: Shaping the Future  ✲ </h1></span>
           <span className="reveal">
             <p className="text-blureffect">
-              At Eternal Overseas, we aim to revolutionize the tile industry by delivering innovative and reliable products recognized worldwide. Our unwavering commitment to excellence drives us to continually adapt to market demands, ensuring our offerings enhance spaces with exceptional quality and style. By leveraging market insights and cutting-edge design technology, we present tile collections that embody sustainability and modern aesthetics, establishing us as a preferred choice across North America, South America, Europe, Africa, Asia, and Australia.
+              To become a globally trusted leader in the export industry, driving economic growth by delivering high-quality products and services that meet and exceed international standards. We aim to foster strong partnerships, promote sustainable trade practices, and connect businesses worldwide, empowering communities and industries through seamless, innovative, and ethical export solutions
             </p>
           </span>
           <div className="about-cards">
@@ -53,13 +53,13 @@ const About = () => {
         <img className="Gujarat" src="Stippling-bff8.svg" alt="" />
       </div>
       <div class="container">
-        
-     
+
+
 
         <section class="info-section">
-        
+
           <div class="image-container">
-            <img src="/logo.png" alt="Decorative Image" class="info-image"/>
+            <img src="/images/mission.jpg" alt="Decorative Image" class="info-image" />
           </div>
 
 
@@ -86,7 +86,7 @@ const About = () => {
           </div>
 
           <div class="image-container">
-          
+            <img src="/images/vision.jpg" alt="Decorative Image" class="info-image" />
           </div>
           <div class="info-item">
             <div class="icon">

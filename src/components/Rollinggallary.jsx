@@ -5,7 +5,6 @@ import "../assets/stylesheets/rollinggallary.css";
 // don't forget to add your images to the array
 const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [
   "/rolling/r1.jpg",
-  "/rolling/r2.jpg",
   "/rolling/r3.jpg",
   "/rolling/r4.jpg",
   "/rolling/r5.jpg",
