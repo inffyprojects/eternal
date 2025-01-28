@@ -100,7 +100,7 @@
   top: 0;
   left: 0;
   width: 250px; /* Fixed width */
-  height: 100vh; /* Full height to cover the viewport */
+  height: auto; /* Full height to cover the viewport */
   padding: 20px;
   padding-top: 15vh;
   background-color: #f8f8f8;

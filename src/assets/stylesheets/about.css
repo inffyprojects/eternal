@@ -324,6 +324,7 @@
 
 .text-content ul li {
   margin-bottom: 10px;
+  text-align:justify;
 }
 
 @media (min-width: 768px) {

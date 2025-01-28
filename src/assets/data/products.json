@@ -171,7 +171,7 @@
           },
           {
             "id": 1029,
-            "dimension": "300x600 #rd Firing tiles",
+            "dimension": "300x600 3rd Firing tiles",
             "image": "/images/options/wall_tile_600x1200.jpg",
             "link": "https://example.com/download/105"
           },
@@ -261,7 +261,7 @@
       {
         "id": 107,
         "subcategory": "Poster & Decoretive tiles",
-        "description": "Elegant and durable roof tiles.",
+        "description": "Elegant and durable posters.",
         "image": "/products/walltile/poster_decorative.png",
         "options": [
           {
@@ -303,13 +303,13 @@
     "image": "/images/categories/sanitaryware.jpg",
     "subcategories": [
       {
-        "id": 201,
+        "id": 301,
         "subcategory": "All Plastic Products",
         "description": "Stylish and functional Plastic Products",
         "image": "/images/subcategories/wash_basins.jpg",
         "options": [
           {
-            "id": 1071,
+            "id": 3011,
             "dimension": "All Plastic Products",
             "image": "/images/options/parking_tile_400x400.jpg",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rchUnCKL"

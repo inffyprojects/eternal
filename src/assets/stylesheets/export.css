@@ -3,7 +3,16 @@
     background-color: black;
     
 }
-
+.exports-txt-bg{
+    background-color: #111;
+    color:white;
+}
+.exports-txt{
+    line-height: 25px;
+text-align: justify;
+    padding:5vh 15vw;
+    font-size:1.3rem;
+}
 .contact-content {
 
     padding: 1rem;
