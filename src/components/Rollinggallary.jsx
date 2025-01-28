@@ -2,14 +2,16 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useAnimation, useTransform } from "framer-motion";
 import "../assets/stylesheets/rollinggallary.css";
 
-// don't forget to add your images to the array
+
 const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [
   "/rolling/r1.jpg",
   "/rolling/r3.jpg",
   "/rolling/r4.jpg",
   "/rolling/r5.jpg",
+  "/rolling/r6.jpg",
   "/rolling/r7.jpg",
-  "/rolling/r8.jpg"
+  "/rolling/r8.jpg",
+  "/rolling/r9.jpg"
 ],}) => {
 const [isScreenSizeSm, setIsScreenSizeSm] = useState(window.innerWidth <= 640);
 
