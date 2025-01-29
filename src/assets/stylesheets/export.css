@@ -99,6 +99,10 @@ a {
         font-size: 0.6rem;
     }
 
+    .exports-txt{
+        font-size: .7rem;
+    }
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -113,6 +117,9 @@ a {
     .text-contact {
         text-align: center;
         font-size: 0.6rem;
+    }
+    .exports-txt{
+        font-size: .7rem;
     }
 
 }
