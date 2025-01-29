@@ -288,6 +288,13 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.info-image1 {
+  padding-top: 25%;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
 .image-container:hover .info-image {
   transform: scale(1.1);
 }

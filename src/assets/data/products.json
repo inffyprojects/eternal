@@ -55,9 +55,9 @@
           },
           {
             "id": 1018,
-            "dimension": "800x800 Double Charge",
-            "image": "/images/options/floor_tile_400x400.jpg",
-            "link": ""
+            "dimension": "1600x3200",
+            "image": "/products/ceramic/1600_3200.png",
+            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rdoh1CoY"
           },
           {
             "id": 1019,
@@ -300,18 +300,18 @@
     "id": 3,
     "category": "Plastic Products",
     "description": "Premium Plastic products.",
-    "image": "/images/categories/sanitaryware.jpg",
+    "image": "/products/cover/plastic.jpeg",
     "subcategories": [
       {
         "id": 301,
         "subcategory": "All Plastic Products",
         "description": "Stylish and functional Plastic Products",
-        "image": "/images/subcategories/wash_basins.jpg",
+        "image": "/products/cover/plastic.jpeg",
         "options": [
           {
             "id": 3011,
             "dimension": "All Plastic Products",
-            "image": "/images/options/parking_tile_400x400.jpg",
+            "image": "/products/cover/plastic.jpeg",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rchUnCKL"
           }
         ]   
@@ -322,7 +322,7 @@
     "id": 4,
     "category": "Electric Products",
     "description": "Premium Electric products.",
-    "image": "/images/categories/sanitaryware.jpg",
+    "image": "",
     "subcategories": [
       {
         "id": 401,
@@ -342,19 +342,19 @@
   },
   {
     "id": 5,
-    "category": "Other Products",
+    "category": "More Products",
     "description": "All Other products.",
     "image": "/images/categories/sanitaryware.jpg",
     "subcategories": [
       {
         "id": 501,
-        "subcategory": "All Other Products",
+        "subcategory": "All More Products",
         "description": "Other Products",
         "image": "/images/subcategories/wash_basins.jpg",
         "options": [
           {
             "id": 5011,
-            "dimension": "All Other Products",
+            "dimension": "All More Products",
             "image": "/images/options/parking_tile_400x400.jpg",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC"
           }

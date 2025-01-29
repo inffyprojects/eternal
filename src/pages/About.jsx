@@ -59,7 +59,7 @@ const About = () => {
         <section class="info-section">
 
           <div class="image-container">
-            <img src="/images/mission.jpg" alt="Decorative Image" class="info-image" />
+            <img src="/images/mission.jpg" alt="Decorative Image" class="info-image1" />
           </div>
 
 
