@@ -160,14 +160,14 @@
           {
             "id": 1027,
             "dimension": "300x600 Digital",
-            "image": "/images/options/wall_tile_600x1200.jpg",
-            "link": "https://example.com/download/105"
+            "image": "/products/walltile/300_600_digi.png",
+            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/SMJiHbYZ"
           },
           {
             "id": 1028,
-            "dimension": "300x600 Porceline wall",
-            "image": "/images/options/wall_tile_600x1200.jpg",
-            "link": "https://example.com/download/105"
+            "dimension": "200x1200",
+            "image": "/products/walltile/200_1200.png",
+            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/aYAAXLqB"
           },
           {
             "id": 1029,
@@ -178,8 +178,8 @@
           {
             "id": 1030,
             "dimension": "300x600 High depth",
-            "image": "/images/options/wall_tile_600x1200.jpg",
-            "link": "https://example.com/download/105"
+            "image": "/products/walltile/300_600_hidepth.png",
+            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3IAk3LTI"
           }
 
         ]
