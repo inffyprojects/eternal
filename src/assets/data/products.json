@@ -171,12 +171,6 @@
           },
           {
             "id": 1029,
-            "dimension": "300x600 3rd Firing tiles",
-            "image": "/images/options/wall_tile_600x1200.jpg",
-            "link": "https://example.com/download/105"
-          },
-          {
-            "id": 1030,
             "dimension": "300x600 High depth",
             "image": "/products/walltile/300_600_hidepth.png",
             "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3IAk3LTI"
@@ -221,7 +215,7 @@
       {
         "id": 105,
         "subcategory": "Subway Tiles",
-        "description": "Elegant and durable roof tiles.",
+        "description": "Elegant and durable Subway tiles.",
         "image": "/products/walltile/subway.png",
         "options": [
           {
@@ -235,7 +229,7 @@
       {
         "id": 106,
         "subcategory": "Step Riser",
-        "description": "Elegant and durable roof tiles.",
+        "description": "Step Riser tiles.",
         "image": "/products/walltile/3_ft_sr.png",
         "options": [
           {
@@ -261,7 +255,7 @@
       {
         "id": 107,
         "subcategory": "Poster & Decoretive tiles",
-        "description": "Elegant and durable posters.",
+        "description": "Aesthetic posters.",
         "image": "/products/walltile/poster_decorative.png",
         "options": [
           {
