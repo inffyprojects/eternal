@@ -279,6 +279,7 @@
     "category": "Sanitaryware",
     "description": "Premium sanitary products for your bathrooms.",
     "image": "/products/cover/sanitary_cover.jpg",
+    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3RgwlQ4a",
     "subcategories": [
       {
         "id": 201,
@@ -301,6 +302,7 @@
     "category": "Plastic Products",
     "description": "Premium Plastic products.",
     "image": "/products/cover/plastic.jpeg",
+    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rchUnCKL",
     "subcategories": [
       {
         "id": 301,
@@ -323,6 +325,7 @@
     "category": "Electric Products",
     "description": "Premium Electric products.",
     "image": "",
+    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mNgg3aDI",
     "subcategories": [
       {
         "id": 401,
@@ -345,6 +348,7 @@
     "category": "More Products",
     "description": "All Other products.",
     "image": "/images/categories/sanitaryware.jpg",
+    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC",
     "subcategories": [
       {
         "id": 501,

@@ -3,16 +3,20 @@ import "../assets/stylesheets/products.css";
 import productsData from "../assets/data/products.json";
 
 const Products = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null); // Tracks the selected category
-  const [selectedSubcategory, setSelectedSubcategory] = useState(null); // Tracks the selected subcategory
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedSubcategory, setSelectedSubcategory] = useState(null);
 
-  const handleCategoryClick = (categoryId) => {
-    setSelectedCategory((prevCategory) => (prevCategory === categoryId ? null : categoryId)); // Toggle categories
-    setSelectedSubcategory(null); // Reset subcategory selection when toggling categories
+  const handleCategoryClick = (categoryId, link) => {
+    if ([2, 3, 4, 5].includes(categoryId)) {
+      window.open(link, "_blank");
+    } else {
+      setSelectedCategory((prevCategory) => (prevCategory === categoryId ? null : categoryId));
+      setSelectedSubcategory(null);
+    }
   };
 
   const handleSubcategoryClick = (subcategoryId) => {
-    setSelectedSubcategory(subcategoryId); 
+    setSelectedSubcategory(subcategoryId);
   };
 
   const getMainContent = () => {
@@ -23,8 +27,6 @@ const Products = () => {
       return (
         <>
           <h2 className="option-h1">{subcategory.subcategory}</h2>
-
-
           <div className="option-card-prnt">
             {subcategory.options.map((option) => (
               <article key={option.id} className="option-card">
@@ -41,9 +43,7 @@ const Products = () => {
         </>
       );
     } else if (selectedCategory) {
-      // Display subcategories for the selected category
       const category = productsData.find((cat) => cat.id === selectedCategory);
-
       return category.subcategories.map((subcategory) => (
         <div
           key={subcategory.id}
@@ -60,12 +60,11 @@ const Products = () => {
         </div>
       ));
     } else {
-      // Display main categories
       return productsData.map((category) => (
         <div
           key={category.id}
           className="product-card"
-          onClick={() => handleCategoryClick(category.id)}
+          onClick={() => handleCategoryClick(category.id, category.link)}
         >
           <section className="card__hero">
             <img src={category.image} alt={category.category} className="card__image" />
@@ -81,15 +80,13 @@ const Products = () => {
 
   return (
     <div className="products-container">
-      {/* Sidebar for navigation */}
       <div className="sidebar">
         <h2>Categories</h2>
         {productsData.map((category) => (
           <div key={category.id} className="filter-category">
-            {/* Category */}
             <p
               className={`category ${selectedCategory === category.id ? "active" : ""}`}
-              onClick={() => handleCategoryClick(category.id)}
+              onClick={() => handleCategoryClick(category.id, category.link)}
             >
               {category.category}
               <span className="arrow-icon">
@@ -104,9 +101,7 @@ const Products = () => {
                 )}
               </span>
             </p>
-
-            {/* Subcategories */}
-            {selectedCategory === category.id &&
+            {selectedCategory === category.id && category.id !== 2 &&
               category.subcategories.map((subcategory) => (
                 <p
                   key={subcategory.id}
@@ -119,8 +114,6 @@ const Products = () => {
           </div>
         ))}
       </div>
-
-      {/* Main content */}
       <div className="products-prnt">{getMainContent()}</div>
     </div>
   );
