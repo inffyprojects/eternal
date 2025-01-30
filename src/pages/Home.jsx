@@ -211,7 +211,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Page2 />
+      {/* <Page2 /> */}
       {/* <div className="page-3" >
         <div class="exp-prnt">
           <div class="exp-txt">
