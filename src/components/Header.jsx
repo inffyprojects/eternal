@@ -88,9 +88,9 @@ const Header = () => {
             </Link>
           </div> */}
         {/* </div> */}  
-        <span className="reveal"><Link className="nav-item" to='/contact'>Contact Us</Link></span>
-        <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
         <span className="reveal"><Link className="nav-item" to='/export'>Export</Link></span>
+        <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
+        <span className="reveal"><Link className="nav-item" to='/contact'>Contact Us</Link></span>
         <div className="btn"> <a href="https://wa.me/919408215556" target="_blank" rel="noopener noreferrer">  <span data-text="let's Talk">let's Talk</span> </a> </div>
       </div>
 
