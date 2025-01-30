@@ -58,6 +58,7 @@ const Header = () => {
 
       <div className={`inside-nav ${menuOpen ? 'mobile-active' : ''}`}>
         <span className="reveal"><Link className="nav-item" to='/'>Home</Link></span>
+        <span className="reveal"><Link className="nav-item" to='/about'>About us</Link></span>
         {/* <div className="dropdown-container"> */}
         <Link className="nav-item" to="/products">Products</Link>
         {/* <div className="dropdown-menu">
@@ -86,8 +87,7 @@ const Header = () => {
              Electric Products
             </Link>
           </div> */}
-        {/* </div> */}
-        <span className="reveal"><Link className="nav-item" to='/about'>About us</Link></span>
+        {/* </div> */}  
         <span className="reveal"><Link className="nav-item" to='/calculator'>Calculator</Link></span>
         <span className="reveal"><Link className="nav-item" to='/export'>Export</Link></span>
         <div className="btn"> <a href="https://wa.me/919408215556" target="_blank" rel="noopener noreferrer">  <span data-text="let's Talk">let's Talk</span> </a> </div>
@@ -120,8 +120,8 @@ const Header = () => {
 
         <nav className={`mobile-nav ${menuOpen ? 'active' : ''}`}>
           <Link className="nav-item" to="/">Home</Link>
-          <Link className="nav-item" to="/products">Products</Link>
           <Link className="nav-item" to="/about">About us</Link>
+          <Link className="nav-item" to="/products">Products</Link>       
           <Link className="nav-item" to="/calculator">Calculator</Link>
           <Link className="nav-item" to="/export">Export</Link>
           <div className="btnformob"><span data-text="let's Talk">let's Talk</span></div>
