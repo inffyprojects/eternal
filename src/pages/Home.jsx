@@ -239,7 +239,7 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-      <div class="certification-container">
+      {/* <div class="certification-container">
         <h1>Certifications</h1>
         <div class="certificates">
           <div class="certificate">
@@ -251,7 +251,7 @@ const Home = () => {
               <p>MSME CERTIFICATE</p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="page-5">
         <div >
           <div className='set-prnt' >
