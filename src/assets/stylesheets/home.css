@@ -105,6 +105,7 @@ body {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
+  white-space: nowrap;
 }
 
 .nav-logo img {
@@ -1741,9 +1742,11 @@ footer {
 
   .nav-logo {
     height: 2.2rem;
-    width: 4rem;
+    width: 6rem;
     font-size: medium;
+    white-space: nowrap;
   }
+
 
   .nav {
     padding: 3% 5% 3% 10%;

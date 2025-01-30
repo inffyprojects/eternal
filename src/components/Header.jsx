@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <header className="nav">
       <Link to='/'> <div className="nav-logo">
-        <img src="/logo.png" alt="Logo" /> Eternal Overseas
+        <img src="/logo.png" alt="Logo" /> <p className='logo-h'>Eternal Overseas</p>
       </div></Link>
 
       <div className={`inside-nav ${menuOpen ? 'mobile-active' : ''}`}>
