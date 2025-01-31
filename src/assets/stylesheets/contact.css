@@ -1,53 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    height: 100%;
-    width: 100%;
-    background-color: var(--bg-color);
-    font-family: Saans, sans-serif;
-}
-@font-face {
-    font-family: "Saans";
-    src: url(../text/Saans-Medium.woff2);
-  }
-
-:root {
-    --bg-color: #faf8f3;
-    --green: #3be898;
-    --purple: #C699FF;
-    --blue: #81bcf9;
-    --red: #ff8856;
-    --black: #141414;
-    --card5: #F7C86D;
-    --card4: #B5A6FF;
-    --card3: #3E8372;
-    --card2: #F7EDDE;
-    --card1: #FF4524;
-
-}
-.contact-content {
-
-    padding: 1rem;
-    color: var(--bg-color);
-    background-color: var(--black);
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.world-map {
-    width: 100%;
-    height: 80vh;
-}
-
 .contact-page2 {
     background-color: var(--bg-color);
     width: 100%;
@@ -96,4 +46,141 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}/* General Styles */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg,
+     
+      hsl(288deg 77% 77%) 91%,
+      hsl(255deg 100% 81%) 94%,
+      hsl(235deg 100% 82%) 97%,
+      hsl(222deg 100% 79%) 99%,
+      hsl(215deg 98% 76%) 100%,
+      hsl(218deg 94% 78%) 101%,
+      hsl(268deg 74% 79%) 101%,
+      hsl(324deg 86% 76%) 101%,
+      hsl(351deg 100% 75%) 101%,
+      hsl(18deg 100% 67%) 100%);
+    padding: 20px;
+}
+
+/* Form Styling with Glassmorphism */
+form {
+    max-width: 600px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 25px 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    margin: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+form h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Input Box Styling */
+.input-box {
+    margin-top: 20px;
+    position: relative;
+}
+
+.input-box .field {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 8px;
+    transition: 0.4s;
+}
+
+.input-box .field:focus {
+    border-color: #ff8c00;
+    box-shadow: 0 0 10px rgba(255, 140, 0, 0.5);
+}
+
+.input-box .field.mess {
+    height: 200px;
+    resize: none;
+}
+
+/* Button Styling */
+form button {
+    width: 100%;
+    height: 55px;
+    background: #ff8c00;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.5);
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+form button:hover {
+    background: #e07b00;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+        max-width: 90%;
+    }
+    
+    form h2 {
+        font-size: 24px;
+    }
+    
+    .input-box .field {
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    form button {
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        padding: 15px;
+        max-width: 100%;
+    }
+    
+    form h2 {
+        font-size: 22px;
+    }
+    
+    .input-box .field {
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    form button {
+        height: 45px;
+        font-size: 14px;
+    }
 }
