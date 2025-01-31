@@ -40,8 +40,7 @@ const Contact = () => {
                     <p><strong>Phone:</strong><br /> <a href="tel:+919104187511">+91 90547 65556</a></p>
                     <p><strong>Email:</strong><br /> <a href="mailto:info@eternaloverseas.com">eternal.overseas@gmail.com</a></p>
                 </section>
-            <section className="contact-form">
-                
+            <section className="contact-form">             
                 <form onSubmit={onSubmit}>
                     <h2>Contact Us</h2>
                     <div className="input-box">
@@ -63,8 +62,6 @@ const Contact = () => {
                     <button type="submit" className="submit-btn">Send Message</button>
                 </form>
             </section>
-
-
         </div>
     );
 };
