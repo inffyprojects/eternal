@@ -7,74 +7,64 @@ const Contact = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
-    
+
         formData.append("access_key", "995e2a26-7ada-46d3-abbf-bd893c7dbbb4");
-    
+
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
-    
+
         const res = await fetch("https://api.web3forms.com/submit", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json"
-          },
-          body: json
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: json
         }).then((res) => res.json());
-    
+
         if (res.success) {
             Swal.fire({
                 title: "Success!",
                 text: "Message delivered!",
                 icon: "success"
-              });
+            });
         }
-      };
+    };
 
     return (
-        <div className="contact-main">
-
-            <section className='contact'>
+        <div className="contact-page">
+            <section className="contact-info">
+                    <h2>Eternal Overseas</h2>
+                    <p><strong>Address:</strong><br /> Block No 1, Kunjgali, Vivekanand Nagar 1,<br /> Ravapar Road, Morbi - 363641 Gujarat, India</p>
+                    <p><strong>Phone:</strong><br /> <a href="tel:+919104137511">+91 94082 15556</a></p>
+                    <p><strong>Phone:</strong><br /> <a href="tel:+919104187511">+91 90547 65556</a></p>
+                    <p><strong>Email:</strong><br /> <a href="mailto:info@eternaloverseas.com">eternal.overseas@gmail.com</a></p>
+                </section>
+            <section className="contact-form">
+                
                 <form onSubmit={onSubmit}>
+                    <h2>Contact Us</h2>
                     <div className="input-box">
                         <label>Full Name</label>
-                        <input type="text" className='field' placeholder='Enter Your Name' name='name' required />
+                        <input type="text" className="field" placeholder="Enter Your Name" name="name" required />
                     </div>
                     <div className="input-box">
                         <label>Email Address</label>
-                        <input type="email" className='field' placeholder='Enter Your Email' name='email' required />
+                        <input type="email" className="field" placeholder="Enter Your Email" name="email" required />
                     </div>
                     <div className="input-box">
                         <label>Mobile Number</label>
-                        <input type='number' className='field' placeholder='Enter Your Mobile Number' name='number'required />
+                        <input type="number" className="field" placeholder="Enter Your Mobile Number" name="number" required />
                     </div>
                     <div className="input-box">
                         <label>Your Message</label>
-                        <textarea name='message' className='field mess' placeholder='Enter Your Name' required />
+                        <textarea name="message" className="field mess" placeholder="Enter Your Message" required></textarea>
                     </div>
-                    <button type='submit'>Send Message</button>
+                    <button type="submit" className="submit-btn">Send Message</button>
                 </form>
             </section>
-            
-            <div className="contact-page2">
-                <div className="email-contact">
-                    <h1>Mail Us</h1>
-                    <a href="mailto:customercare@eternaloverseas.com">customercare@eternaloverseas.com</a>
-                </div>
-                <div className="number-contact">
-                    <h1>Phone Number</h1>
-                    <p>+91 94082 15556 & +91 90547 65556</p>
-                </div>
-                <div className="location-contact">
-                    <h1>Our Office</h1>
-                    <p>
-                        Block No 1,<br />
-                        Kunjgali, Vivekanand Nagar 1,<br />
-                        Ravapar Road, Morbi - 363641,<br />
-                        Gujarat - India
-                    </p>
-                </div>
-            </div>
+
+
         </div>
     );
 };

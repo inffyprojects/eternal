@@ -125,6 +125,7 @@ const Header = () => {
           <Link className="nav-item" to="/products">Products</Link>       
           <Link className="nav-item" to="/calculator">Calculator</Link>
           <Link className="nav-item" to="/export">Export</Link>
+          <Link className="nav-item" to='/contact'>Contact Us</Link>
           <div className="btnformob"><span data-text="let's Talk">let's Talk</span></div>
         </nav>
       </div>
