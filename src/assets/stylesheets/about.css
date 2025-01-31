@@ -1,3 +1,17 @@
+:root {
+  --bg-color: #faf8f3;
+  --green: #3be898;
+  --purple: #C699FF;
+  --blue: #81bcf9;
+  --red: #ff8856;
+  --black: #141414;
+  --card5: #F7C86D;
+  --card4: #B5A6FF;
+  --card3: #3E8372;
+  --card2: #F7EDDE;
+  --card1: #FF4524;
+}
+
 .about-content h1 {
   font-weight: 400;
   letter-spacing: 1px;
