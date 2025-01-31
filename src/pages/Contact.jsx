@@ -36,8 +36,8 @@ const Contact = () => {
             <section className="contact-info">
                     <h2>Eternal Overseas</h2>
                     <p><strong>Address:</strong><br /> Block No 1, Kunjgali, Vivekanand Nagar 1,<br /> Ravapar Road, Morbi - 363641 Gujarat, India</p>
-                    <p><strong>Phone and Whatsapp:</strong><br /> <a href="tel:+919104137511">+91 94082 15556</a></p>
-                    <p><strong>Phone and Whatsapp:</strong><br /> <a href="tel:+919104187511">+91 90547 65556</a></p>
+                    <p><strong>Phone and Whatsapp:</strong><br /> <a href="tel:+919408215556">+91 94082 15556</a></p>
+                    <p><strong>Phone and Whatsapp:</strong><br /> <a href="tel:+919054765556">+91 90547 65556</a></p>
                     <p><strong>Email:</strong><br /> <a href="mailto:info@eternaloverseas.com">eternal.overseas@gmail.com</a></p>
                 </section>
             <section className="contact-form">             

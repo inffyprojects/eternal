@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../assets/stylesheets/home.css';
 import ImageSlider from '../components/ImgCompare';
 import Page2 from '../components/Page2';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -148,7 +149,7 @@ const Home = () => {
             </h1>
             <br />
             <div className="btn">
-              <span data-text="Explore">Explore</span>
+            <Link to="/products">  <span data-text="Explore">Explore</span></Link>
             </div>
           </div>
           <div className="tile-cr">
