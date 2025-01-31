@@ -140,6 +140,7 @@ form h2 {
     .contact-page {
         flex-direction: column;
         align-items: center;
+        padding-top: 20vh;
     }
 
     .contact-form,
@@ -151,6 +152,7 @@ form h2 {
 @media (max-width: 480px) {
     .contact-page {
         padding: 20px;
+        padding-top: 20vh;
     }
 
     form {
