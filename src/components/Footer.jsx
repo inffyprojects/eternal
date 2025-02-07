@@ -15,7 +15,8 @@ const Footer = () => {
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} /> Block No 1, Kunjgali, Vivekanand Nagar 1,<br />
             Ravapar Road, Morbi - 363641 Gujarat, India<br />
-            <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:info@eternaloverseas.com">eternal.overseas@gmail.com</a><br />
+            <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:info@eternaloverseas.com">info@eternaloverseas.com</a><br />
+            <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:sales@eternaloverseas.com">sales@eternaloverseas.com</a><br />
             Call: +91 94082 15556 & +91 90547 65556
           </p>
         </div>
