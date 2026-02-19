@@ -149,7 +149,7 @@ const Home = () => {
             </h1>
             <br />
             <div className="btn">
-            <Link to="/products">  <span data-text="Explore">Explore</span></Link>
+            <Link to="/product">  <span data-text="Explore">Explore</span></Link>
             </div>
           </div>
           <div className="tile-cr">

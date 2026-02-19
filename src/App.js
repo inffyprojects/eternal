@@ -10,8 +10,8 @@ import TileCalculator from './pages/Tilecalculator';
 import Products from './pages/Products';
 import Export from './pages/Export';
 import SubCategories from "./pages/SubCategories";
-import Styles from "./pages/Styles";
 import Options from "./pages/Options";
+import ScrollToTop from './components/ScrollToTop';
 
 
 const App = () => {
@@ -29,11 +29,12 @@ const App = () => {
 
   return (
     <Router>
+       <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/product" element={<Products />} />
         <Route path="/category/:categoryId" element={<SubCategories />} />
         <Route path="/subcategory/:subcategoryId" element={<Options />} />
         <Route path="/about" element={<About />} />

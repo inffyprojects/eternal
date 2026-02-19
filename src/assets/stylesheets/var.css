@@ -1,0 +1,107 @@
+
+  .var-image{
+    padding: 50px;
+    border-radius: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid BLACK;
+margin: 5px;
+background-color: #fef4e2;
+  }
+  .var-card-prnt {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+    width: 100%; /* Ensures the cards inside are aligned properly */
+  }
+  
+  .option-h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .var-footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid black;
+  }
+  
+  .var-card {
+    width: 100%;
+    max-width: 300px; /* Maximum width to maintain card size */
+    height: auto;
+    background-color: #fefefe;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .var-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+
+
+  /* Mobile Styling (Small Screens) */
+  @media (max-width: 600px) {
+   
+    .option-h1{
+      font-size: 2rem;
+    }
+  
+    .var-card-prnt {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    /* .option-card {
+      width: 80%;
+      max-width: 100%; 
+      margin-bottom: 20px;
+    } */
+  }
+  
+  /* Tablet Styling (Medium Screens) */
+  @media (min-width: 601px) and (max-width: 899px) {
+    
+    .var-card-prnt {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .var-card {
+      width: calc(50% - 20px); /* Two cards per row */
+    }
+  }
+  
+  /* Desktop Styling (Large Screens) */
+  @media (min-width: 900px) {
+    .var-card-prnt {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+  
+    .var-card {
+      width: calc(25% - 20px); /* Four cards per row */
+    }
+  }
+  

@@ -2489,7 +2489,7 @@ footer {
 
 }
 
-.btnformob {
+.btnformob a {
   color: var(--black);
   background-color: var(--bg-color);
   border-radius: 25px;

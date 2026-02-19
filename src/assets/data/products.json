@@ -10,108 +10,779 @@
         "subcategory": "Floor Tiles",
         "description": "Trendy ceramic floor tiles in various dimensions.",
         "image": "/products/ceramic/300_300.png",
-        "options": [
+        "dimensions": [
           {
             "id": 1011,
             "dimension": "300x300",
             "image": "/products/ceramic/300_300.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mJok0DRB"
+            "variants": [
+              {
+                "id": 10111,
+                "variant": "Wooden",
+                "image": "/products/ceramic/300_300.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X03 DIG-WOODEN.pdf"
+              },
+              {
+                "id": 10112,
+                "variant": "3d",
+                "image": "/products/ceramic/300_300_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-3D.pdf"
+              },
+              {
+                "id": 10113,
+                "variant": "GALICHA",
+                "image": "/products/ceramic/300_300.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-GALICHA.pdf"
+              },
+              {
+                "id": 10114,
+                "variant": "L.GALICHA",
+                "image": "/products/ceramic/300_300_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-L.GALICHA.pdf"
+              },
+              {
+                "id": 10115,
+                "variant": "MARBLE",
+                "image": "/products/ceramic/300_300.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-MARBLE.pdf"
+              },
+              {
+                "id": 10116,
+                "variant": "MOROCCAN",
+                "image": "/products/ceramic/300_300_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-MOROCCAN.pdf"
+              },
+              {
+                "id": 10117,
+                "variant": "PLAIN",
+                "image": "/products/ceramic/300_300.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-PLAIN.pdf"
+              },
+              {
+                "id": 10118,
+                "variant": "PUNCH",
+                "image": "/products/ceramic/300_300_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-PUNCH.pdf"
+              },
+              {
+                "id": 10119,
+                "variant": "ROOF",
+                "image": "/products/ceramic/300_300.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-ROOF.pdf"
+              },
+              {
+                "id": 101110,
+                "variant": "TERRAZZO",
+                "image": "/products/ceramic/300_300_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/01 300x300/WLOGO 30X30 DIG-TERRAZZO.pdf"
+              }
+            ]
           },
           {
             "id": 1012,
             "dimension": "400x400",
             "image": "/products/ceramic/400_400.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/LVpmjZrQ"
+            "variants": [
+              {
+                "id": 10121,
+                "variant": "Normal",
+                "image": "/products/ceramic/400_400_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/02 400x400/40X40cm -normal (1).pdf"
+              },
+              {
+                "id": 10122,
+                "variant": "Glossy Galicha",
+                "image": "/products/ceramic/400_400_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/02 400x400/40X40cm-GLOSSY_GALICHA (2).pdf"
+              },
+              {
+                "id": 10123,
+                "variant": "Glossy Marble",
+                "image": "/products/ceramic/400_400_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/02 400x400/40X40cm-GLOSSY_MARBLE (2).pdf"
+              },
+              {
+                "id": 10124,
+                "variant": "Rustic-1",
+                "image": "/products/ceramic/400_400_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/02 400x400/40X40cm-Rustic (1).pdf"
+              },
+              {
+                "id": 10125,
+                "variant": "Rustic-2",
+                "image": "/products/ceramic/400_400_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/02 400x400/40X40cm-Rustic2 (1).pdf"
+              },
+              {
+                "id": 10126,
+                "variant": "Matte",
+                "image": "/products/ceramic/400_400_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/02 400x400/40X40cm-SATIN DIGITAL.pdf"
+              }
+            ]
           },
           {
             "id": 1013,
             "dimension": "500x500",
             "image": "/products/ceramic/500_500.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/2NxEjJwL"
+            "variants": [
+              {
+                "id": 10131,
+                "variant": "Classic",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ CLASSIC(SUGAR).pdf"
+              },
+              {
+                "id": 10132,
+                "variant": "Glossy",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ GLOSSY 3D.pdf"
+              },
+              {
+                "id": 10133,
+                "variant": "Glossy Double Charge",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ GLOSSY DOUBLE CHARGE.pdf"
+              },
+              {
+                "id": 10134,
+                "variant": "Glossy Endless",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ GLOSSY ENDLESS.pdf"
+              },
+              {
+                "id": 10135,
+                "variant": "Glossy Marble",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ GLOSSY MARBLE.pdf"
+              },
+              {
+                "id": 10136,
+                "variant": "Matte 3D",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ MATT 3D.pdf"
+              },
+              {
+                "id": 10137,
+                "variant": "Glossy Marble",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ MATT MARBLE.pdf"
+              },
+              {
+                "id": 10138,
+                "variant": "Matte Sand Effect",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ MATT SAND EFFECT.pdf"
+              },
+              {
+                "id": 10139,
+                "variant": "Matte Wooden",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ MATT WOODEN.pdf"
+              },
+              {
+                "id": 101310,
+                "variant": "Morrocon",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_ MORROCON.pdf"
+              },
+              {
+                "id": 101311,
+                "variant": "Glossy Bookmatch",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_GLOSSY BOOKMATCH.pdf"
+              },
+              {
+                "id": 101312,
+                "variant": "Glossy Classic",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_GLOSSY CLASSIC.pdf"
+              },
+              {
+                "id": 101313,
+                "variant": "Glossy Galicha",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/03 500x500/500X500 WL_GLOSSY GALICHA.pdf"
+              }
+            ]
           },
           {
             "id": 1014,
             "dimension": "600x600 Porcelain",
             "image": "/products/ceramic/600_600_p.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mc4mjDpJ"
+            "variants": [
+              {
+                "id": 10141,
+                "variant": "GVT Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x 60 GVT SERIES.pdf"
+              },
+              {
+                "id": 10142,
+                "variant": "3D Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 3D SERIES.pdf"
+              },
+              {
+                "id": 10143,
+                "variant": "Book Match Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 BOOK MATCH SERIES.pdf"
+              },
+              {
+                "id": 10144,
+                "variant": "Carving Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 CARVING SERIES.pdf"
+              },
+              {
+                "id": 10145,
+                "variant": "Crunch Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 CRUNCH SERISE.pdf"
+              },
+              {
+                "id": 10146,
+                "variant": "Double Charge",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 DOUBLE CHARGE.pdf"
+              },
+              {
+                "id": 10147,
+                "variant": "Galicha Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 GALICHA SERIES.pdf"
+              },
+              {
+                "id": 10148,
+                "variant": "Garden Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 GARDEN SERIES.pdf"
+              },
+              {
+                "id": 10149,
+                "variant": "Glossy-1 Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 GLOSSY-1 SERIES.pdf"
+              },
+              {
+                "id": 101410,
+                "variant": "Glossy-2 Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 GLOSSY-2 SERIES.pdf"
+              },
+              {
+                "id": 101411,
+                "variant": "HL Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 HL SERIES.pdf"
+              },
+              {
+                "id": 101412,
+                "variant": "JW Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 JW SERIES.pdf"
+              },
+              {
+                "id": 101413,
+                "variant": "Marble Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 MARBLE SERISE.pdf"
+              },
+              {
+                "id": 101414,
+                "variant": "Moroccan Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 MOROCCAN SERIES.pdf"
+              },
+              {
+                "id": 101415,
+                "variant": "Special Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 SPECIAL SERIES.pdf"
+              },
+              {
+                "id": 101416,
+                "variant": "Sugar Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 SUGAR SERIES.pdf"
+              },
+              {
+                "id": 101417,
+                "variant": "Terazzo Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 TERAZZO SERIES.pdf"
+              },
+              {
+                "id": 101418,
+                "variant": "Wood Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 WOOD SERIES.pdf"
+              },
+              {
+                "id": 101419,
+                "variant": "Wooden Strip",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/04 600x600 Porcilion_/60x60 WOODEN STRIP SERIES.pdf"
+              }
+            ]
           },
           {
             "id": 1015,
-            "dimension": "600x600 Double Charge",
+            "dimension": "600x600 DC",
             "image": "/products/ceramic/600_600_dc.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/LApkHZII"
+            "variants": [
+              {
+                "id": 10151,
+                "variant": "2x2 Matrix Prime",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/05 600x600 Duble charge/DC 2X2 _METRIX_PRIME.pdf"
+              },
+              {
+                "id": 10152,
+                "variant": "2x2 Rio Rock Polo",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/05 600x600 Duble charge/DC 2X2 _RIO_ROCK_POLO.pdf"
+              },
+              {
+                "id": 10153,
+                "variant": "2X2 Tropic",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/05 600x600 Duble charge/DC 2X2 _TROPIC.pdf"
+              }
+            ]
           },
           {
             "id": 1016,
             "dimension": "600x600 Vitrified",
             "image": "/products/ceramic/600_600_v.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/HZ50Db5J"
+            "variants": [
+              {
+                "id": 10161,
+                "variant": "3D",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm 3D-1.pdf"
+              },
+              {
+                "id": 10162,
+                "variant": "Glossy",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm BM(2)-series 600x600.pdf"
+              },
+              {
+                "id": 10163,
+                "variant": "BM",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm BM-1.pdf"
+              },
+              {
+                "id": 10164,
+                "variant": "Dc Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm DC Series.pdf"
+              },
+              {
+                "id": 10165,
+                "variant": "DC-2 Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm DC(2)-series 600x600.pdf"
+              },
+              {
+                "id": 10166,
+                "variant": "Decor Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm DECOR_SERIES.pdf"
+              },
+              {
+                "id": 10167,
+                "variant": "GVT 3D Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm GVT 3D(2) series 600x600.pdf"
+              },
+              {
+                "id": 10168,
+                "variant": "PGVT",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm PGVT.pdf"
+              },
+              {
+                "id": 10169,
+                "variant": "PGVT",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm PGVT_4.pdf"
+              },
+              {
+                "id": 101610,
+                "variant": "PGVT White",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm PGVT_WHITE.pdf"
+              },
+              {
+                "id": 101611,
+                "variant": "Rustic Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/60x60 Cm Rustic series.pdf"
+              },
+              {
+                "id": 101612,
+                "variant": "Vitrified Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/WL_3D Series_600x600mm 2.pdf"
+              },
+              {
+                "id": 101613,
+                "variant": "Vitrified",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/WL_Book Match_600x600mm.pdf"
+              },
+              {
+                "id": 101614,
+                "variant": "Vitrified Double Charge",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/WL_Double Charge_Series_600x600mm.pdf"
+              },
+              {
+                "id": 101615,
+                "variant": "Vitrified Matt Series",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/WL_Matt_Series_600x600mm.pdf"
+              },
+              {
+                "id": 101616,
+                "variant": "PGVT-1",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/WL_PGVT-1_600x600mm.pdf"
+              },
+              {
+                "id": 101617,
+                "variant": "PGVT-2",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/WL_PGVT-2_600x600mm.pdf"
+              },
+              {
+                "id": 101618,
+                "variant": "PGVT-3",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/06 600x600 Vitrified_/WL_PGVT-3_Staturio_600x600mm.pdf"
+              }
+            ]
           },
           {
             "id": 1017,
             "dimension": "600x1200",
             "image": "/products/ceramic/600_1200.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/PUZi1ZqZ"
+            "variants": [
+              {
+                "id": 10171,
+                "variant": "MM Wooden",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/1 600_X_1200_MM-Wooden.pdf"
+              },
+              {
+                "id": 10172,
+                "variant": "MM Series 3D",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/2 600_X_1200_MM-Series3d.pdf"
+              },
+              {
+                "id": 10173,
+                "variant": "Semi High Gloss",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/3 600_X_1200_MM-Semi_High_Gloss- (1).pdf"
+              },
+              {
+                "id": 10174,
+                "variant": "MM Pastel",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/4 600_X_1200_MM-PASTEL.pdf"
+              },
+              {
+                "id": 10175,
+                "variant": "MM Matt",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/5 600_X_1200_MM-Matt.pdf"
+              },
+              {
+                "id": 10176,
+                "variant": "Glossy Multi",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/6 600_X_1200_MM-Glossy_Multi-.pdf"
+              },
+              {
+                "id": 10177,
+                "variant": "Glossy",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/7 600_X_1200_MM-Glossy.pdf"
+              },
+              {
+                "id": 10178,
+                "variant": "MM Endless",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/8 600_X_1200_MM-Endless.pdf"
+              },
+              {
+                "id": 10179,
+                "variant": "MM-Double Charge",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/9 600_X_1200_MM-Double_Charge.pdf"
+              },
+              {
+                "id": 101710,
+                "variant": "MM Carving Endless",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/10 600_X_1200_MM-Carving_Endless.pdf"
+              },
+              {
+                "id": 101711,
+                "variant": "MM Carving",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/11 600_X_1200_MM-Carving.pdf"
+              },
+              {
+                "id": 101712,
+                "variant": "MM Bookmatch",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/12 600_X_1200_MM-Bookmatch.pdf"
+              },
+              {
+                "id": 101713,
+                "variant": "MM Golden",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/07 600x1200/13 600_X_1200_MM-Golden-.pdf"
+              }
+            ]
           },
           {
             "id": 1018,
             "dimension": "1600x3200",
             "image": "/products/ceramic/1600_3200.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rdoh1CoY"
+            "variants": [
+              {
+                "id": 10181,
+                "variant": "Plain",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/08 1600x3200/160X320CM plain_compressed.pdf"
+              }
+            ]
           },
           {
             "id": 1019,
             "dimension": "800x800 Porcelain",
             "image": "/products/ceramic/800_800_p.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/HQZ2wJaI"
+            "variants": [
+              {
+                "id": 10191,
+                "variant": "Matt Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/09 800x800 Porcelain_/80x80 l 160cm Matt.pdf"
+              },
+              {
+                "id": 10192,
+                "variant": "Carving",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/09 800x800 Porcelain_/80x80l160cm CARVING .pdf"
+              },
+              {
+                "id": 10193,
+                "variant": "High Gloss",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/09 800x800 Porcelain_/80x80l160cm Highgloss.pdf"
+              },
+              {
+                "id": 10194,
+                "variant": "Saturio",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/09 800x800 Porcelain_/80x80l160cm_Satuario.pdf"
+              }
+            ]
           },
           {
             "id": 10110,
             "dimension": "800x1600",
             "image": "/products/ceramic/800_1600.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/2QRijLbC"
+            "variants": [
+              {
+                "id": 101100,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/10 800x1600/800x1600mm Glossy.pdf"
+              }
+            ]
           },
           {
             "id": 10111,
             "dimension": "1200x1200",
             "image": "/products/ceramic/1200_1200.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/zAJk2B5Y"
+            "variants": [
+              {
+                "id": 101101,
+                "variant": "Carving Collection",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/11 1200x1200/1200x1200mm Carving Collection.pdf"
+              },
+              {
+                "id": 101102,
+                "variant": "Glossy Collection",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/11 1200x1200/1200x1200mm Glossy Collection.pdf"
+              },
+              {
+                "id": 101103,
+                "variant": "Matt Collection",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/11 1200x1200/1200x1200mm Matt Collection.pdf"
+              }
+            ]
           },
           {
             "id": 10112,
             "dimension": "1200x1800",
             "image": "/products/ceramic/1200_1800.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/GRIEGRYK"
+            "variants": [
+              {
+                "id": 101201,
+                "variant": "Carving",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/12 1200x1800/1200x1800 - Carving-1200x1800.pdf"
+              },
+              {
+                "id": 101202,
+                "variant": "Matte Collection",
+                "image": "/products/ceramic/500_500_matte.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/12 1200x1800/1200x1800 Matt Collection.pdf"
+              },
+              {
+                "id": 101203,
+                "variant": "Glossy Collection",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/12 1200x1800/1200x1800mm Glossy Collection 2022.pdf"
+              }
+            ]
           },
           {
             "id": 10113,
             "dimension": "1200x2400",
             "image": "/products/ceramic/1200_2400.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7YRCXTab"
+            "variants": [
+              {
+                "id": 101301,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/13 1200x2400/1200x2400mm.pdf"
+              }
+            ]
           },
           {
             "id": 10114,
             "dimension": "800x2400",
             "image": "/products/ceramic/800_2400.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/iQBADbRB"
+            "variants": [
+              {
+                "id": 101401,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/14 800x2400/800x2400_30_04_21.pdf"
+              },
+              {
+                "id": 101402,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/14 800x2400/800x2400mm.pdf"
+              }
+            ]
           },
           {
             "id": 10115,
             "dimension": "800x3000",
             "image": "/products/ceramic/800_3000.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/aJYEXD4A"
+            "variants": [
+              {
+                "id": 101501,
+                "variant": "Class Stone",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/15 800x3000/ClasStone_800x3000 & 800x3200mm.pdf"
+              },
+              {
+                "id": 101502,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/15 800x3000/new Feel_800x3000mm.pdf"
+              }
+            ]
           },
           {
             "id": 10116,
             "dimension": "1200x200",
             "image": "/products/ceramic/1200_200.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/KIJAhTBZ"
+            "variants": [
+              {
+                "id": 101601,
+                "variant": "Carving Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/20x120cm carving series.pdf"
+              },
+              {
+                "id": 101602,
+                "variant": "Wooden Planks",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/20x120cm Wooden Planks (1).pdf"
+              },
+              {
+                "id": 101603,
+                "variant": "Wooden Planks",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/20x120cm Wooden planks.pdf"
+              },
+              {
+                "id": 101604,
+                "variant": "Wooden Strips",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/200x1200 mm GVT WOODEN STRIPS.pdf"
+              },
+              {
+                "id": 101605,
+                "variant": "Wood Strip Edition",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/200x1200mm WOOD STRIP  EDDITION- 2021.pdf"
+              },
+              {
+                "id": 101606,
+                "variant": "Wood Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/NATURAL WOOD SERIES.pdf"
+              },
+              {
+                "id": 101607,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/New 20x120cm.pdf"
+              },
+              {
+                "id": 101608,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/New series 20x120cm.pdf"
+              },
+              {
+                "id": 101609,
+                "variant": "Red Wood Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/16 1200x200/RED WOOD SERIES.pdf"
+              }
+            ]
           },
           {
             "id": 10117,
             "dimension": "600x600 Full body",
             "image": "/products/ceramic/600_600_fb.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/XJYCybIa"
+            "variants": [
+              {
+                "id": 101701,
+                "variant": "Full Body",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/01 Floor Tiles/17 600x600 Full body/600x600mm.pdf"
+              }
+            ]
           }
         ]
       },
@@ -125,57 +796,404 @@
             "id": 1021,
             "dimension": "200x300",
             "image": "/products/walltile/200_300.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/vJp0VDQK"
-          },
-          {
-            "id": 1022,
-            "dimension": "200x600",
-            "image": "/products/walltile/200_600.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/6V4CRJzT"
-          },
-          {
-            "id": 1023,
-            "dimension": "250x375",
-            "image": "/products/walltile/250_375.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7FxWGb5D"
-          },
-          {
-            "id": 1024,
-            "dimension": "250x400",
-            "image": "/products/walltile/250_400.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3NxCQJSS"
+            "variants": [
+              {
+                "id": 10211,
+                "variant": "Concept",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-CONCEPT.pdf"
+              },
+              {
+                "id": 10212,
+                "variant": "Elevation",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-ELEVATION.pdf"
+              },
+              {
+                "id": 10213,
+                "variant": "Kitchen",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-KITCHEN.pdf"
+              },
+              {
+                "id": 10214,
+                "variant": "Marble",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-MARBLE.pdf"
+              },
+              {
+                "id": 10215,
+                "variant": "Plain",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-PLAIN.pdf"
+              },
+              {
+                "id": 10216,
+                "variant": "Pool",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-POOL.pdf"
+              },
+              {
+                "id": 10217,
+                "variant": "Punch Concept",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-PUNCH CONCPET.pdf"
+              },
+              {
+                "id": 10218,
+                "variant": "Punch Elevation",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/03 200x300/WLOGO 20X30 DIG-PUNCH ELEVATION.pdf"
+              }
+            ]
           },
           {
             "id": 1025,
-            "dimension": "300x450 High depth",
+            "dimension": "200x600",
             "image": "/products/walltile/300_450_dp.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/bM4iDJCC"
+            "variants": [
+              {
+                "id": 10251,
+                "variant": "Plain Wooden 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/1 ( 200 X 600 MM ) PLAIN WOODEN 01.pdf"
+              },
+              {
+                "id": 10252,
+                "variant": "Plain Wooden 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/2 ( 200 X 600 MM ) PLAIN WOODEN 02.pdf"
+              },
+              {
+                "id": 10253,
+                "variant": "Punch Wooden 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/3 ( 200 X 600 MM ) PUNCH WOODEN 01.pdf"
+              },
+              {
+                "id": 10254,
+                "variant": "Punch Wooden 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/4 ( 200 X 600 MM ) PUNCH WOODEN 02.pdf"
+              },
+              {
+                "id": 10255,
+                "variant": "Punch Wooden 03",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/5 ( 200 X 600 MM ) PUNCH WOODEN 03.pdf"
+              },
+              {
+                "id": 10256,
+                "variant": "Punch Wooden 04",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/6 ( 200 X 600 MM ) PUNCH WOODEN 04.pdf"
+              },
+              {
+                "id": 10257,
+                "variant": "High Depth Elevation 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/7 ( 200 X 600 MM ) HIGH DEPTH ELEVATION 01.pdf"
+              },
+              {
+                "id": 10258,
+                "variant": "High Depth Elevation 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/8 ( 200 X 600 MM ) HIGH DEPTH ELEVATION 02.pdf"
+              },
+              {
+                "id": 10259,
+                "variant": "High Depth Elevation 03",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/9 ( 200 X 600 MM ) HIGH DEPTH ELEVATION 03.pdf"
+              },
+              {
+                "id": 102600,
+                "variant": "High Depth Elevation 04",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/10 ( 200 X 600 MM ) HIGH DEPTH ELEVATION 04.pdf"
+              },
+              {
+                "id": 102601,
+                "variant": "High Depth Elevation 05",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/11 ( 200 X 600 MM ) HIGH DEPTH ELEVATION 05.pdf"
+              },
+              {
+                "id": 102602,
+                "variant": "High Depth Elevation 06",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/04 200x600/12 ( 200 X 600 MM ) HIGH DEPTH ELEVATION 06.pdf"
+              }
+            ]
+          },
+          {
+            "id": 1024,
+            "dimension": "250x375",
+            "image": "/products/walltile/250_400.png",
+            "variants": [
+              {
+                "id": 10241,
+                "variant": "Elevation 1",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Elevation 1.pdf"
+              },
+              {
+                "id": 10242,
+                "variant": "Elevation 2",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Elevation 2.pdf"
+              },
+              {
+                "id": 10243,
+                "variant": "Elevation 3",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Elevation 3.pdf"
+              },
+              {
+                "id": 10244,
+                "variant": "Elevation 4",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Elevation 4.pdf"
+              },
+              {
+                "id": 10245,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Glossy 3.pdf"
+              },
+              {
+                "id": 10246,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Glossy 5.pdf"
+              },
+              {
+                "id": 10247,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Glossy 6.pdf"
+              },
+              {
+                "id": 10248,
+                "variant": "Kitchen",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Kitchen 2.pdf"
+              },
+              {
+                "id": 10249,
+                "variant": "Light Dark",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Light Dark.pdf"
+              }, {
+                "id": 102501,
+                "variant": "Poster",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 poster 1.pdf"
+              }
+              , {
+                "id": 102502,
+                "variant": "Special Color",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 Special Color.pdf"
+              },
+              {
+                "id": 102503,
+                "variant": "Super White",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/05 250x375/25X37 super white 2.pdf"
+              }
+            ]
           },
           {
             "id": 1026,
             "dimension": "300x450",
             "image": "/products/walltile/300_450.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/SRo0gZab"
+            "variants": [
+              {
+                "id": 10261,
+                "variant": "Glossy Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/06 250x400/25x40  GLOSSY.pdf"
+              },
+              {
+                "id": 10262,
+                "variant": "Matte Finish",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/06 250x400/25x40 MATT.pdf"
+              }
+            ]
           },
           {
             "id": 1027,
-            "dimension": "300x600 Digital",
+            "dimension": "300x450 High depth",
             "image": "/products/walltile/300_600_digi.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/SMJiHbYZ"
+            "variants": [
+              {
+                "id": 10271,
+                "variant": "High depth 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/07 300x450 High depth/HIGH DEPTH ELE 30X45 Vol 01.pdf"
+              },
+              {
+                "id": 10272,
+                "variant": "High depth 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/07 300x450 High depth/HIGH DEPTH ELE 30X45 Vol 02.pdf"
+              },
+              {
+                "id": 10273,
+                "variant": "High depth 03",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/07 300x450 High depth/HIGH DEPTH ELE 30X45 Vol 03.pdf"
+              },
+              {
+                "id": 10274,
+                "variant": "High depth 04",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/07 300x450 High depth/HIGH DEPTH ELE 30X45 Vol 04.pdf"
+              }
+            ]
           },
           {
             "id": 1028,
-            "dimension": "200x1200",
+            "dimension": "300x450",
             "image": "/products/walltile/200_1200.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/aYAAXLqB"
+            "variants": [
+              {
+                "id": 10281,
+                "variant": "Elevation 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-ELEVATION-01.pdf"
+              },
+              {
+                "id": 10282,
+                "variant": "Elevation 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-ELEVATION-02.pdf"
+              },
+              {
+                "id": 10283,
+                "variant": "Fish Concept",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-FISH-CONCEPT.pdf"
+              },
+              {
+                "id": 10284,
+                "variant": "Flower Concept",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-FLOWER CONCEPT.pdf"
+              },
+              {
+                "id": 10285,
+                "variant": "Glossy 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-GLOSSY-01.pdf"
+              },
+              {
+                "id": 10286,
+                "variant": "Glossy 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-GLOSSY-02.pdf"
+              },
+              {
+                "id": 10287,
+                "variant": "Glossy 03",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-GLOSSY-03.pdf"
+              },
+              {
+                "id": 10288,
+                "variant": "Glossy 04",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-GLOSSY-04.pdf"
+              },
+              {
+                "id": 10289,
+                "variant": "Glossy 05",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-GLOSSY-05.pdf"
+              },
+              {
+                "id": 102901,
+                "variant": "Glossy 06",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-GLOSSY-06.pdf"
+              },
+              {
+                "id": 102902,
+                "variant": "High Gloss",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "//Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-GLOSSY-07.pdf"
+              },
+              {
+                "id": 102903,
+                "variant": "Kitchen 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30x45CM-HIGH-GLOSS.pdf"
+              },
+              {
+                "id": 102904,
+                "variant": "Kitchen 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-KITCHEN-01.pdf"
+              },
+              {
+                "id": 102905,
+                "variant": "Marbo Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-KITCHEN-02.pdf"
+              },
+              {
+                "id": 102906,
+                "variant": "Matte 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-MATT-01.pdf"
+              },
+              {
+                "id": 102907,
+                "variant": "Matte 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/08 300x450/30X45CM-MATT-02.pdf"
+              }
+            ]
           },
           {
             "id": 1029,
             "dimension": "300x600 High depth",
             "image": "/products/walltile/300_600_hidepth.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3IAk3LTI"
+            "variants": [
+              {
+                "id": 10291,
+                "variant": "High Depth vol 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/300x600 High depth/HIGH DEPTH ELE 30X60 Vol 01.pdf"
+              },
+              {
+                "id": 10292,
+                "variant": "High Depth vol 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/300x600 High depth/HIGH DEPTH ELE 30X60 Vol 02.pdf"
+              },
+              {
+                "id": 10293,
+                "variant": "High Depth vol 03",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/300x600 High depth/HIGH DEPTH ELE 30X60 Vol 03.pdf"
+              },
+              {
+                "id": 10294,
+                "variant": "High Depth vol 04",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/300x600 High depth/HIGH DEPTH ELE 30X60 Vol 04.pdf"
+              },
+              {
+                "id": 10295,
+                "variant": "High Depth vol 05",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/02 Elevetion, Kitchen, Bathroom & Wall tiles/300x600 High depth/HIGH DEPTH ELE 30X60 Vol 05.pdf"
+              }
+            ]
           }
-
         ]
       },
       {
@@ -188,13 +1206,57 @@
             "id": 1031,
             "dimension": "300x300",
             "image": "/products/walltile/300_300_pt.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/KJxxRZQZ"
+            "variants": [
+              {
+                "id": 10311,
+                "variant": "Punch Series-1",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/03 Parking Tiles/01 300x300/30X30 punch serise-1.pdf"
+              },
+              {
+                "id": 10312,
+                "variant": "Punch Series-3",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/03 Parking Tiles/01 300x300/30X30 punch serise-3.pdf"
+              },
+              {
+                "id": 10313,
+                "variant": "Rustic Slate",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/03 Parking Tiles/01 300x300/30X30 rustic-slate.pdf"
+              },
+              {
+                "id": 10314,
+                "variant": "Step Plain",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/03 Parking Tiles/01 300x300/30X30 step-plain.pdf"
+              }
+            ]
           },
           {
             "id": 1032,
             "dimension": "400x400",
             "image": "/products/walltile/400_400_pt.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/iIg3jB6T"
+            "variants": [
+              {
+                "id": 10321,
+                "variant": "Plain Series 1",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/03 Parking Tiles/02 400x400/40X40 PLAIN SEARIES 1 .pdf"
+              },
+              {
+                "id": 10322,
+                "variant": "Punch Series 1",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/03 Parking Tiles/02 400x400/40X40 PUNCH SEARIES 1 .pdf"
+              },
+              {
+                "id": 10323,
+                "variant": "Rustic Series",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/03 Parking Tiles/02 400x400/40X40 RUSTIC SEARIES.pdf"
+              }
+            ]
           }
         ]
       },
@@ -202,15 +1264,34 @@
         "id": 104,
         "subcategory": "Roof Tiles",
         "description": "Elegant and durable roof tiles.",
-        "image": "/products/walltile/roof.png" ,
+        "image": "/products/walltile/roof.png",
         "options": [
           {
             "id": 1041,
             "dimension": "All Roof Tiles",
             "image": "/products/walltile/roof.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/jMo3EKIR"
+            "variants": [
+              {
+                "id": 10411,
+                "variant": "Roof tiles 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/04 Roof tiles/30 x 30 Roof tiles 01.pdf"
+              },
+              {
+                "id": 10412,
+                "variant": "Roof tiles 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/04 Roof tiles/30 x 30 Roof tiles 02.pdf"
+              },
+              {
+                "id": 10413,
+                "variant": "Roof tiles 03",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/04 Roof tiles/30 x 30 Roof tiles.pdf"
+              }
+            ]
           }
-        ]   
+        ]
       },
       {
         "id": 105,
@@ -222,9 +1303,46 @@
             "id": 1051,
             "dimension": "All Subway Tiles",
             "image": "/products/walltile/subway.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rNhQEAZT"
+            "variants": [
+              {
+                "id": 10511,
+                "variant": "Mosaic 1",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/05 Subway tiles_/Mosaic 1.pdf"
+              },
+              {
+                "id": 10512,
+                "variant": "Mosaic 2",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/05 Subway tiles_/Mosaic 2.pdf"
+              },
+              {
+                "id": 10513,
+                "variant": "Mosaic 3",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/05 Subway tiles_/Mosaic 3.pdf"
+              },
+              {
+                "id": 10514,
+                "variant": "Mosaic 4",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/05 Subway tiles_/Mosaic 4.pdf"
+              },
+              {
+                "id": 10515,
+                "variant": "Mosaic 5",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/05 Subway tiles_/Mosaic 5.pdf"
+              },
+              {
+                "id": 10516,
+                "variant": "Mosaic 6",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/05 Subway tiles_/Subway E-Catalogue.pdf"
+              }
+            ]
           }
-        ]   
+        ]
       },
       {
         "id": 106,
@@ -236,19 +1354,82 @@
             "id": 1061,
             "dimension": "3 feet step Riser",
             "image": "/products/walltile/3_ft_sr.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/OM5xTZYb"
+            "variants": [
+              {
+                "id": 10611,
+                "variant": "3 Feet Full Body",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/3 Feet Step Riser/3 FEET FULL BODY.pdf"
+              },
+              {
+                "id": 10612,
+                "variant": "3 Feet Full GVT",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/3 Feet Step Riser/3 FEET GVT.pdf"
+              },
+              {
+                "id": 10613,
+                "variant": "3 Feet Full Volvo",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/3 Feet Step Riser/3 FEET VOLVO.pdf"
+              },
+              {
+                "id": 10614,
+                "variant": "3.25 Feet GVT",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/3 Feet Step Riser/3.25 FEET GVT (1).pdf"
+              }
+            ]
           },
           {
             "id": 1062,
             "dimension": "4 feet step Riser",
             "image": "/products/walltile/4_ft_sr.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/qI41TZIL"
+            "variants": [
+              {
+                "id": 10621,
+                "variant": "4 Feet Full Body",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/4 Feet Step Riser/4 FEET FULL BODY.pdf"
+              },
+              {
+                "id": 10622,
+                "variant": "4 Feet GVT",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/4 Feet Step Riser/4 FEET GVT.pdf"
+              },
+              {
+                "id": 10623,
+                "variant": "4 Feet Pixel 2",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/4 Feet Step Riser/4 FEET PIXEL_2.pdf"
+              },
+              {
+                "id": 10624,
+                "variant": "4 Feet Pixel",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/4 Feet Step Riser/4 FEET PIXEL.pdf"
+              },
+              {
+                "id": 10625,
+                "variant": "4 Feet GVT",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/4 Feet Step Riser/4 FEET GVT.pdf"
+              }
+            ]
           },
           {
             "id": 1063,
             "dimension": "5 feet step Riser",
             "image": "/products/walltile/5_ft_sr.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/2Zo1GDjS"
+            "variants": [
+              {
+                "id": 10631,
+                "variant": "5.25 Feet Full Body",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/06 Step Riser/5 Feet Step Riser/5.25 FEET FULL BODY.pdf"
+              }
+            ]
           }
         ]
       },
@@ -262,18 +1443,144 @@
             "id": 1071,
             "dimension": "All Poster & Decorative Tiles",
             "image": "/products/walltile/poster_decorative.png",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3NpmBILK"
+            "variants": [
+              {
+                "id": 10701,
+                "variant": "Jali Brochure 8x8",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/02 jali Broucher 8x8.pdf"
+              },
+              {
+                "id": 10702,
+                "variant": "High Gloss Rangoli Tiles",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/2x2 Hi Gloss Gvt Rangoli Tiles.pdf"
+              },
+              {
+                "id": 10703,
+                "variant": "Rangoli",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/2x2 IMPORT RANGOLI NEW.pdf"
+              },
+              {
+                "id": 10704,
+                "variant": "Diamond Collection",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/2X3 DIAMOND COLLECTION.pdf"
+              },
+              {
+                "id": 10705,
+                "variant": "Texture Emboss",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/2X3 TEXTURE EMBOSS.pdf"
+              },
+              {
+                "id": 10706,
+                "variant": "Crystal Poster",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/2X4 CRYSTAL POSTER.pdf"
+              },
+              {
+                "id": 10707,
+                "variant": "2x4 Gate",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/2X4 GATE PDF 1.pdf"
+              },
+              {
+                "id": 10708,
+                "variant": "3D",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/3D-12x18 Emboss.pdf"
+              },
+              {
+                "id": 10709,
+                "variant": "6X4 Emboss",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/6X4 EMBOSS.pdf"
+              },
+              {
+                "id": 10710,
+                "variant": "6x4 GVT One Piece",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/6X4 GVT ONE PIECE.pdf"
+              },
+              {
+                "id": 10711,
+                "variant": "6x48 GVT Border",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/6X48 GVT BORDER-NEW.pdf"
+              },
+              {
+                "id": 10712,
+                "variant": "12x18 High Gloss",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/12x18 Highgloss.pdf"
+              },
+              {
+                "id": 10713,
+                "variant": "Glitter Collection",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/18x24 Glitter Collection.pdf"
+              },
+              {
+                "id": 10714,
+                "variant": "18x24 GVT High Gloss",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/18x24 GVT Highgloss.pdf"
+              },
+              {
+                "id": 10715,
+                "variant": "All Border",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/ALL BORDER.pdf"
+              },
+              {
+                "id": 10716,
+                "variant": "Digital Poster Tiles",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/Digital Poster Tiles (1).pdf"
+              },
+              {
+                "id": 10717,
+                "variant": "Gold & Silver Tiles",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/Gold & Silver Tiles.pdf"
+              },
+              {
+                "id": 10718,
+                "variant": "GVT Poster Tiles",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/GVT Poster Tiles (1).pdf"
+              },
+              {
+                "id": 10719,
+                "variant": "Hi-Gloss Emboss Poster",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/Hi-Gloss Emboss Poster Ties.pdf"
+              },
+              {
+                "id": 10720,
+                "variant": "Hi-Gloss Plain & Glitter",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/Hi-Gloss Plain & Glitter Poster Tiles.pdf"
+              },
+              {
+                "id": 10721,
+                "variant": "Imported Border",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/01 Ceramic/07 Poster & Decoretive tiles/IMPORTED BORDER PDF ALL 2023.pdf"
+              }
+            ]
           }
-        ]   
+        ]
       }
     ]
   },
   {
     "id": 2,
     "category": "Sanitaryware",
-    "description": "Premium sanitary products for your bathrooms.",
+    "description": "Sanitaryware products.",
     "image": "/products/cover/sanitary_cover.jpg",
-    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3RgwlQ4a",
     "subcategories": [
       {
         "id": 201,
@@ -282,12 +1589,49 @@
         "image": "/products/cover/sanitary_cover.jpg",
         "options": [
           {
-            "id": 1071,
+            "id": 2011,
             "dimension": "All Sanitaryware",
             "image": "/products/cover/sanitary_cover.jpg",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3RgwlQ4a"
+            "variants": [
+              {
+                "id": 20111,
+                "variant": "Sanitary Ware 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/02 Sanitry ware/01 Sanitary Ware.pdf"
+              },
+              {
+                "id": 20112,
+                "variant": "Sanitary Ware 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/02 Sanitry ware/02 Sanitary Product.pdf"
+              },
+              {
+                "id": 20113,
+                "variant": "Bath Tub",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/02 Sanitry ware/03 Bath tub.pdf"
+              },
+              {
+                "id": 20114,
+                "variant": "Table Top 2",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/02 Sanitry ware/TABLE TOP.pdf"
+              },
+              {
+                "id": 20115,
+                "variant": "Table Top",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/02 Sanitry ware/TABLE TOP-2.pdf"
+              },
+              {
+                "id": 20116,
+                "variant": "Vanity Mirrors",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/02 Sanitry ware/Vanity Mirrors.pdf"
+              }
+            ]
           }
-        ]   
+        ]
       }
     ]
   },
@@ -296,7 +1640,6 @@
     "category": "Plastic Products",
     "description": "Premium Plastic products.",
     "image": "/products/cover/plastic.jpeg",
-    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rchUnCKL",
     "subcategories": [
       {
         "id": 301,
@@ -308,9 +1651,106 @@
             "id": 3011,
             "dimension": "All Plastic Products",
             "image": "/products/cover/plastic.jpeg",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rchUnCKL"
+            "variants": [
+              {
+                "id": 30111,
+                "variant": "Chair",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/01 Chair.pdf"
+              },
+              {
+                "id": 30112,
+                "variant": "Non Woven Bag",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/01 non woven Bag.pdf"
+              },
+              {
+                "id": 30113,
+                "variant": "Garden Pipes",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/02 garden Pipes.pdf"
+              },
+              {
+                "id": 30114,
+                "variant": "PP Bag",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/02 PP Bag.pdf"
+              },
+              {
+                "id": 30115,
+                "variant": "PVC Pannels",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/03 PVC Pannels for Home decore.pdf"
+              },
+              {
+                "id": 30116,
+                "variant": "Tub and Bucket",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/04 Tub & Bucket.pdf"
+              },
+              {
+                "id": 30117,
+                "variant": "Rope",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/05 Rope.pdf"
+              },
+              {
+                "id": 30118,
+                "variant": "Kitchen Set",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/06 Kitchen Set.pdf"
+              },
+              {
+                "id": 30119,
+                "variant": "Plumbing Products",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/07 Pluming Products.pdf"
+              },
+              {
+                "id": 30120,
+                "variant": "Cap and Drainage",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/09 Cap for Main Drainage.pdf"
+              },
+              {
+                "id": 30121,
+                "variant": "PVC Pipes",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/10 PVC Pipes.pdf"
+              },
+              {
+                "id": 30122,
+                "variant": "Tarpauline",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/11 Tarpoline.pdf"
+              },
+              {
+                "id": 30123,
+                "variant": "Crates",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/Crates.pdf"
+              },
+              {
+                "id": 30124,
+                "variant": "Garden Suction Pipes",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/Garden-Suction-Pipes.pdf"
+              },
+              {
+                "id": 30125,
+                "variant": "Hose Pipes",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/Hose pipes.pdf"
+              },
+              {
+                "id": 30126,
+                "variant": "Panels",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/03 Plastic Products/Panels Catalogue.pdf"
+              }
+            ]
           }
-        ]   
+        ]
       }
     ]
   },
@@ -319,21 +1759,93 @@
     "category": "Electric Products",
     "description": "Premium Electric products.",
     "image": "/products/cover/Electric.jpg",
-    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mNgg3aDI",
     "subcategories": [
       {
         "id": 401,
         "subcategory": "All Electric Products",
         "description": "Aesthetic Electric Products",
-        "image": "/images/subcategories/More-Product.jpg",
+        "image": "/products/cover/Electric.jpg",
         "options": [
           {
             "id": 4011,
             "dimension": "All Electric Products",
-            "image": "/images/options/parking_tile_400x400.jpg",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mNgg3aDI"
+            "image": "/products/cover/Electric.jpg",
+            "variants": [
+              {
+                "id": 40111,
+                "variant": "Cealing Fan",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/01 cealing Fan.pdf"
+              },
+              {
+                "id": 40112,
+                "variant": "Cable",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/02 cable.pdf"
+              },
+              {
+                "id": 40113,
+                "variant": "Wire and Cable",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/02 Wire & Cable Catalouge.pdf"
+              },
+              {
+                "id": 40114,
+                "variant": "Bulb and Switches",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/03 Bulb & Switch.pdf"
+              },
+              {
+                "id": 40115,
+                "variant": "Electric Adaptor",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/03 ELECTRICAL Adaptor.pdf"
+              },
+              {
+                "id": 40116,
+                "variant": "Water Heater",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/04 Water Heater Catalouge.pdf"
+              },
+              {
+                "id": 40117,
+                "variant": "Solar Panel",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/05 Solar Pannel.pdf"
+              },
+              {
+                "id": 40118,
+                "variant": "Batteries",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/06 Batteries.pdf"
+              },
+              {
+                "id": 40119,
+                "variant": "Alarm Catalogue",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/07 Alarm Catalouge.pdf"
+              },
+              {
+                "id": 40120,
+                "variant": "Clock Catalogue",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/08 CLOCK CATELOGUE.pdf"
+              },
+              {
+                "id": 40121,
+                "variant": "Pipe Fitting",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/Electric Pipe fittings.pdf"
+              },
+              {
+                "id": 40122,
+                "variant": "Electric Pipe",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/04 Electric Products/Electric pipe.pdf"
+              }
+            ]
           }
-        ]   
+        ]
       }
     ]
   },
@@ -342,21 +1854,105 @@
     "category": "More Products",
     "description": "All More products.",
     "image": "/products/cover/More-Product.jpg",
-    "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC",
     "subcategories": [
       {
         "id": 501,
         "subcategory": "All More Products",
         "description": "Other Products",
-        "image": "/images/subcategories/wash_basins.jpg",
+        "image": "/products/cover/More-Product.jpg",
         "options": [
           {
             "id": 5011,
             "dimension": "All More Products",
-            "image": "/images/options/parking_tile_400x400.jpg",
-            "link": "https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC"
+            "image": "/products/cover/More-Product.jpg",
+            "variants": [
+              {
+                "id": 50111,
+                "variant": "Hand Made Sink 01",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/01 Hand made sink.pdf"
+              },
+              {
+                "id": 50112,
+                "variant": "Hand Made Sink 02",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/02 Handmade sink.pdf"
+              },
+              {
+                "id": 50113,
+                "variant": "Hand Luxury Sink",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/03 Lauxary Sink.pdf"
+              },
+              {
+                "id": 50114,
+                "variant": "Taps and Plastic Products",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/04 Taps and Products Plastic.pdf"
+              },
+              {
+                "id": 50115,
+                "variant": "Taps",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/05 Taps.pdf"
+              },
+              {
+                "id": 50116,
+                "variant": "Diaper",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/Dipar Cataloge.pdf"
+              },
+              {
+                "id": 50117,
+                "variant": "Garden Suction Pipes",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/Garden-Suction-Pipes.pdf"
+              },
+              {
+                "id": 50118,
+                "variant": "Gypsum Plaster",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/Gypsum Plaster_POP Powder.pdf"
+              },
+              {
+                "id": 50119,
+                "variant": "Gypsum Sheet",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/Gypsum Sheet.pdf"
+              },
+              {
+                "id": 50120,
+                "variant": "MS Wire and Products",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/MS Wire and Products.pdf"
+              },
+              {
+                "id": 50121,
+                "variant": "Organic Tray and Cup",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/Organic Tray and Cup.pdf"
+              },
+              {
+                "id": 50122,
+                "variant": "Paver Blocks Machinery",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/Pavor Block Machine.pdf"
+              },
+              {
+                "id": 50123,
+                "variant": "Pumps",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/Pumps Catalogue.pdf"
+              },
+              {
+                "id": 50124,
+                "variant": "Supreme Bond",
+                "image": "/products/ceramic/500_500_glossy.png",
+                "pdf": "/Downloads/05 Other Product/SUPREME BOND CATALOG.pdf"
+              }
+            ]
           }
-        ]   
+        ]
       }
     ]
   }

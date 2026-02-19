@@ -3,6 +3,7 @@ import '../assets/stylesheets/home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -25,11 +26,11 @@ const Footer = () => {
         <div className="footer-section footer-quick-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-            <li><a href="/export">Export</a></li>
-            <li><a href="/calculator">Calculator</a></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/product">Products</Link></li>
+            <li><Link to="/contact">Contact Us</Link></li>
+            <li><Link to="/export">Export</Link></li>
+            <li><Link to="/calculator">Calculator</Link></li>
           </ul>
         </div>
 
@@ -60,103 +61,92 @@ const Footer = () => {
           <ul>
             <ul>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/2YhDVY4a"
-                  target="_blank"
+                <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Parking Tiles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/jMo3EKIR"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Roof Tiles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/SBgj3CaA"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Wall Tiles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/zMoSUCDA"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Floor Tiles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rNhQEAZT"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Subway Tiles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/aVomyCQb"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Step Riser
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3NpmBILK"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Polished Vitrified Tiles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/3RgwlQ4a"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Sanitary Ware
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/rchUnCKL"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Plastic Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/mNgg3aDI"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   Electric Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://mega.nz/folder/LAg3VDCT#TesxMlttG4wSZzyuJDutaQ/folder/7A5gxSoC"
-                  target="_blank"
+              <Link
+                  to="/product"
                   rel="noreferrer"
                 >
                   More Products
-                </a>
+                </Link>
               </li>
             </ul>
 
