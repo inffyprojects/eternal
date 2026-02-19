@@ -1,0 +1,502 @@
+[
+    {
+        "path": "/Porcelain",
+        "label": "Porcelain"
+    },
+    {
+        "path": "/Tiles-floor",
+        "label": "Tiles Floor"
+    },
+    {
+        "path": "/Tiles-wall",
+        "label": "Tiles Wall"
+    },
+    {
+        "path": "/sanitary-ware",
+        "label": "Sanitary Ware"
+    },
+    {
+        "path": "/sanitaires",
+        "label": "Sanitaires"
+    },
+    {
+        "path": "/chaise-de-toilette",
+        "label": "Chaise de toilette"
+    },
+    {
+        "path": "/lavabo",
+        "label": "Lavabo"
+    },
+    {
+        "path": "/wash-basin",
+        "label": "Wash Basin"
+    },
+    {
+        "path": "/Plomberie",
+        "label": "Plomberie"
+    },
+    {
+        "path": "/Plumbing-material",
+        "label": "Plumbing Material"
+    },
+    {
+        "path": "/Building-material",
+        "label": "Building Material"
+    },
+    {
+        "path": "/construction-material",
+        "label": "Construction Material"
+    },
+    {
+        "path": "/PVC-Pipes",
+        "label": "PVC Pipes"
+    },
+    {
+        "path": "/PPR-Pipes",
+        "label": "PPR Pipes"
+    },
+    {
+        "path": "/plastic-product",
+        "label": "Plastic Product"
+    },
+    {
+        "path": "/Solar-panel",
+        "label": "Solar Panel"
+    },
+    {
+        "path": "/Carro",
+        "label": "Carro"
+    },
+    {
+        "path": "/Carro-de-mur",
+        "label": "Carro de mur"
+    },
+    {
+        "path": "/carro-de-sol",
+        "label": "Carro de sol"
+    },
+    {
+        "path": "/Fiancée",
+        "label": "Fiancée"
+    },
+    {
+        "path": "/Glossy-tiles",
+        "label": "Glossy Tiles"
+    },
+    {
+        "path": "/big-tiles",
+        "label": "Big Tiles"
+    },
+    {
+        "path": "/marble",
+        "label": "Marble"
+    },
+    {
+        "path": "/granito",
+        "label": "Granito"
+    },
+    {
+        "path": "/machine",
+        "label": "Machine"
+    },
+    {
+        "path": "/baignoire",
+        "label": "Baignoire"
+    },
+    {
+        "path": "/project",
+        "label": "Project"
+    },
+    {
+        "path": "/Indian-tiles",
+        "label": "Indian Tiles"
+    },
+    {
+        "path": "/carro-de-inde",
+        "label": "Carro de Inde"
+    },
+    {
+        "path": "/carro",
+        "label": "Carro Search"
+    },
+    {
+        "path": "/One-piece",
+        "label": "One Piece"
+    },
+    {
+        "path": "/wc",
+        "label": "WC"
+    },
+    {
+        "path": "/toilet",
+        "label": "Toilet"
+    },
+    {
+        "path": "/taps",
+        "label": "Taps"
+    },
+    {
+        "path": "/bathroom",
+        "label": "Bathroom"
+    },
+    {
+        "path": "/bathroom-accessories",
+        "label": "Bathroom Accessories"
+    },
+    {
+        "path": "/accessoires-de-salle-de-bain",
+        "label": "Accessoires de salle de bain"
+    },
+    {
+        "path": "/bien",
+        "label": "Bien"
+    },
+    {
+        "path": "/bathtub",
+        "label": "Bathtub"
+    },
+    {
+        "path": "/plaque-de-plâtre",
+        "label": "Plaque de plâtre"
+    },
+    {
+        "path": "/gypsum-board",
+        "label": "Gypsum Board"
+    },
+    {
+        "path": "/sink",
+        "label": "Sink"
+    },
+    {
+        "path": "/kitchen-sink",
+        "label": "Kitchen Sink"
+    },
+    {
+        "path": "/évier-de-cuisine",
+        "label": "Évier de cuisine"
+    },
+    {
+        "path": "/cable",
+        "label": "Cable"
+    },
+    {
+        "path": "/gvt",
+        "label": "GVT"
+    },
+    {
+        "path": "/ceramic",
+        "label": "Ceramic"
+    },
+    {
+        "path": "/parking",
+        "label": "Parking"
+    },
+    {
+        "path": "/nano",
+        "label": "Nano"
+    },
+    {
+        "path": "/double-charge",
+        "label": "Double Charge"
+    },
+    {
+        "path": "/electric-cable",
+        "label": "Electric Cable"
+    },
+    {
+        "path": "/solar-panel",
+        "label": "Solar Panel"
+    },
+    {
+        "path": "/shower",
+        "label": "Shower"
+    },
+    {
+        "path": "/charging-light",
+        "label": "Charging Light"
+    },
+    {
+        "path": "/water-heater",
+        "label": "Water Heater"
+    },
+    {
+        "path": "/fan",
+        "label": "Fan"
+    },
+    {
+        "path": "/BTP",
+        "label": "BTP"
+    },
+    {
+        "path": "/carreleur",
+        "label": "Carreleur"
+    },
+    {
+        "path": "/exporter",
+        "label": "Exporter"
+    },
+    {
+        "path": "/indian-exporter",
+        "label": "Indian Exporter"
+    },
+    {
+        "path": "/batiment",
+        "label": "Batiment"
+    },
+    {
+        "path": "/Matériaux-de-construction",
+        "label": "Matériaux de construction"
+    },
+    {
+        "path": "/Carreaux",
+        "label": "Carreaux"
+    },
+    {
+        "path": "/Hardware-store",
+        "label": "Hardware Store"
+    },
+    {
+        "path": "/tuyaux-de-plomberie",
+        "label": "Tuyaux de plomberie"
+    },
+    {
+        "path": "/Vitrified",
+        "label": "Vitrified"
+    },
+    {
+        "path": "/Parma",
+        "label": "Parma"
+    },
+    {
+        "path": "/roof-tiles",
+        "label": "Roof Tiles"
+    },
+    {
+        "path": "/kitchen-tiles",
+        "label": "Kitchen Tiles"
+    },
+    {
+        "path": "/carrelage-de-cuisine",
+        "label": "Carrelage de cuisine"
+    },
+    {
+        "path": "/hall-tiles",
+        "label": "Hall Tiles"
+    },
+    {
+        "path": "/bathroom-tiles",
+        "label": "Bathroom Tiles"
+    },
+    {
+        "path": "/nouvelle-pièce",
+        "label": "Nouvelle pièce"
+    },
+    {
+        "path": "/pan",
+        "label": "Pan"
+    },
+    {
+        "path": "/pedestal",
+        "label": "Pedestal"
+    },
+    {
+        "path": "/tabletop",
+        "label": "Tabletop"
+    },
+    {
+        "path": "/two-piece",
+        "label": "Two Piece"
+    },
+    {
+        "path": "/indian-toilet",
+        "label": "Indian Toilet"
+    },
+    {
+        "path": "/ceramica",
+        "label": "Ceramica"
+    },
+    {
+        "path": "/european-wc",
+        "label": "European WC"
+    },
+    {
+        "path": "/wall-hung",
+        "label": "Wall Hung"
+    },
+    {
+        "path": "/commode",
+        "label": "Commode"
+    },
+    {
+        "path": "/polished-tiles",
+        "label": "Polished Tiles"
+    },
+    {
+        "path": "/urinal",
+        "label": "Urinal"
+    },
+    {
+        "path": "/flushing-tank",
+        "label": "Flushing Tank"
+    },
+    {
+        "path": "/garden-pipes",
+        "label": "Garden Pipes"
+    },
+    {
+        "path": "/suction-pipes",
+        "label": "Suction Pipes"
+    },
+    {
+        "path": "/agriculture-pipes",
+        "label": "Agriculture Pipes"
+    },
+    {
+        "path": "/tuyaux-agricoles",
+        "label": "Tuyaux Agricoles"
+    },
+    {
+        "path": "/Nexans",
+        "label": "Nexans"
+    },
+    {
+        "path": "/pp-bag",
+        "label": "PP Bag"
+    },
+    {
+        "path": "/plastic-bag",
+        "label": "Plastic Bag"
+    },
+    {
+        "path": "/LDPE-bag",
+        "label": "LDPE Bag"
+    },
+    {
+        "path": "/packing-bag",
+        "label": "Packing Bag"
+    },
+    {
+        "path": "/sack",
+        "label": "Sack"
+    },
+    {
+        "path": "/sack-bag",
+        "label": "Sack Bag"
+    },
+    {
+        "path": "/water-closet",
+        "label": "Water Closet"
+    },
+    {
+        "path": "/basin",
+        "label": "Basin"
+    },
+    {
+        "path": "/health-faucet",
+        "label": "Health Faucet"
+    },
+    {
+        "path": "/faucet",
+        "label": "Faucet"
+    },
+    {
+        "path": "/hand-faucet",
+        "label": "Hand Faucet"
+    },
+    {
+        "path": "/faucets",
+        "label": "Faucets"
+    },
+    {
+        "path": "/aluco-board",
+        "label": "Aluco Board"
+    },
+    {
+        "path": "/pvc-panel",
+        "label": "PVC Panel"
+    },
+    {
+        "path": "/decorative-product",
+        "label": "Decorative Product"
+    },
+    {
+        "path": "/Brillant-carro",
+        "label": "Brillant Carro"
+    },
+    {
+        "path": "/Brillant",
+        "label": "Brillant"
+    },
+    {
+        "path": "/Brillante",
+        "label": "Brillante"
+    },
+    {
+        "path": "/poly",
+        "label": "Poly"
+    },
+    {
+        "path": "/tuile",
+        "label": "Tuile"
+    },
+    {
+        "path": "/rice",
+        "label": "Rice"
+    },
+    {
+        "path": "/shoping-bag",
+        "label": "Shopping Bag"
+    },
+    {
+        "path": "/non-woolen-bag",
+        "label": "Non-woolen Bag"
+    },
+    {
+        "path": "/Easter-pan",
+        "label": "Easter Pan"
+    },
+    {
+        "path": "/Bowl",
+        "label": "Bowl"
+    },
+    {
+        "path": "/Pot",
+        "label": "Pot"
+    },
+    {
+        "path": "/toilet-seat",
+        "label": "Toilet Seat"
+    },
+    {
+        "path": "/washbowl",
+        "label": "Washbowl"
+    },
+    {
+        "path": "/handbasin",
+        "label": "Handbasin"
+    },
+    {
+        "path": "/wash-hand-basin",
+        "label": "Wash Hand Basin"
+    },
+    {
+        "path": "/lavatory",
+        "label": "Lavatory"
+    },
+    {
+        "path": "/washstand",
+        "label": "Washstand"
+    },
+    {
+        "path": "/Vanity-Basin",
+        "label": "Vanity Basin"
+    },
+    {
+        "path": "/indian-pan",
+        "label": "Indian Pan"
+    },
+    {
+        "path": "/potty",
+        "label": "Potty"
+    }
+]

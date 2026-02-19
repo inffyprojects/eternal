@@ -12,6 +12,7 @@ import Export from './pages/Export';
 import SubCategories from "./pages/SubCategories";
 import Options from "./pages/Options";
 import ScrollToTop from './components/ScrollToTop';
+import seoLinks from './assets/data/seoLinks.json';
 
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
 
   return (
     <Router>
-       <ScrollToTop />
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -40,6 +41,9 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/export" element={<Export />} />
         <Route path="/calculator" element={<TileCalculator />} />
+        {seoLinks.map((link, index) => (
+          <Route key={index} path={link.path} element={<Products />} />
+        ))}
       </Routes>
       <Footer />
     </Router>

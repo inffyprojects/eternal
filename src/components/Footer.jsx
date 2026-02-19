@@ -34,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        
+
         <div className="footer-section footer-social-media">
           <h4>Social Media</h4>
           <div className="social-icons">
@@ -59,98 +59,39 @@ const Footer = () => {
         <div className="footer-products">
           <h4>Products</h4>
           <ul>
-            <ul>
-              <li>
-                <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Parking Tiles
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Roof Tiles
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Wall Tiles
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Floor Tiles
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Subway Tiles
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Step Riser
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Polished Vitrified Tiles
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Sanitary Ware
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Plastic Products
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  Electric Products
-                </Link>
-              </li>
-              <li>
-              <Link
-                  to="/product"
-                  rel="noreferrer"
-                >
-                  More Products
-                </Link>
-              </li>
-            </ul>
-
-
+            <li>
+              <Link to="/product" rel="noreferrer">Parking Tiles</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Roof Tiles</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Wall Tiles</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Floor Tiles</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Subway Tiles</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Step Riser</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Polished Vitrified Tiles</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Sanitary Ware</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Plastic Products</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">Electric Products</Link>
+            </li>
+            <li>
+              <Link to="/product" rel="noreferrer">More Products</Link>
+            </li>
           </ul>
         </div>
 
